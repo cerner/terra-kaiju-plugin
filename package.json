@@ -1,0 +1,39 @@
+{
+  "name": "terra-kaiju-plugin",
+  "version": "0.1.0",
+  "description": "Common utils for kaiju plugins",
+  "main": "PluginUtils.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules",
+    "lint": "npm run lint-js",
+    "lint-js": "eslint --ext .js,.jsx .",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerner/terra-kaiju-plugin.git"
+  },
+  "keywords": [
+    "kaiju"
+  ],
+  "author": "Matt Henkes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cerner/terra-kaiju-plugin/issues"
+  },
+  "homepage": "https://github.com/cerner/terra-kaiju-plugin#readme",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^22.0.3"
+  }
+}
