@@ -7,7 +7,11 @@
     "clean": "rm -rf ./node_modules",
     "lint": "npm run lint-js",
     "lint-js": "eslint --ext .js,.jsx .",
+    "prepublishOnly": "npm test",
     "pretest": "npm run lint",
+    "release:major": "node scripts/release/release.js major",
+    "release:minor": "node scripts/release/release.js minor",
+    "release:patch": "node scripts/release/release.js patch",
     "test": "jest"
   },
   "repository": {
