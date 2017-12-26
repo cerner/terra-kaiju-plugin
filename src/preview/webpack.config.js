@@ -77,4 +77,4 @@ const config = (rootPath, entryPath, inputFs) => (
   }
 );
 
-module.export = config;
+module.exports = config;

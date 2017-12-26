@@ -64,4 +64,4 @@ const generate = (ast) => {
   });
 };
 
-module.export = generate
+module.exports = generate;

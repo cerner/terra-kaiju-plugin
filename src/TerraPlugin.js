@@ -1,6 +1,6 @@
 const { PluginUtils } = require('kaiju-plugin-utils');
-const config = require('./default/preview/webpack.config');
-const generateCode = require('./default/code/generator');
+const config = require('./preview/webpack.config');
+const generateCode = require('./code/generator');
 
 class TerraPlugin {
   static generateCode(ast, fs) {
@@ -32,4 +32,4 @@ class TerraPlugin {
   }
 }
 
-module.exports = DefaultTerraPlugin;
+module.exports = TerraPlugin;
