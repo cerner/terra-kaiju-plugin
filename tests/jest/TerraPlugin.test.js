@@ -39,7 +39,7 @@ describe('TerraPlugin', () => {
           // I cheated, I just saved the file that was generated. I'd like to see you hand role a webpacked react component.
           // The downside here is that a lot of variables go into creating this file and it will have to be recreated.
           // fs.writeFileSync('./tests/jest/data/preview.txt', previewFs.readFileSync('/build/preview.js'));
-          expect(previewFs.readFileSync('/build/preview.js')).toEqual(fs.readFileSync('./tests/jest/data/preview.txt'));
+          expect(previewFs.readFileSync('/build/preview.js', 'utf8')).toEqual(fs.readFileSync('./tests/jest/data/preview.txt', 'utf8'));
           done();
         });
       });
