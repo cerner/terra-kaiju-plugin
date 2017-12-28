@@ -5,8 +5,8 @@ const generateCode = require('./code/generator');
 class TerraPlugin {
   static generateCode(ast, fs) {
     fs.mkdirpSync('/src');
-    fs.writeFileSync('/src/derp.jsx', generateCode(ast));
-    const manifest = ['/src/derp.jsx'];
+    fs.writeFileSync('/src/code.jsx', generateCode(ast));
+    const manifest = ['/src/code.jsx'];
     return Promise.all([manifest, fs]);
   }
 
@@ -14,7 +14,7 @@ class TerraPlugin {
   static generatePreview(fs, publicPath) {
     const webpackFs = PluginUtils.webpackFs(fs);
     const modifiedConfig = Object.assign(
-      {}, PluginUtils.defaultWebpackConfig(publicPath), config(PluginUtils.rootPath(), '/src/derp.jsx', webpackFs));
+      {}, PluginUtils.defaultWebpackConfig(publicPath), config(PluginUtils.rootPath(), '/src/code.jsx', webpackFs));
     return Promise.all([
       'preview.js',
       PluginUtils.runCompiler(webpackFs, modifiedConfig),
