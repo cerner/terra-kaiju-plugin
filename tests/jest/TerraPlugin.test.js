@@ -27,4 +27,22 @@ describe('TerraPlugin', () => {
       });
     });
   });
+
+  describe('generatePreview', () => {
+    it('returns previewable file in a vfs', (done) => {
+      const memFs = new MemoryFS();
+      const ast = JSON.parse(fs.readFileSync('./tests/jest/data/ast.json'));
+      // console.log(JSON.stringify(ast, null, 2));
+      TerraPlugin.generateCode(ast, memFs).then(([, vfs]) => {
+        TerraPlugin.generatePreview(vfs, '/publicpath/').then(([entry, previewFs]) => {
+          expect(entry).toEqual('preview.js');
+          // I cheated, I just saved the file that was generated. I'd like to see you hand role a webpacked react component.
+          // The downside here is that a lot of variables go into creating this file and it will have to be recreated.
+          // fs.writeFileSync('./tests/jest/data/preview.txt', previewFs.readFileSync('/build/preview.js'));
+          expect(previewFs.readFileSync('/build/preview.js')).toEqual(fs.readFileSync('./tests/jest/data/preview.txt'));
+          done();
+        });
+      });
+    });
+  });
 });
