@@ -6,7 +6,7 @@ const stringEscape = require('js-string-escape');
  * @param {Object} ast - The Component ast
  * @return {String} - The generated code
  */
-const generate = (ast) => {
+const generate = (ast, rootId) => {
   // A set of unique imports for the Component
   const imports = new Set();
 
@@ -60,7 +60,7 @@ const generate = (ast) => {
   const code = generateProperties(ast.properties).children;
 
   return format({
-    text: `import ReactDOM from 'react-dom';import React from 'react';import Base from 'terra-base';${Array.from(imports).join('\n')}const Workspace = () => (<Base locale='en-US'>${code}</Base>);\n\nReactDOM.render(<Workspace />, document.getElementById('root'));`,
+    text: `import ReactDOM from 'react-dom';import React from 'react';import Base from 'terra-base';${Array.from(imports).join('\n')}const Workspace = () => (<Base locale='en-US'>${code}</Base>);\n\nReactDOM.render(<Workspace />, document.getElementById('${rootId}'));`,
   });
 };
 

@@ -19,8 +19,9 @@ describe('TerraPlugin', () => {
     it('returns a fully formed code file in a vfs', (done) => {
       const memFs = new MemoryFS();
       const ast = JSON.parse(fs.readFileSync('./tests/jest/data/ast.json'));
+      const rootId = 'root';
       // console.log(JSON.stringify(ast, null, 2));
-      TerraPlugin.generateCode(ast, memFs).then(([manifest, vfs]) => {
+      TerraPlugin.generateCode(ast, rootId, memFs).then(([manifest, vfs]) => {
         expect(manifest).toEqual(['/src/code.jsx']);
         expect(vfs.readFileSync('/src/code.jsx')).toEqual(fs.readFileSync('./tests/jest/data/code.txt'));
         done();
@@ -33,9 +34,10 @@ describe('TerraPlugin', () => {
       const memFs = new MemoryFS();
       const ast = JSON.parse(fs.readFileSync('./tests/jest/data/ast.json'));
       // console.log(JSON.stringify(ast, null, 2));
-      TerraPlugin.generateCode(ast, memFs).then(([, vfs]) => {
-        TerraPlugin.generatePreview(vfs, '/publicpath/').then(([entry, previewFs]) => {
+      TerraPlugin.generateCode(ast, 'root', memFs).then(([, vfs]) => {
+        TerraPlugin.generatePreview(vfs, '/publicpath/').then(([entry, outputPath, previewFs]) => {
           expect(entry).toEqual('preview.js');
+          expect(outputPath).toEqual('/build/');
           expect(previewFs.existsSync('/build/preview.js')).toBe(true);
           // I cheated, I just saved the file that was generated. I'd like to see you hand role a webpacked react component.
           // The downside here is that a lot of variables go into creating this file and it will have to be recreated.
