@@ -10,7 +10,7 @@ class TerraPlugin {
     return Promise.all([manifest, fs]);
   }
 
-  // returns a virtual fs containing the preview and the entry filename.
+  // returns a memory fs containing the preview and the entry filename.
   static generatePreview(fs, publicPath) {
     const webpackFs = PluginUtils.webpackFs(fs);
     const outputPath = '/build/';

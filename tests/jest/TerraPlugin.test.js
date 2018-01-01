@@ -20,7 +20,6 @@ describe('TerraPlugin', () => {
       const memFs = new MemoryFS();
       const ast = JSON.parse(fs.readFileSync('./tests/jest/data/ast.json'));
       const rootId = 'root';
-      // console.log(JSON.stringify(ast, null, 2));
       TerraPlugin.generateCode(ast, rootId, memFs).then(([manifest, vfs]) => {
         expect(manifest).toEqual(['/src/code.jsx']);
         expect(vfs.readFileSync('/src/code.jsx')).toEqual(fs.readFileSync('./tests/jest/data/code.txt'));
@@ -33,7 +32,6 @@ describe('TerraPlugin', () => {
     it('returns previewable file in a vfs', (done) => {
       const memFs = new MemoryFS();
       const ast = JSON.parse(fs.readFileSync('./tests/jest/data/ast.json'));
-      // console.log(JSON.stringify(ast, null, 2));
       TerraPlugin.generateCode(ast, 'root', memFs).then(([, vfs]) => {
         TerraPlugin.generatePreview(vfs, '/publicpath/').then(([entry, outputPath, previewFs]) => {
           expect(entry).toEqual('preview.js');

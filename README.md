@@ -1,5 +1,26 @@
 # terra-kaiju-plugin
 
+This is the kaiju plugin for Terra UI. The plugin provides a single project that will offer all terra-ui components to be used within Kaiju.
+
+## usage
+Import the plugin into your node/kaiju-plugin.config.js file in your Kaiju node server.
+
+```js
+import TerraPlugin from 'terra-kaiju-plugin';
+
+const config = {
+  terra: {
+    name: 'Terra',
+    plugin: TerraPlugin,
+  },
+};
+```
+
+See Kaiju's (Plugin Guide)[https://github.com/cerner/kaiju/tree/master/docs/kaiju_plugin_guide.md] for more information.
+
+## Development notes
+This module uses app-root-path to determine root path to the kaiju node server. This library determines the root path by walking up the current directory path to be one level below the last occurrence of 'node_modules'. This works great normally but can be incorrect when this module is setup as a file dependency because the directory is symlinked instead of copied. For this module to work as expected in development you cannot require this module as a file.
+
 ## History
 
 [Releases](https://github.com/cerner/kaiju/releases)
