@@ -38,7 +38,6 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
     "js-string-escape": "^1.0.1",
-    "kaiju-bundle": "git+https://github.com/StephenEsser/kaiju-bundle.git",
     "kaiju-plugin-utils": "^0.1.0",
     "node-sass": "^4.3.0",
     "postcss-custom-properties": "^6.1.0",
