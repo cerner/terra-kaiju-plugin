@@ -46,6 +46,6 @@ describe('TerraPlugin', () => {
           done();
         });
       });
-    });
+    }, 10000);
   });
 });
