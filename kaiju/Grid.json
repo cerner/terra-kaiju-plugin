@@ -1,0 +1,15 @@
+{
+  "name": "Grid",
+  "library": "terra-grid",
+  "display": "Grid",
+  "description": "Provides a flexbox based grid layout",
+  "group": "Organisms::Grid",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

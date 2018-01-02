@@ -1,0 +1,194 @@
+{
+  "name": "Table",
+  "library": "terra-table",
+  "display": "Table",
+  "description": "Structural table",
+  "group": "Organisms::Table",
+  "properties": {
+    "isStriped": {
+      "type": "Bool",
+      "default": true,
+      "display": "Striped"
+    },
+    "isPadded": {
+      "type": "Bool",
+      "default": true,
+      "display": "Padded"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-table::Header",
+          "props": {
+            "children": [
+              {
+                "type": "terra-table::HeaderCell",
+                "props": {
+                  "content": {
+                    "type": "kaiju::Text",
+                    "props": {
+                      "text": "Name"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "terra-table::HeaderCell",
+                "props": {
+                  "content": {
+                    "type": "kaiju::Text",
+                    "props": {
+                      "text": "Address"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "terra-table::HeaderCell",
+                "props": {
+                  "content": {
+                    "type": "kaiju::Text",
+                    "props": {
+                      "text": "Phone Number"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "terra-table::Rows",
+          "props": {
+            "children": [
+              {
+                "type": "terra-table::Row",
+                "props": {
+                  "children": [
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "John Smith"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "1110 Park Drive"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "555-555-5555"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "terra-table::Row",
+                "props": {
+                  "children": [
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "Matt Anderson"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "6100 Autumn Avenue"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "555-555-5555"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "terra-table::Row",
+                "props": {
+                  "children": [
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "David Johnson"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "1908 Row Parkway"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "terra-table::Cell",
+                      "props": {
+                        "content": {
+                          "type": "kaiju::Text",
+                          "props": {
+                            "text": "555-555-5555"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

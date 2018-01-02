@@ -1,0 +1,32 @@
+{
+  "name": "IconCheckmark",
+  "library": "terra-icon",
+  "display": "Checkmark Icon",
+  "description": "Checkmark Icon",
+  "import_from": "terra-icon/lib/icon/IconCheckmark",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

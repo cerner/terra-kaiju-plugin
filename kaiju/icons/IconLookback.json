@@ -1,0 +1,32 @@
+{
+  "name": "IconLookback",
+  "library": "terra-icon",
+  "display": "Lookback Icon",
+  "description": "Lookback Icon",
+  "import_from": "terra-icon/lib/icon/IconLookback",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

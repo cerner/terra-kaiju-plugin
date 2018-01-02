@@ -1,0 +1,104 @@
+{
+  "name": "ItemView",
+  "library": "terra-clinical-item-view",
+  "display": "Item View",
+  "description": "Organizes displays into rows and columns with optional start and end accessory elements",
+  "group": "Molecules::Item View",
+  "properties": {
+    "isTruncated": {
+      "type": "Bool"
+    },
+    "layout": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "oneColumn",
+      "options": [
+        {
+          "display": "oneColumn",
+          "value": "oneColumn",
+          "type": "String"
+        },
+        {
+          "display": "twoColumns",
+          "value": "twoColumns",
+          "type": "String"
+        }
+      ]
+    },
+    "textEmphasis": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "start",
+          "value": "start",
+          "type": "String"
+        }
+      ]
+    },
+    "accessoryAlignment": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "alignCenter",
+      "options": [
+        {
+          "display": "alignCenter",
+          "value": "alignCenter",
+          "type": "String"
+        },
+        {
+          "display": "alignTop",
+          "value": "alignTop",
+          "type": "String"
+        }
+      ]
+    },
+    "startAccessory": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "endAccessory": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "displays": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-clinical-item-display::ItemDisplay",
+          "props": {
+            "text": "John Smith",
+            "icon": {
+              "type": "terra-icon::IconPerson"
+            }
+          }
+        },
+        {
+          "type": "terra-clinical-item-display::ItemDisplay",
+          "props": {
+            "text": "Room 100A"
+          }
+        }
+      ]
+    },
+    "comment": {
+      "type": "Component",
+      "drop_zone": false,
+      "default": {
+        "type": "terra-clinical-item-display::Comment",
+        "props": {
+          "text": "Faint red rash appeared at 08-05-2016"
+        }
+      }
+    }
+  }
+}

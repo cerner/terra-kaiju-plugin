@@ -1,0 +1,32 @@
+{
+  "name": "IconCancel",
+  "library": "terra-icon",
+  "display": "Cancel Icon",
+  "description": "Cancel Icon",
+  "import_from": "terra-icon/lib/icon/IconCancel",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

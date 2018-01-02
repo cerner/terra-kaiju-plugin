@@ -1,0 +1,412 @@
+{
+  "name": "Column",
+  "library": "terra-grid",
+  "display": "Grid Column",
+  "description": "A grid column",
+  "group": "Organisms::Grid",
+  "import": "Grid",
+  "properties": {
+    "col": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "tiny": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "small": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "medium": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "large": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "huge": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        },
+        {
+          "display": "9",
+          "value": "9",
+          "type": "Number"
+        },
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "11",
+          "value": "11",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

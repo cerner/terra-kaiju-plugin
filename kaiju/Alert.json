@@ -1,0 +1,72 @@
+{
+  "name": "Alert",
+  "library": "terra-alert",
+  "display": "Alert",
+  "description": "Provides a styled notification to the user",
+  "group": "Molecules::Other",
+  "properties": {
+    "title": {
+      "type": "String"
+    },
+    "type": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "alert",
+      "options": [
+        {
+          "display": "Alert",
+          "value": "alert",
+          "type": "String"
+        },
+        {
+          "display": "Error",
+          "value": "error",
+          "type": "String"
+        },
+        {
+          "display": "Warning",
+          "value": "warning",
+          "type": "String"
+        },
+        {
+          "display": "Advisory",
+          "value": "advisory",
+          "type": "String"
+        },
+        {
+          "display": "Info",
+          "value": "info",
+          "type": "String"
+        },
+        {
+          "display": "Success",
+          "value": "success",
+          "type": "String"
+        },
+        {
+          "display": "Custom",
+          "value": "custom",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
+    },
+    "action": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "customIcon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "customStatusColor": {
+      "type": "String"
+    }
+  }
+}

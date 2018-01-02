@@ -1,0 +1,32 @@
+{
+  "name": "IconRefresh",
+  "library": "terra-icon",
+  "display": "Refresh Icon",
+  "description": "Refresh Icon",
+  "import_from": "terra-icon/lib/icon/IconRefresh",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "hidden": true,
+  "name": "TextareaField",
+  "library": "terra-form",
+  "display": "Deprecated Textarea Field",
+  "description": "Provides a standard Textarea with an optional label, error, and help property",
+  "group": "Molecules::Forms",
+  "import_from": "terra-form/lib/TextareaField",
+  "properties": {
+    "value": {
+      "type": "String"
+    },
+    "cols": {
+      "type": "Number",
+      "display": "Number of columns"
+    },
+    "rows": {
+      "type": "Number",
+      "display": "Number of rows"
+    },
+    "minLength": {
+      "type": "Number"
+    },
+    "maxLength": {
+      "type": "Number"
+    },
+    "label": {
+      "type": "String",
+      "default": "Label"
+    },
+    "error": {
+      "type": "String"
+    },
+    "help": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    },
+    "inputId": {
+      "type": "String"
+    },
+    "required": {
+      "type": "Bool"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    }
+  }
+}

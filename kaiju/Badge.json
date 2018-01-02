@@ -1,0 +1,89 @@
+{
+  "name": "Badge",
+  "library": "terra-badge",
+  "display": "Badge",
+  "description": "Displays content classification",
+  "group": "Atoms::Other",
+  "properties": {
+    "text": {
+      "type": "String",
+      "default": "Badge"
+    },
+    "intent": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "primary",
+          "value": "primary",
+          "type": "String"
+        },
+        {
+          "display": "secondary",
+          "value": "secondary",
+          "type": "String"
+        },
+        {
+          "display": "positive",
+          "value": "positive",
+          "type": "String"
+        },
+        {
+          "display": "negative",
+          "value": "negative",
+          "type": "String"
+        },
+        {
+          "display": "warning",
+          "value": "warning",
+          "type": "String"
+        },
+        {
+          "display": "info",
+          "value": "info",
+          "type": "String"
+        }
+      ]
+    },
+    "isReversed": {
+      "type": "Bool",
+      "display": "Reversed"
+    },
+    "size": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "tiny",
+          "value": "tiny",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "huge",
+          "value": "huge",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

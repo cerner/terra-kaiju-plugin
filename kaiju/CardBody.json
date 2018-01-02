@@ -1,0 +1,26 @@
+{
+  "name": "Body",
+  "library": "terra-card",
+  "display": "Card Body",
+  "description": "Padding container to be placed within a Card",
+  "group": "Atoms::Card",
+  "import": "Card",
+  "properties": {
+    "hasPaddingVertical": {
+      "type": "Bool",
+      "display": "Vertical padding",
+      "default": true
+    },
+    "hasPaddingHorizontal": {
+      "type": "Bool",
+      "display": "Horizontal padding",
+      "default": true
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

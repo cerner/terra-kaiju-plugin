@@ -1,0 +1,32 @@
+{
+  "name": "SearchField",
+  "library": "terra-search-field",
+  "display": "Search Field",
+  "description": "A styled search input with a debounce callback",
+  "group": "Molecules::Other",
+  "properties": {
+    "isBlock": {
+      "type": "Bool",
+      "display": "Block"
+    },
+    "isDisabled": {
+      "type": "Bool",
+      "display": "Disabled"
+    },
+    "disableAutoSearch": {
+      "type": "Bool"
+    },
+    "placeholder": {
+      "type": "String",
+      "default": "Search..."
+    },
+    "minimumSearchTextLength": {
+      "type": "Number",
+      "default": 2
+    },
+    "searchDelay": {
+      "type": "Number",
+      "default": 250
+    }
+  }
+}

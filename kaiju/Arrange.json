@@ -1,0 +1,109 @@
+{
+  "name": "Arrange",
+  "library": "terra-arrange",
+  "display": "Arrange",
+  "description": "A flexible container for aligning start, fill, and end content",
+  "group": "Molecules::Other",
+  "properties": {
+    "fitStart": {
+      "type": "Component",
+      "display": "Start Component"
+    },
+    "fill": {
+      "type": "Component",
+      "display": "Middle Component"
+    },
+    "fitEnd": {
+      "type": "Component",
+      "display": "End Component"
+    },
+    "align": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "display": "Alignment",
+      "options": [
+        {
+          "display": "center",
+          "value": "center",
+          "type": "String"
+        },
+        {
+          "display": "bottom",
+          "value": "bottom",
+          "type": "String"
+        },
+        {
+          "display": "stretch",
+          "value": "stretch",
+          "type": "String"
+        }
+      ]
+    },
+    "alignFitStart": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "display": "Start alignment",
+      "options": [
+        {
+          "display": "center",
+          "value": "center",
+          "type": "String"
+        },
+        {
+          "display": "bottom",
+          "value": "bottom",
+          "type": "String"
+        },
+        {
+          "display": "stretch",
+          "value": "stretch",
+          "type": "String"
+        }
+      ]
+    },
+    "alignFitEnd": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "display": "End alignment",
+      "options": [
+        {
+          "display": "center",
+          "value": "center",
+          "type": "String"
+        },
+        {
+          "display": "bottom",
+          "value": "bottom",
+          "type": "String"
+        },
+        {
+          "display": "stretch",
+          "value": "stretch",
+          "type": "String"
+        }
+      ]
+    },
+    "alignFill": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "display": "Middle alignment",
+      "options": [
+        {
+          "display": "center",
+          "value": "center",
+          "type": "String"
+        },
+        {
+          "display": "bottom",
+          "value": "bottom",
+          "type": "String"
+        },
+        {
+          "display": "stretch",
+          "value": "stretch",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

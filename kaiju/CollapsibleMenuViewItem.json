@@ -1,0 +1,82 @@
+{
+  "name": "Item",
+  "library": "terra-collapsible-menu-view",
+  "display": "Menu Item",
+  "description": "A collapsing menu item",
+  "group": "Molecules::Collapsible Menu View",
+  "import": "CollapsibleMenuView",
+  "properties": {
+    "text": {
+      "type": "String",
+      "default": "Menu Item"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "isIconOnly": {
+      "type": "Bool"
+    },
+    "isReversed": {
+      "type": "Bool"
+    },
+    "isSelected": {
+      "type": "Bool"
+    },
+    "isDisabled": {
+      "type": "Bool"
+    },
+    "shouldCloseOnClick": {
+      "type": "Bool",
+      "default": true
+    },
+    "subMenuItems": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "menuWidth": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "320",
+      "options": [
+        {
+          "display": "Auto",
+          "value": "auto",
+          "type": "String"
+        },
+        {
+          "display": "160",
+          "value": "160",
+          "type": "String"
+        },
+        {
+          "display": "240",
+          "value": "240",
+          "type": "String"
+        },
+        {
+          "display": "320",
+          "value": "320",
+          "type": "String"
+        },
+        {
+          "display": "640",
+          "value": "640",
+          "type": "String"
+        },
+        {
+          "display": "1280",
+          "value": "1280",
+          "type": "String"
+        },
+        {
+          "display": "1760",
+          "value": "1760",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

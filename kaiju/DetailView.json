@@ -1,0 +1,34 @@
+{
+  "name": "DetailView",
+  "library": "terra-clinical-detail-view",
+  "display": "Detail View",
+  "description": "Displays text at different levels of importance",
+  "group": "Templates::DetailView",
+  "properties": {
+    "title": {
+      "type": "String",
+      "default": "Title"
+    },
+    "footer": {
+      "type": "String",
+      "default": "Footer"
+    },
+    "isDivided": {
+      "type": "Bool",
+      "default": true,
+      "display": "Divided"
+    },
+    "details": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "subtitles": {
+      "type": "Array",
+      "schema": {
+        "type": "String"
+      }
+    }
+  }
+}

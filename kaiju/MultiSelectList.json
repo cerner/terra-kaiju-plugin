@@ -1,0 +1,86 @@
+{
+  "name": "MultiSelectList",
+  "library": "terra-list",
+  "display": "Multi Select List",
+  "description": "A list for managing multiple selections",
+  "group": "Organisms::List",
+  "import_from": "terra-list/lib/MultiSelectList",
+  "properties": {
+    "isDivided": {
+      "type": "Bool",
+      "display": "Divided",
+      "default": true
+    },
+    "maxSelectionCount": {
+      "type": "Number"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 1"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        },
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 2"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        },
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 3"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        }
+      ]
+    }
+  }
+}

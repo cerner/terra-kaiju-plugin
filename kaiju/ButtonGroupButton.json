@@ -1,0 +1,22 @@
+{
+  "name": "Button",
+  "library": "terra-button-group",
+  "display": "Button Group Button",
+  "description": "A Button Group Button",
+  "group": "Molecules::Button Group",
+  "import": "ButtonGroup",
+  "properties": {
+    "isSelected": {
+      "type": "Bool",
+      "display": "Selected"
+    },
+    "text": {
+      "type": "String",
+      "default": "Button"
+    },
+    "isReversed": {
+      "type": "Bool",
+      "display": "Reversed"
+    }
+  }
+}

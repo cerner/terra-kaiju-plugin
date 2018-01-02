@@ -1,0 +1,32 @@
+{
+  "name": "IconVideoCamera",
+  "library": "terra-icon",
+  "display": "Video Camera Icon",
+  "description": "VideoCamera Icon",
+  "import_from": "terra-icon/lib/icon/IconVideoCamera",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

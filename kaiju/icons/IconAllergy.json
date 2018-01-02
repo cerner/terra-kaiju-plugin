@@ -1,0 +1,32 @@
+{
+  "name": "IconAllergy",
+  "library": "terra-icon",
+  "display": "Allergy Icon",
+  "description": "Allergy Icon",
+  "import_from": "terra-icon/lib/icon/IconAllergy",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

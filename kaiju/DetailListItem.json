@@ -1,0 +1,13 @@
+{
+  "name": "DetailListItem",
+  "library": "terra-clinical-detail-view",
+  "display": "Detail List Item",
+  "description": "Detail list item",
+  "group": "Templates::DetailView",
+  "import": "DetailView",
+  "properties": {
+    "item": {
+      "type": "Component"
+    }
+  }
+}

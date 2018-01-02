@@ -1,0 +1,32 @@
+{
+  "name": "IconCaretDown",
+  "library": "terra-icon",
+  "display": "Caret Down Icon",
+  "description": "CaretDown Icon",
+  "import_from": "terra-icon/lib/icon/IconCaretDown",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

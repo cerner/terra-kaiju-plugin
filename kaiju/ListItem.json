@@ -1,0 +1,25 @@
+{
+  "name": "Item",
+  "library": "terra-list",
+  "display": "List Item",
+  "description": "A list item for managing selections and chevrons",
+  "group": "Organisms::List",
+  "import": "List",
+  "properties": {
+    "isSelected": {
+      "type": "Bool",
+      "display": "Selected"
+    },
+    "isSelectable": {
+      "type": "Bool",
+      "display": "Selectable"
+    },
+    "hasChevron": {
+      "type": "Bool",
+      "display": "Chevron"
+    },
+    "content": {
+      "type": "Component"
+    }
+  }
+}

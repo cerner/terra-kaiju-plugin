@@ -1,0 +1,21 @@
+{
+  "name": "ContentContainer",
+  "library": "terra-content-container",
+  "display": "Content Container",
+  "description": "A structural component for arranging content with a header",
+  "group": "Molecules::Other",
+  "properties": {
+    "header": {
+      "type": "Component"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "fill": {
+      "type": "Bool"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Header",
+  "library": "terra-table",
+  "display": "Table Header",
+  "description": "A table header",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

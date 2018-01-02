@@ -1,0 +1,91 @@
+{
+  "name": "ButtonGroup",
+  "library": "terra-button-group",
+  "display": "Button Group",
+  "description": "Groups buttons and maintains a toggle selection state",
+  "group": "Molecules::Button Group",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-button-group::Button",
+          "props": {
+            "text": "Button A"
+          }
+        },
+        {
+          "type": "terra-button-group::Button",
+          "props": {
+            "text": "Button B"
+          }
+        },
+        {
+          "type": "terra-button-group::Button",
+          "props": {
+            "text": "Button C"
+          }
+        }
+      ]
+    },
+    "isCompact": {
+      "type": "Bool",
+      "display": "Compact"
+    },
+    "isSelectable": {
+      "type": "Bool",
+      "display": "Selectable"
+    },
+    "size": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "tiny",
+          "value": "tiny",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "huge",
+          "value": "huge",
+          "type": "String"
+        }
+      ]
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "secondary",
+          "value": "secondary",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

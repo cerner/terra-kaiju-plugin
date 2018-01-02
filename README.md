@@ -1,5 +1,8 @@
 # terra-kaiju-plugin
 
+[![Cerner OSS](https://img.shields.io/badge/Cerner-OSS-blue.svg?style=flat)](http://engineering.cerner.com/2014/01/cerner-and-open-source/)
+[![Build Status](https://travis-ci.org/cerner/terra-kaiju-plugin.svg?branch=master)](https://travis-ci.org/cerner/terra-kaiju-plugin)
+
 This is the kaiju plugin for Terra UI. The plugin provides a single project that will offer all terra-ui components to be used within Kaiju.
 
 ## usage

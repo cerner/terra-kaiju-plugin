@@ -1,0 +1,98 @@
+{
+  "name": "Text",
+  "library": "terra-text",
+  "display": "Text Component",
+  "description": "Component for displaying customizable text in UI",
+  "group": "Atoms::Other",
+  "properties": {
+    "color": {
+      "type": "String"
+    },
+    "isItalic": {
+      "type": "Bool",
+      "display": "Italic"
+    },
+    "isVisuallyHidden": {
+      "type": "Bool",
+      "display": "Hide text"
+    },
+    "fontSize": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "default": "14",
+      "options": [
+        {
+          "display": "10",
+          "value": "10",
+          "type": "Number"
+        },
+        {
+          "display": "12",
+          "value": "12",
+          "type": "Number"
+        },
+        {
+          "display": "14",
+          "value": "14",
+          "type": "Number"
+        },
+        {
+          "display": "16",
+          "value": "16",
+          "type": "Number"
+        },
+        {
+          "display": "18",
+          "value": "18",
+          "type": "Number"
+        },
+        {
+          "display": "20",
+          "value": "20",
+          "type": "Number"
+        },
+        {
+          "display": "24",
+          "value": "24",
+          "type": "Number"
+        },
+        {
+          "display": "32",
+          "value": "32",
+          "type": "Number"
+        },
+        {
+          "display": "100",
+          "value": "100",
+          "type": "Number"
+        }
+      ]
+    },
+    "weight": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "default": "200",
+      "options": [
+        {
+          "display": "200",
+          "value": "200",
+          "type": "Number"
+        },
+        {
+          "display": "400",
+          "value": "400",
+          "type": "Number"
+        },
+        {
+          "display": "700",
+          "value": "700",
+          "type": "Number"
+        }
+      ]
+    },
+    "children": {
+      "type": "String",
+      "default": "Sample Text"
+    }
+  }
+}

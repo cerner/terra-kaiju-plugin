@@ -1,0 +1,54 @@
+{
+  "name": "DemographicsBanner",
+  "library": "terra-demographics-banner",
+  "display": "Demographics Banner",
+  "description": "Displays condensed demographic information",
+  "group": "Organisms::Other",
+  "properties": {
+    "personName": {
+      "type": "String",
+      "default": "John Smith"
+    },
+    "age": {
+      "type": "String",
+      "default": "25 Years"
+    },
+    "dateOfBirth": {
+      "type": "String",
+      "default": "May 9, 1993"
+    },
+    "gender": {
+      "type": "String",
+      "default": "Male"
+    },
+    "photo": {
+      "type": "Component",
+      "default": {
+        "type": "terra-image::Image",
+        "props": {
+          "src": "data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48cGF0aCBkPSJNMjQgMGExMS4zIDExLjMgMCAxIDEtMTEuMyAxMS4zQTExLjM1IDExLjM1IDAgMCAxIDI0IDB6bTE5LjUgNDh2LTUuN2ExNi43NyAxNi43NyAwIDAgMC0xNi44LTE2LjhoLTUuNUExNi43NSAxNi43NSAwIDAgMCA0LjUgNDIuM1Y0OHoiLz48L3N2Zz4=",
+          "alt": "patient-image",
+          "height": "50px",
+          "width": "50px"
+        }
+      }
+    },
+    "gestationalAge": {
+      "type": "String"
+    },
+    "postMenstrualAge": {
+      "type": "String"
+    },
+    "deceasedDate": {
+      "type": "String",
+      "display": "Deceased date"
+    },
+    "applicationContent": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
+    }
+  }
+}

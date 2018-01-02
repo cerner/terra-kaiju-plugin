@@ -1,0 +1,32 @@
+{
+  "name": "IconPending",
+  "library": "terra-icon",
+  "display": "Pending Icon",
+  "description": "Pending Icon",
+  "import_from": "terra-icon/lib/icon/IconPending",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

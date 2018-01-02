@@ -1,0 +1,9 @@
+{
+  "name": "Divider",
+  "library": "terra-collapsible-menu-view",
+  "display": "Menu divider",
+  "description": "A dividing line between menu items",
+  "group": "Molecules::Collapsible Menu View",
+  "import": "CollapsibleMenuView",
+  "properties": {}
+}

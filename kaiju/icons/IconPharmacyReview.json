@@ -1,0 +1,32 @@
+{
+  "name": "IconPharmacyReview",
+  "library": "terra-icon",
+  "display": "Pharmacy Review Icon",
+  "description": "PharmacyReview Icon",
+  "import_from": "terra-icon/lib/icon/IconPharmacyReview",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

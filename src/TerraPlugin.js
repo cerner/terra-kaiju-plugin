@@ -25,7 +25,7 @@ class TerraPlugin {
 
   static componentModules() {
     return [
-      'kaiju-bundle',
+      'terra-kaiju-plugin',
     ];
   }
 

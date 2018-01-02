@@ -1,0 +1,20 @@
+{
+  "name": "DetailList",
+  "library": "terra-clinical-detail-view",
+  "display": "Detail View List",
+  "description": "Displays a list of details",
+  "group": "Templates::DetailView",
+  "import": "DetailView",
+  "properties": {
+    "title": {
+      "type": "String",
+      "default": "Title"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}
