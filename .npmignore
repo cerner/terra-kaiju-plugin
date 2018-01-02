@@ -1,0 +1,7 @@
+.eslintrc
+.github
+.nvmrc
+.travis.yml
+node_modules
+scripts
+tests
