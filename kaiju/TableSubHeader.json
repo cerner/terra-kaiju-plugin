@@ -1,0 +1,17 @@
+{
+  "name": "Subheader",
+  "library": "terra-table",
+  "display": "Table Subheader",
+  "description": "A table subheader",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "colSpan": {
+      "type": "Number",
+      "display": "Column Span"
+    },
+    "content": {
+      "type": "Component"
+    }
+  }
+}

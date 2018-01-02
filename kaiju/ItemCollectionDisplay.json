@@ -1,0 +1,49 @@
+{
+  "name": "Display",
+  "library": "terra-clinical-item-collection",
+  "display": "Item Collection Display",
+  "description": "An item collection display",
+  "group": "Molecules::Item Collection",
+  "import": "ItemCollection",
+  "properties": {
+    "isTruncated": {
+      "type": "Bool",
+      "display": "Truncated"
+    },
+    "textStyle": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "",
+      "options": [
+        {
+          "display": "default",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "display": "Secondary",
+          "value": "secondary",
+          "type": "String"
+        },
+        {
+          "display": "Attention",
+          "value": "attention",
+          "type": "String"
+        },
+        {
+          "display": "StrikeThrough",
+          "value": "strikeThrough",
+          "type": "String"
+        }
+      ]
+    },
+    "text": {
+      "type": "String",
+      "default": "Text"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ProgressBar",
+  "library": "terra-progress-bar",
+  "display": "Progress Bar",
+  "description": "Display the progress of a process",
+  "group": "Atoms::Other",
+  "properties": {
+    "color": {
+      "type": "String"
+    },
+    "max": {
+      "type": "Number",
+      "default": 100
+    },
+    "value": {
+      "type": "Number",
+      "default": 20
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "IconUnknown",
+  "library": "terra-icon",
+  "display": "Unknown Icon",
+  "description": "Unknown Icon",
+  "import_from": "terra-icon/lib/icon/IconUnknown",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

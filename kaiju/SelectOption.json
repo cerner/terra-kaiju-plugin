@@ -1,0 +1,30 @@
+{
+  "name": "Option",
+  "library": "terra-form-select",
+  "display": "Select Option",
+  "description": "A select option",
+  "import": "Select",
+  "group": "Atoms::Forms",
+  "properties": {
+    "value": {
+      "type": "String"
+    },
+    "display": {
+      "type": "String"
+    },
+    "disabled": {
+      "type": "Bool"
+    },
+    "isSelected": {
+      "type": "Bool",
+      "display": "Selected"
+    },
+    "children": {
+      "drop_zone": false,
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "IconLeft",
+  "library": "terra-icon",
+  "display": "Left Icon",
+  "description": "Left Icon",
+  "import_from": "terra-icon/lib/icon/IconLeft",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "name": "ItemCollection",
+  "library": "terra-clinical-item-collection",
+  "display": "Item Collection",
+  "description": "Responsively displays data as a table or a list",
+  "group": "Molecules::Item Collection",
+  "properties": {
+    "numberOfDisplays": {
+      "type": "Number",
+      "display": "Display columns",
+      "form_type": "CodifiedList",
+      "default": "6",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        },
+        {
+          "display": "7",
+          "value": "7",
+          "type": "Number"
+        },
+        {
+          "display": "8",
+          "value": "8",
+          "type": "Number"
+        }
+      ]
+    },
+    "hasStartAccessory": {
+      "type": "Bool",
+      "display": "Start accessory column",
+      "default": true
+    },
+    "hasEndAccessory": {
+      "type": "Bool",
+      "display": "End accessory column",
+      "default": true
+    },
+    "hasComment": {
+      "type": "Bool",
+      "display": "Comment column",
+      "default": true
+    },
+    "isTablePadded": {
+      "type": "Bool",
+      "display": "Padded Table"
+    },
+    "isTableStriped": {
+      "type": "Bool",
+      "display": "Striped Table"
+    },
+    "isListDivided": {
+      "type": "Bool",
+      "display": "Divided List"
+    },
+    "breakpoint": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "small",
+      "options": [
+        {
+          "display": "Tiny",
+          "value": "tiny",
+          "type": "String"
+        },
+        {
+          "display": "Small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "Medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "Large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "Huge",
+          "value": "huge",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-clinical-item-collection::Item",
+          "props": {
+            "children": [
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Asif Khan",
+                  "textStyle": "attention",
+                  "icon": {
+                    "type": "terra-icon::IconPerson"
+                  }
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Care Position: Primary"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Room 100A"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Acuity: 5"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Start Time: 08-05-2016 12:00:00"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "End Time: 08-05-2016 16:00:00"
+                }
+              }
+            ],
+            "startAccessory": {
+              "type": "terra-icon::IconAlert"
+            },
+            "comment": {
+              "type": "terra-clinical-item-collection::Comment",
+              "props": {
+                "text": "Faint red rash appeared at 08-05-2016 13:24:00"
+              }
+            },
+            "endAccessory": {
+              "type": "terra-icon::IconInformation"
+            }
+          }
+        },
+        {
+          "type": "terra-clinical-item-collection::Item",
+          "props": {
+            "children": [
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Asif Khan",
+                  "textStyle": "attention",
+                  "icon": {
+                    "type": "terra-icon::IconPerson"
+                  }
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Care Position: Primary"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Room 100A"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Acuity: 5"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "Start Time: 08-05-2016 12:00:00"
+                }
+              },
+              {
+                "type": "terra-clinical-item-collection::Display",
+                "props": {
+                  "text": "End Time: 08-05-2016 16:00:00"
+                }
+              }
+            ],
+            "startAccessory": {
+              "type": "terra-icon::IconAlert"
+            },
+            "comment": {
+              "type": "terra-clinical-item-collection::Comment",
+              "props": {
+                "text": "Faint red rash appeared at 08-05-2016 13:24:00"
+              }
+            },
+            "endAccessory": {
+              "type": "terra-icon::IconInformation"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

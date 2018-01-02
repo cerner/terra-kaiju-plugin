@@ -1,0 +1,24 @@
+{
+  "name": "Row",
+  "library": "terra-table",
+  "display": "Table Row",
+  "description": "A table row",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "isSelected": {
+      "type": "Bool",
+      "display": "Selected"
+    },
+    "isSelectable": {
+      "type": "Bool",
+      "display": "Selectable"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

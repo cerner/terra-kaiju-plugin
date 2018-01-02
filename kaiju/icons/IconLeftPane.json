@@ -1,0 +1,32 @@
+{
+  "name": "IconLeftPane",
+  "library": "terra-icon",
+  "display": "Left Pane Icon",
+  "description": "LeftPane Icon",
+  "import_from": "terra-icon/lib/icon/IconLeftPane",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

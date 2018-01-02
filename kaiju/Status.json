@@ -1,0 +1,19 @@
+{
+  "name": "Status",
+  "library": "terra-status",
+  "display": "Status",
+  "description": "A customizable color indictor to signify a specific condition",
+  "group": "Molecules::Other",
+  "properties": {
+    "color": {
+      "type": "String",
+      "default": "red"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

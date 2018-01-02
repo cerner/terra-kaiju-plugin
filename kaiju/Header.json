@@ -1,0 +1,25 @@
+{
+  "name": "Header",
+  "library": "terra-clinical-header",
+  "display": "Header",
+  "description": "Arranges a title and content within a Header",
+  "group": "Molecules::Other",
+  "properties": {
+    "title": {
+      "type": "String",
+      "default": "Title"
+    },
+    "isSubheader": {
+      "type": "Bool",
+      "display": "Subheader"
+    },
+    "startContent": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "endContent": {
+      "type": "Component",
+      "drop_zone": false
+    }
+  }
+}

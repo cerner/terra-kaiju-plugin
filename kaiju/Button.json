@@ -1,0 +1,59 @@
+{
+  "name": "Button",
+  "library": "terra-button",
+  "display": "Button",
+  "description": "Provides a way to trigger actions in the UI",
+  "group": "Atoms::Other",
+  "properties": {
+    "isBlock": {
+      "type": "Bool",
+      "display": "Block"
+    },
+    "isCompact": {
+      "type": "Bool",
+      "display": "Compact"
+    },
+    "isDisabled": {
+      "type": "Bool",
+      "display": "Disabled"
+    },
+    "text": {
+      "type": "String",
+      "default": "Button"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "primary",
+          "value": "primary",
+          "type": "String"
+        },
+        {
+          "display": "secondary",
+          "value": "secondary",
+          "type": "String"
+        },
+        {
+          "display": "link",
+          "value": "link",
+          "type": "String"
+        }
+      ]
+    },
+    "href": {
+      "type": "String"
+    }
+  }
+}

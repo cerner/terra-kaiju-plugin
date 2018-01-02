@@ -1,0 +1,24 @@
+{
+  "name": "LabelValueView",
+  "library": "terra-clinical-label-value-view",
+  "display": "Label Value View",
+  "description": "Displays a label and associated value",
+  "group": "Molecules::Other",
+  "properties": {
+    "label": {
+      "type": "String",
+      "default": "Label"
+    },
+    "textValue": {
+      "type": "String",
+      "default": "Value"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
+    }
+  }
+}

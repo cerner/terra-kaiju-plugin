@@ -1,0 +1,87 @@
+{
+  "name": "SingleSelectList",
+  "library": "terra-list",
+  "display": "Single Select List",
+  "description": "A list for managing a single selection",
+  "group": "Organisms::List",
+  "import_from": "terra-list/lib/SingleSelectList",
+  "properties": {
+    "hasChevrons": {
+      "type": "Bool",
+      "default": true
+    },
+    "isDivided": {
+      "type": "Bool",
+      "display": "Divided",
+      "default": true
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 1"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        },
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 2"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        },
+        {
+          "type": "terra-list::Item",
+          "props": {
+            "content": {
+              "type": "terra-clinical-item-view::ItemView",
+              "props": {
+                "displays": [
+                  {
+                    "type": "terra-clinical-item-display::ItemDisplay",
+                    "props": {
+                      "text": "Item 3"
+                    }
+                  }
+                ]
+              }
+            },
+            "hasChevron": true,
+            "isSelectable": true
+          }
+        }
+      ]
+    }
+  }
+}

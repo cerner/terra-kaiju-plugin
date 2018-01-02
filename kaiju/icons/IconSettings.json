@@ -1,0 +1,32 @@
+{
+  "name": "IconSettings",
+  "library": "terra-icon",
+  "display": "Settings Icon",
+  "description": "Settings Icon",
+  "import_from": "terra-icon/lib/icon/IconSettings",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

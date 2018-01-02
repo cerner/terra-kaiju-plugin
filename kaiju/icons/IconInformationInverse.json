@@ -1,0 +1,32 @@
+{
+  "name": "IconInformationInverse",
+  "library": "terra-icon",
+  "display": "Information Inverse Icon",
+  "description": "InformationInverse Icon",
+  "import_from": "terra-icon/lib/icon/IconInformationInverse",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

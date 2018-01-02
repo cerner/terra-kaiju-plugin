@@ -1,0 +1,36 @@
+{
+  "name": "Signature",
+  "library": "terra-signature",
+  "display": "Signature",
+  "description": "A customizable signature",
+  "group": "Atoms::Other",
+  "properties": {
+    "lineWidth": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "default": "2",
+      "options": [
+        {
+          "display": "Extra fine",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "Fine",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "Medium",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "Heavy",
+          "value": "6",
+          "type": "Number"
+        }
+      ]
+    }
+  }
+}

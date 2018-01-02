@@ -1,0 +1,45 @@
+{
+  "name": "NumberField",
+  "library": "terra-form",
+  "display": "Number Field",
+  "description": "Provides a standard Number Input with an optional label, error, and help property",
+  "group": "Molecules::Forms",
+  "import_from": "terra-form/lib/NumberField",
+  "properties": {
+    "value": {
+      "type": "String"
+    },
+    "min": {
+      "type": "Number"
+    },
+    "max": {
+      "type": "Number"
+    },
+    "step": {
+      "type": "Number"
+    },
+    "label": {
+      "type": "String",
+      "default": "Label"
+    },
+    "error": {
+      "type": "String"
+    },
+    "help": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    },
+    "inputId": {
+      "type": "String"
+    },
+    "required": {
+      "type": "Bool"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    }
+  }
+}

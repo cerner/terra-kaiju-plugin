@@ -1,0 +1,63 @@
+{
+  "name": "Base",
+  "library": "terra-base",
+  "display": "Base",
+  "description": "Provides global style and translation support",
+  "group": "Organisms::Other",
+  "hidden": true,
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "locale": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "en-US",
+      "options": [
+        {
+          "display": "en",
+          "value": "en",
+          "type": "String"
+        },
+        {
+          "display": "en-GB",
+          "value": "en-GB",
+          "type": "String"
+        },
+        {
+          "display": "en-US",
+          "value": "en-US",
+          "type": "String"
+        },
+        {
+          "display": "de",
+          "value": "de",
+          "type": "String"
+        },
+        {
+          "display": "es",
+          "value": "es",
+          "type": "String"
+        },
+        {
+          "display": "fr",
+          "value": "fr",
+          "type": "String"
+        },
+        {
+          "display": "pt",
+          "value": "pt",
+          "type": "String"
+        },
+        {
+          "display": "fi-FI",
+          "value": "fi-FI",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

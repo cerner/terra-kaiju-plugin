@@ -1,0 +1,53 @@
+{
+  "name": "Field",
+  "library": "terra-form-field",
+  "display": "Field",
+  "description": "A form container for arranging error, help, label, and value text",
+  "group": "Atoms::Forms",
+  "properties": {
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "required": {
+      "type": "Bool"
+    },
+    "hideRequired": {
+      "type": "Bool"
+    },
+    "showOptional": {
+      "type": "Bool"
+    },
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Hide Label"
+    },
+    "label": {
+      "type": "String",
+      "default": "Label"
+    },
+    "error": {
+      "type": "String"
+    },
+    "errorIcon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "help": {
+      "type": "String"
+    },
+    "htmlFor": {
+      "type": "String"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

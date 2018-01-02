@@ -1,0 +1,32 @@
+{
+  "name": "IconSpinner",
+  "library": "terra-icon",
+  "display": "Spinner Icon",
+  "description": "Spinner Icon",
+  "import_from": "terra-icon/lib/icon/IconSpinner",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

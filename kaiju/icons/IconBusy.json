@@ -1,0 +1,32 @@
+{
+  "name": "IconBusy",
+  "library": "terra-icon",
+  "display": "Busy Icon",
+  "description": "Busy Icon",
+  "import_from": "terra-icon/lib/icon/IconBusy",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

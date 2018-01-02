@@ -1,0 +1,32 @@
+{
+  "name": "IconScratchPad",
+  "library": "terra-icon",
+  "display": "Scratch Pad Icon",
+  "description": "ScratchPad Icon",
+  "import_from": "terra-icon/lib/icon/IconScratchPad",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

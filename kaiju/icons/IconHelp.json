@@ -1,0 +1,32 @@
+{
+  "name": "IconHelp",
+  "library": "terra-icon",
+  "display": "Help Icon",
+  "description": "Help Icon",
+  "import_from": "terra-icon/lib/icon/IconHelp",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

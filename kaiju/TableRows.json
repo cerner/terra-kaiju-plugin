@@ -1,0 +1,16 @@
+{
+  "name": "Rows",
+  "library": "terra-table",
+  "display": "Table Rows",
+  "description": "Table rows",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

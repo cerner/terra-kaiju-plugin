@@ -1,0 +1,13 @@
+{
+  "name": "Cell",
+  "library": "terra-table",
+  "display": "Table Cell",
+  "description": "A table cell",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "content": {
+      "type": "Component"
+    }
+  }
+}

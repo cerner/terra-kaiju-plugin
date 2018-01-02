@@ -1,0 +1,24 @@
+{
+  "name": "Toggle",
+  "library": "terra-toggle",
+  "display": "Toggle",
+  "description": "A disclosure mechanism for showing and hiding content in an animated fashion",
+  "group": "Molecules::Other",
+  "properties": {
+    "isOpen": {
+      "type": "Bool",
+      "default": true,
+      "display": "Open"
+    },
+    "isAnimated": {
+      "type": "Bool",
+      "display": "Animated"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

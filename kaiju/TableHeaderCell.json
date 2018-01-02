@@ -1,0 +1,67 @@
+{
+  "name": "HeaderCell",
+  "library": "terra-table",
+  "display": "Table Header Cell",
+  "description": "A table header cell",
+  "group": "Organisms::Table",
+  "import": "Table",
+  "properties": {
+    "minWidth": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "small",
+      "options": [
+        {
+          "display": "Tiny",
+          "value": "tiny",
+          "type": "String"
+        },
+        {
+          "display": "Small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "Medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "Large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "Huge",
+          "value": "huge",
+          "type": "String"
+        }
+      ]
+    },
+    "sort": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "",
+      "options": [
+        {
+          "display": "Default",
+          "value": "",
+          "type": "String"
+        },
+        {
+          "display": "Ascending",
+          "value": "asc",
+          "type": "String"
+        },
+        {
+          "display": "Descending",
+          "value": "desc",
+          "type": "String"
+        }
+      ]
+    },
+    "content": {
+      "type": "Component"
+    }
+  }
+}

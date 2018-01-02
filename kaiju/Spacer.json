@@ -1,0 +1,475 @@
+{
+  "name": "Spacer",
+  "library": "terra-spacer",
+  "display": "Spacer",
+  "description": "Adds margins and padding",
+  "group": "Atoms::Other",
+  "properties": {
+    "isInlineBlock": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "marginTop": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "marginBottom": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "marginLeft": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "marginRight": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "paddingTop": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "paddingBottom": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "paddingLeft": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "paddingRight": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "none",
+      "options": [
+        {
+          "display": "none",
+          "value": "none",
+          "type": "String"
+        },
+        {
+          "display": "small-2",
+          "value": "small-2",
+          "type": "String"
+        },
+        {
+          "display": "small-1",
+          "value": "small-1",
+          "type": "String"
+        },
+        {
+          "display": "small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "large+1",
+          "value": "large+1",
+          "type": "String"
+        },
+        {
+          "display": "large+2",
+          "value": "large+2",
+          "type": "String"
+        },
+        {
+          "display": "large+3",
+          "value": "large+3",
+          "type": "String"
+        },
+        {
+          "display": "large+4",
+          "value": "large+4",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

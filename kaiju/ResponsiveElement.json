@@ -1,0 +1,49 @@
+{
+  "name": "ResponsiveElement",
+  "library": "terra-responsive-element",
+  "display": "Responsive Element",
+  "description": "Conditionally renders components based on viewport size",
+  "group": "Organisms::Other",
+  "properties": {
+    "responsiveTo": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "parent",
+      "options": [
+        {
+          "display": "parent",
+          "value": "Parent",
+          "type": "String"
+        },
+        {
+          "display": "window",
+          "value": "Window",
+          "type": "String"
+        }
+      ]
+    },
+    "defaultElement": {
+      "type": "Component"
+    },
+    "tiny": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "small": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "medium": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "large": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "huge": {
+      "type": "Component",
+      "drop_zone": false
+    }
+  }
+}

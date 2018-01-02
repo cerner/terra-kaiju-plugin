@@ -1,0 +1,18 @@
+{
+  "name": "Comment",
+  "library": "terra-clinical-item-display",
+  "display": "Item Display Comment",
+  "description": "A styled ItemView comment display and icon",
+  "group": "Molecules::Item View",
+  "import": "ItemDisplay",
+  "properties": {
+    "isTruncated": {
+      "type": "Bool",
+      "display": "Truncated"
+    },
+    "text": {
+      "type": "String",
+      "default": "Comment text"
+    }
+  }
+}

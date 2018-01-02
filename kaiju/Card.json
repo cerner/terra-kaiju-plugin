@@ -1,0 +1,15 @@
+{
+  "name": "Card",
+  "library": "terra-card",
+  "display": "Card",
+  "description": "Simple container for content",
+  "group": "Atoms::Card",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

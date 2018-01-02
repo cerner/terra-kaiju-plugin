@@ -1,0 +1,44 @@
+{
+  "name": "Control",
+  "library": "terra-form",
+  "display": "Control",
+  "description": "A checkbox or radio button input",
+  "group": "Atoms::Forms",
+  "import_from": "terra-form/lib/Control",
+  "properties": {
+    "type": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "checkbox",
+      "options": [
+        {
+          "display": "Checkbox",
+          "value": "checkbox",
+          "type": "String"
+        },
+        {
+          "display": "Radio",
+          "value": "radio",
+          "type": "String"
+        }
+      ]
+    },
+    "labelText": {
+      "type": "String",
+      "default": "Label"
+    },
+    "name": {
+      "type": "String"
+    },
+    "id": {
+      "type": "String"
+    },
+    "checked": {
+      "type": "Bool"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    }
+  }
+}

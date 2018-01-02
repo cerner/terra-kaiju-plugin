@@ -1,0 +1,32 @@
+{
+  "name": "IconSuccess",
+  "library": "terra-icon",
+  "display": "Success Icon",
+  "description": "Success Icon",
+  "import_from": "terra-icon/lib/icon/IconSuccess",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

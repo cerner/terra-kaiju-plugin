@@ -1,0 +1,32 @@
+{
+  "name": "IconRecurringEvent",
+  "library": "terra-icon",
+  "display": "Recurring Event Icon",
+  "description": "RecurringEvent Icon",
+  "import_from": "terra-icon/lib/icon/IconRecurringEvent",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

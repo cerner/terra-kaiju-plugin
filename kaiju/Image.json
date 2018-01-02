@@ -1,0 +1,55 @@
+{
+  "name": "Image",
+  "library": "terra-image",
+  "display": "Image",
+  "description": "Provides a flexible image container",
+  "group": "Atoms::Other",
+  "properties": {
+    "src": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "/Gamera_Maracas.gif"
+    },
+    "alt": {
+      "type": "String",
+      "default": "alt-text"
+    },
+    "height": {
+      "type": "String"
+    },
+    "width": {
+      "type": "String"
+    },
+    "isFluid": {
+      "type": "Bool",
+      "display": "Fluid"
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "Rounded",
+          "value": "rounded",
+          "type": "String"
+        },
+        {
+          "display": "Circle",
+          "value": "circle",
+          "type": "String"
+        },
+        {
+          "display": "Thumbnail",
+          "value": "thumbnail",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

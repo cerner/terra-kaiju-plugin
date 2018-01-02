@@ -1,0 +1,32 @@
+{
+  "name": "Fieldset",
+  "library": "terra-form",
+  "display": "Fieldset",
+  "description": "A form container for arranging error, help, label, legend, and value text",
+  "group": "Atoms::Forms",
+  "import_from": "terra-form/lib/Fieldset",
+  "properties": {
+    "error": {
+      "type": "String"
+    },
+    "help": {
+      "type": "String"
+    },
+    "legend": {
+      "type": "String"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "required": {
+      "type": "Bool"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

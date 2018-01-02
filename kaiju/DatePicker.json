@@ -1,0 +1,39 @@
+{
+  "name": "DatePicker",
+  "library": "terra-date-picker",
+  "display": "Date Picker",
+  "description": "A controlled input component for selecting dates",
+  "group": "Atoms::Forms",
+  "properties": {
+    "excludeDates": {
+      "type": "Array",
+      "schema": {
+        "type": "String",
+        "form_type": "String"
+      }
+    },
+    "includeDates": {
+      "type": "Array",
+      "schema": {
+        "type": "String",
+        "form_type": "String"
+      }
+    },
+    "maxDate": {
+      "type": "String",
+      "form_type": "String"
+    },
+    "minDate": {
+      "type": "String",
+      "form_type": "String"
+    },
+    "name": {
+      "type": "String",
+      "default": "Date Picker"
+    },
+    "selectedDate": {
+      "type": "String",
+      "form_type": "String"
+    }
+  }
+}

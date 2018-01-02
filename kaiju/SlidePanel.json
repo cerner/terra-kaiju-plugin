@@ -1,0 +1,79 @@
+{
+  "name": "SlidePanel",
+  "library": "terra-slide-panel",
+  "display": "Slide Panel",
+  "description": "A progessive disclosure mechanism for content",
+  "group": "Organisms::Other",
+  "properties": {
+    "mainContent": {
+      "type": "Component"
+    },
+    "panelContent": {
+      "type": "Component"
+    },
+    "isOpen": {
+      "type": "Bool",
+      "display": "Open",
+      "default": true
+    },
+    "isFullscreen": {
+      "type": "Bool",
+      "display": "Full screen"
+    },
+    "fill": {
+      "type": "Bool",
+      "default": true
+    },
+    "panelBehavior": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "squish",
+      "options": [
+        {
+          "display": "Overlay",
+          "value": "overlay",
+          "type": "String"
+        },
+        {
+          "display": "Squish",
+          "value": "squish",
+          "type": "String"
+        }
+      ]
+    },
+    "panelPosition": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "end",
+      "options": [
+        {
+          "display": "Start",
+          "value": "start",
+          "type": "String"
+        },
+        {
+          "display": "End",
+          "value": "end",
+          "type": "String"
+        }
+      ]
+    },
+    "panelSize": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "small",
+      "options": [
+        {
+          "display": "Small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "Large",
+          "value": "large",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

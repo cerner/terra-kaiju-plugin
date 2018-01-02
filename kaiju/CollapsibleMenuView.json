@@ -1,0 +1,57 @@
+{
+  "name": "CollapsibleMenuView",
+  "library": "terra-collapsible-menu-view",
+  "display": "Collapsible Menu View",
+  "description": "Collection of collapsible menu items",
+  "group": "Molecules::Collapsible Menu View",
+  "properties": {
+    "menuWidth": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "320",
+      "options": [
+        {
+          "display": "Auto",
+          "value": "auto",
+          "type": "String"
+        },
+        {
+          "display": "160",
+          "value": "160",
+          "type": "String"
+        },
+        {
+          "display": "240",
+          "value": "240",
+          "type": "String"
+        },
+        {
+          "display": "320",
+          "value": "320",
+          "type": "String"
+        },
+        {
+          "display": "640",
+          "value": "640",
+          "type": "String"
+        },
+        {
+          "display": "1280",
+          "value": "1280",
+          "type": "String"
+        },
+        {
+          "display": "1760",
+          "value": "1760",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

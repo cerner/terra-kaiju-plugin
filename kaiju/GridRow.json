@@ -1,0 +1,16 @@
+{
+  "name": "Row",
+  "library": "terra-grid",
+  "display": "Grid Row",
+  "description": "A grid row",
+  "group": "Organisms::Grid",
+  "import": "Grid",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

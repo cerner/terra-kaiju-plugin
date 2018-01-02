@@ -1,0 +1,19 @@
+{
+  "name": "TimeInput",
+  "library": "terra-time-input",
+  "display": "Time Input",
+  "description": "A controlled input for time entry",
+  "group": "Atoms::Forms",
+  "properties": {
+    "name": {
+      "type": "String",
+      "form_type": "String",
+      "default": "inputName"
+    },
+    "value": {
+      "type": "String",
+      "form_type": "String",
+      "default": "T14:51"
+    }
+  }
+}

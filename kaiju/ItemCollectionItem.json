@@ -1,0 +1,97 @@
+{
+  "name": "Item",
+  "library": "terra-clinical-item-collection",
+  "display": "Item Collection Item",
+  "description": "A collection item",
+  "group": "Molecules::Item Collection",
+  "import": "ItemCollection",
+  "properties": {
+    "startAccessory": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "endAccessory": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "accessoryAlignment": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "Align Top",
+          "value": "alignTop",
+          "type": "String"
+        },
+        {
+          "display": "Align Center",
+          "value": "alignCenter",
+          "type": "String"
+        }
+      ]
+    },
+    "comment": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "isSelected": {
+      "type": "Bool",
+      "display": "Selected"
+    },
+    "isSelectable": {
+      "type": "Bool",
+      "display": "Selectable"
+    },
+    "showListItemChevron": {
+      "type": "Bool"
+    },
+    "listItemLayout": {
+      "type": "String",
+      "display": "List layout",
+      "form_type": "CodifiedList",
+      "default": "oneColumn",
+      "options": [
+        {
+          "display": "One Column",
+          "value": "oneColumn",
+          "type": "String"
+        },
+        {
+          "display": "Two Columns",
+          "value": "twoColumns",
+          "type": "String"
+        }
+      ]
+    },
+    "listItemTextEmphasis": {
+      "type": "String",
+      "display": "Text emphasis (List)",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "Start",
+          "value": "start",
+          "type": "String"
+        }
+      ]
+    },
+    "isListItemTruncated": {
+      "type": "Bool",
+      "display": "Truncated"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
+    }
+  }
+}

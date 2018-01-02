@@ -1,0 +1,28 @@
+{
+  "name": "Toggle",
+  "library": "terra-collapsible-menu-view",
+  "display": "Menu Toggle",
+  "description": "A collapsing menu toggle",
+  "group": "Molecules::Collapsible Menu View",
+  "import": "CollapsibleMenuView",
+  "properties": {
+    "text": {
+      "type": "String",
+      "default": "Menu Item"
+    },
+    "isSelected": {
+      "type": "Bool"
+    },
+    "isSelectable": {
+      "type": "Bool",
+      "default": true
+    },
+    "isDisabled": {
+      "type": "Bool"
+    },
+    "shouldCloseOnClick": {
+      "type": "Bool",
+      "default": true
+    }
+  }
+}
