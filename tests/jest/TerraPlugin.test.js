@@ -11,7 +11,7 @@ describe('TerraPlugin', () => {
 
   describe('componentModules', () => {
     it('returns the modules that contain kaiju jsons', () => {
-      expect(TerraPlugin.componentModules()).toEqual([]);
+      expect(TerraPlugin.componentModules()).toEqual(['terra-kaiju-plugin']);
     });
   });
 

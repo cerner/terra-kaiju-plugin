@@ -24,7 +24,9 @@ class TerraPlugin {
   }
 
   static componentModules() {
-    return [];
+    return [
+      'terra-kaiju-plugin',
+    ];
   }
 
   static projectDescription() {
