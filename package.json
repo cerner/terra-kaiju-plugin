@@ -67,6 +67,7 @@
     "terra-demographics-banner": "^1.0.0",
     "terra-divider": "^1.0.0",
     "terra-form": "^1.0.0",
+    "terra-form-checkbox": "^1.0.0",
     "terra-form-field": "^1.1.0",
     "terra-form-select": "^1.1.0",
     "terra-form-textarea": "^1.1.0",
