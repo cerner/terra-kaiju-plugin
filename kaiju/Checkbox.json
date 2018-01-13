@@ -1,0 +1,29 @@
+{
+  "name": "Checkbox",
+  "library": "terra-form-checkbox",
+  "display": "Checkbox",
+  "description": "An on/off toggle represented by a checkmark inside of a box to the left of a description",
+  "group": "Atoms::Forms",
+  "properties": {
+    "checked": {
+      "type": "Bool"
+    },
+    "isInline": {
+      "type": "Bool"
+    },
+    "disabled": {
+      "type": "Bool"
+    },
+    "isLabelHidden": {
+      "type": "Bool"
+    },
+    "labelText": {
+      "type": "String",
+      "display": "Label",
+      "default": "Label"
+    },
+    "value": {
+      "type": "String"
+    }
+  }
+}
