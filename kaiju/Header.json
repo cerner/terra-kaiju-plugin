@@ -20,6 +20,12 @@
     "endContent": {
       "type": "Component",
       "drop_zone": false
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
     }
   }
 }
