@@ -20,6 +20,9 @@
     "endContent": {
       "type": "Component",
       "drop_zone": false
+    },
+    "children": {
+      "type": "Component"
     }
   }
 }
