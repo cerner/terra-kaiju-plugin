@@ -6,7 +6,8 @@
   "group": "Molecules::Tabs",
   "properties": {
     "tabFill": {
-      "type": "Bool"
+      "type": "Bool",
+      "display": "Stretch"
     },
     "fill": {
       "type": "Bool",

@@ -1,7 +1,7 @@
 {
   "name": "Pane",
   "library": "terra-tabs",
-  "display": "Tab Pane",
+  "display": "Tabs Pane",
   "description": "Tab content",
   "group": "Molecules::Tabs",
   "import": "Tabs",
@@ -13,18 +13,18 @@
       "type": "Bool"
     },
     "label": {
-      "type": "String"
+      "type": "String",
+      "default": "Tab"
     },
     "icon": {
-      "type": "Component"
-    },
-    "key": {
-      "type": "String"
+      "type": "Component",
+      "drop_zone": false
     },
     "customDisplay": {
       "type": "Array",
       "schema": {
-        "type": "Component"
+        "type": "Component",
+        "drop_zone": false
       }
     },
     "children": {
