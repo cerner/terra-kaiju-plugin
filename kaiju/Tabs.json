@@ -1,0 +1,25 @@
+{
+  "name": "Tabs",
+  "library": "terra-tabs",
+  "display": "Tabs",
+  "description": "Container for organizing content",
+  "group": "Molecules::Tabs",
+  "properties": {
+    "tabFill": {
+      "type": "Bool"
+    },
+    "fill": {
+      "type": "Bool",
+      "display": "Full Screen"
+    },
+    "defaultActiveKey": {
+      "type": "Bool"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

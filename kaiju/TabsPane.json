@@ -1,0 +1,37 @@
+{
+  "name": "Pane",
+  "library": "terra-tabs",
+  "display": "Tab Pane",
+  "description": "Tab content",
+  "group": "Molecules::Tabs",
+  "import": "Tabs",
+  "properties": {
+    "isDisabled": {
+      "type": "Bool"
+    },
+    "isIconOnly": {
+      "type": "Bool"
+    },
+    "label": {
+      "type": "String"
+    },
+    "icon": {
+      "type": "Component"
+    },
+    "key": {
+      "type": "String"
+    },
+    "customDisplay": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}
