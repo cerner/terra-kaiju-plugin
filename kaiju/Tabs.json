@@ -1,0 +1,101 @@
+{
+  "name": "Tabs",
+  "library": "terra-tabs",
+  "display": "Tabs",
+  "description": "Container for organizing content",
+  "group": "Molecules::Tabs",
+  "properties": {
+    "tabFill": {
+      "type": "Bool"
+    },
+    "fill": {
+      "type": "Bool"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-tabs::Pane",
+          "props": {
+            "label": "Tab 1",
+            "children": [
+              {
+                "type": "terra-spacer::Spacer",
+                "props": {
+                  "isInlineBlock": true,
+                  "paddingTop": "small",
+                  "paddingRight": "small",
+                  "paddingBottom": "small",
+                  "paddingLeft": "small",
+                  "children": [
+                    {
+                      "type": "terra-text::Text",
+                      "props": {
+                        "children": "Content for Tab 1"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "terra-tabs::Pane",
+          "props": {
+            "label": "Tab 2",
+            "children": [
+              {
+                "type": "terra-spacer::Spacer",
+                "props": {
+                  "isInlineBlock": true,
+                  "paddingTop": "small",
+                  "paddingRight": "small",
+                  "paddingBottom": "small",
+                  "paddingLeft": "small",
+                  "children": [
+                    {
+                      "type": "terra-text::Text",
+                      "props": {
+                        "children": "Content for Tab 2"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "terra-tabs::Pane",
+          "props": {
+            "label": "Tab 3",
+            "children": [
+              {
+                "type": "terra-spacer::Spacer",
+                "props": {
+                  "isInlineBlock": true,
+                  "paddingTop": "small",
+                  "paddingRight": "small",
+                  "paddingBottom": "small",
+                  "paddingLeft": "small",
+                  "children": [
+                    {
+                      "type": "terra-text::Text",
+                      "props": {
+                        "children": "Content for Tab 3"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
