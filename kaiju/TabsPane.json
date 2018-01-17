@@ -7,10 +7,12 @@
   "import": "Tabs",
   "properties": {
     "isDisabled": {
-      "type": "Bool"
+      "type": "Bool",
+      "display": "Disabled"
     },
     "isIconOnly": {
-      "type": "Bool"
+      "type": "Bool",
+      "display": "Icon only"
     },
     "label": {
       "type": "String",
