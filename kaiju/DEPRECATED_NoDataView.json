@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "name": "NoDataView",
   "library": "terra-clinical-no-data-view",
   "display": "No Data View",

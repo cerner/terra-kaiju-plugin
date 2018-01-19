@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "name": "ErrorView",
   "library": "terra-clinical-error-view",
   "display": "Error View",
