@@ -5,6 +5,9 @@
   "description": "A structural component for arranging content with a header",
   "group": "Molecules::Other",
   "properties": {
+    "fill": {
+      "type": "Bool"
+    },
     "header": {
       "type": "Component"
     },
@@ -14,8 +17,12 @@
         "type": "Component"
       }
     },
-    "fill": {
-      "type": "Bool"
+    "footer": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
     }
   }
 }
