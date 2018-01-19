@@ -26,7 +26,8 @@
       "type": "String"
     },
     "name": {
-      "type": "String"
+      "type": "String",
+      "default": "name"
     }
   }
 }
