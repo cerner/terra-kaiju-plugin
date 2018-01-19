@@ -1,0 +1,32 @@
+{
+  "name": "Radio",
+  "library": "terra-form-radio",
+  "display": "Radio",
+  "description": "A control element that allows the user to choose only one of a predefined set of mutually exclusive options",
+  "group": "Atoms::Forms",
+  "properties": {
+    "checked": {
+      "type": "Bool"
+    },
+    "isInline": {
+      "type": "Bool"
+    },
+    "disabled": {
+      "type": "Bool"
+    },
+    "isLabelHidden": {
+      "type": "Bool"
+    },
+    "labelText": {
+      "type": "String",
+      "display": "Label",
+      "default": "Label"
+    },
+    "value": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    }
+  }
+}
