@@ -22,7 +22,8 @@
       "drop_zone": false
     },
     "children": {
-      "type": "Component"
+      "type": "Component",
+      "drop_zone": false
     }
   }
 }
