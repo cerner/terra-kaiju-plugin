@@ -1,8 +1,8 @@
 {
-  "name": "Checkbox",
-  "library": "terra-form-checkbox",
-  "display": "Checkbox",
-  "description": "An on/off toggle represented by a checkmark inside of a box to the left of a description",
+  "name": "Radio",
+  "library": "terra-form-radio",
+  "display": "Radio",
+  "description": "A control element that allows the user to choose only one of a predefined set of mutually exclusive options",
   "group": "Atoms::Forms",
   "properties": {
     "defaultChecked": {
@@ -24,6 +24,10 @@
     },
     "value": {
       "type": "String"
+    },
+    "name": {
+      "type": "String",
+      "default": "name"
     }
   }
 }
