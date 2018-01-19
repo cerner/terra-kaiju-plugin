@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "name": "Control",
   "library": "terra-form",
   "display": "Control",
