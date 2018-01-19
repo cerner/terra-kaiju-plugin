@@ -5,7 +5,7 @@
   "description": "An on/off toggle represented by a checkmark inside of a box to the left of a description",
   "group": "Atoms::Forms",
   "properties": {
-    "checked": {
+    "defaultChecked": {
       "type": "Bool"
     },
     "isInline": {
