@@ -1,0 +1,67 @@
+{
+  "name": "StatusView",
+  "library": "terra-status-view",
+  "display": "Status View",
+  "description": "General purpose status indicator for content",
+  "group": "Templates::Other",
+  "properties": {
+    "isAlignedTop": {
+      "type": "Bool",
+      "display": "Aligned top"
+    },
+    "isGlyphHidden": {
+      "type": "Bool",
+      "display": "Hide glyph"
+    },
+    "title": {
+      "type": "String"
+    },
+    "message": {
+      "type": "String",
+      "default": "Status View"
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "no-data",
+      "options": [
+        {
+          "display": "No data",
+          "value": "no-data",
+          "type": "String"
+        },
+        {
+          "display": "No matching results",
+          "value": "no-matching-results",
+          "type": "String"
+        },
+        {
+          "display": "Not authorized",
+          "value": "not-authorized",
+          "type": "String"
+        },
+        {
+          "display": "Error",
+          "value": "error",
+          "type": "String"
+        },
+        {
+          "display": "Custom",
+          "value": "custom",
+          "type": "String"
+        }
+      ]
+    },
+    "customGlyph": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
+    }
+  }
+}
