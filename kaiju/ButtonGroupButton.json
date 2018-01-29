@@ -10,13 +10,17 @@
       "type": "Bool",
       "display": "Selected"
     },
+    "isReversed": {
+      "type": "Bool",
+      "display": "Reversed"
+    },
     "text": {
       "type": "String",
       "default": "Button"
     },
-    "isReversed": {
-      "type": "Bool",
-      "display": "Reversed"
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
     }
   }
 }
