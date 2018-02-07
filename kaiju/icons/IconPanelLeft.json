@@ -2,7 +2,7 @@
   "name": "IconPanelLeft",
   "library": "terra-icon",
   "display": "Panel Left Icon",
-  "description": "PanelLeft Icon",
+  "description": "Panel Left Icon",
   "import_from": "terra-icon/lib/icon/IconPanelLeft",
   "group": "Atoms::Icons",
   "properties": {

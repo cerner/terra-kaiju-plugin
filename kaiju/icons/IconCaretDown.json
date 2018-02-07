@@ -2,7 +2,7 @@
   "name": "IconCaretDown",
   "library": "terra-icon",
   "display": "Caret Down Icon",
-  "description": "CaretDown Icon",
+  "description": "Caret Down Icon",
   "import_from": "terra-icon/lib/icon/IconCaretDown",
   "group": "Atoms::Icons",
   "properties": {

@@ -2,7 +2,7 @@
   "name": "IconIPass",
   "library": "terra-icon",
   "display": "I Pass Icon",
-  "description": "IPass Icon",
+  "description": "I Pass Icon",
   "import_from": "terra-icon/lib/icon/IconIPass",
   "group": "Atoms::Icons",
   "properties": {

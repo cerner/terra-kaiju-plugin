@@ -2,7 +2,7 @@
   "name": "IconOverDue",
   "library": "terra-icon",
   "display": "Over Due Icon",
-  "description": "OverDue Icon",
+  "description": "Over Due Icon",
   "import_from": "terra-icon/lib/icon/IconOverDue",
   "group": "Atoms::Icons",
   "properties": {

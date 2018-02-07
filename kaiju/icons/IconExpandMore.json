@@ -2,7 +2,7 @@
   "name": "IconExpandMore",
   "library": "terra-icon",
   "display": "Expand More Icon",
-  "description": "ExpandMore Icon",
+  "description": "Expand More Icon",
   "import_from": "terra-icon/lib/icon/IconExpandMore",
   "group": "Atoms::Icons",
   "properties": {

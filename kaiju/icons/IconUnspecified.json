@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconUnspecified",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Unspecified Icon",
+  "description": "Unspecified Icon",
+  "import_from": "terra-icon/lib/icon/IconUnspecified",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

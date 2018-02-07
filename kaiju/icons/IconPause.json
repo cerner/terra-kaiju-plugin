@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconPause",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Pause Icon",
+  "description": "Pause Icon",
+  "import_from": "terra-icon/lib/icon/IconPause",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

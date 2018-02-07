@@ -2,7 +2,7 @@
   "name": "IconAddPerson",
   "library": "terra-icon",
   "display": "Add Person Icon",
-  "description": "AddPerson Icon",
+  "description": "Add Person Icon",
   "import_from": "terra-icon/lib/icon/IconAddPerson",
   "group": "Atoms::Icons",
   "properties": {

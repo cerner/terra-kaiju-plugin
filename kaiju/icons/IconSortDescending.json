@@ -2,7 +2,7 @@
   "name": "IconSortDescending",
   "library": "terra-icon",
   "display": "Sort Descending Icon",
-  "description": "SortDescending Icon",
+  "description": "Sort Descending Icon",
   "import_from": "terra-icon/lib/icon/IconSortDescending",
   "group": "Atoms::Icons",
   "properties": {

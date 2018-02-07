@@ -2,7 +2,7 @@
   "name": "IconPharmacyReview",
   "library": "terra-icon",
   "display": "Pharmacy Review Icon",
-  "description": "PharmacyReview Icon",
+  "description": "Pharmacy Review Icon",
   "import_from": "terra-icon/lib/icon/IconPharmacyReview",
   "group": "Atoms::Icons",
   "properties": {

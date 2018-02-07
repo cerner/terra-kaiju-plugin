@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf node_modules",
+    "aggregate-icons": "node scripts/kaiju/aggregate-icons.js",
     "lint": "npm run lint-js",
     "lint-js": "eslint --ext .js,.jsx .",
     "prepublishOnly": "npm test",

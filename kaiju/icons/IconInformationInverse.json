@@ -2,7 +2,7 @@
   "name": "IconInformationInverse",
   "library": "terra-icon",
   "display": "Information Inverse Icon",
-  "description": "InformationInverse Icon",
+  "description": "Information Inverse Icon",
   "import_from": "terra-icon/lib/icon/IconInformationInverse",
   "group": "Atoms::Icons",
   "properties": {

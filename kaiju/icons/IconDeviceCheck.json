@@ -2,7 +2,7 @@
   "name": "IconDeviceCheck",
   "library": "terra-icon",
   "display": "Device Check Icon",
-  "description": "DeviceCheck Icon",
+  "description": "Device Check Icon",
   "import_from": "terra-icon/lib/icon/IconDeviceCheck",
   "group": "Atoms::Icons",
   "properties": {

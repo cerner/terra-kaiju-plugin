@@ -2,7 +2,7 @@
   "name": "IconScratchPad",
   "library": "terra-icon",
   "display": "Scratch Pad Icon",
-  "description": "ScratchPad Icon",
+  "description": "Scratch Pad Icon",
   "import_from": "terra-icon/lib/icon/IconScratchPad",
   "group": "Atoms::Icons",
   "properties": {

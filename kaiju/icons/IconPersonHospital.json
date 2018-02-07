@@ -2,7 +2,7 @@
   "name": "IconPersonHospital",
   "library": "terra-icon",
   "display": "Person Hospital Icon",
-  "description": "PersonHospital Icon",
+  "description": "Person Hospital Icon",
   "import_from": "terra-icon/lib/icon/IconPersonHospital",
   "group": "Atoms::Icons",
   "properties": {

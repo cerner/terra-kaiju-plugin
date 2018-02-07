@@ -2,7 +2,7 @@
   "name": "IconChevronUp",
   "library": "terra-icon",
   "display": "Chevron Up Icon",
-  "description": "ChevronUp Icon",
+  "description": "Chevron Up Icon",
   "import_from": "terra-icon/lib/icon/IconChevronUp",
   "group": "Atoms::Icons",
   "properties": {

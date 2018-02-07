@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconSwap",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Swap Icon",
+  "description": "Swap Icon",
+  "import_from": "terra-icon/lib/icon/IconSwap",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

@@ -2,7 +2,7 @@
   "name": "IconExpandLess",
   "library": "terra-icon",
   "display": "Expand Less Icon",
-  "description": "ExpandLess Icon",
+  "description": "Expand Less Icon",
   "import_from": "terra-icon/lib/icon/IconExpandLess",
   "group": "Atoms::Icons",
   "properties": {

@@ -2,7 +2,7 @@
   "name": "IconZoomIn",
   "library": "terra-icon",
   "display": "Zoom In Icon",
-  "description": "ZoomIn Icon",
+  "description": "Zoom In Icon",
   "import_from": "terra-icon/lib/icon/IconZoomIn",
   "group": "Atoms::Icons",
   "properties": {

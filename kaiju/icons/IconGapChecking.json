@@ -2,7 +2,7 @@
   "name": "IconGapChecking",
   "library": "terra-icon",
   "display": "Gap Checking Icon",
-  "description": "GapChecking Icon",
+  "description": "Gap Checking Icon",
   "import_from": "terra-icon/lib/icon/IconGapChecking",
   "group": "Atoms::Icons",
   "properties": {

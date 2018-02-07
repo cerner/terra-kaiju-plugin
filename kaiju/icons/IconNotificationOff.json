@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconNotificationOff",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Notification Off Icon",
+  "description": "Notification Off Icon",
+  "import_from": "terra-icon/lib/icon/IconNotificationOff",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

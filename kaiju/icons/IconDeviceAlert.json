@@ -2,7 +2,7 @@
   "name": "IconDeviceAlert",
   "library": "terra-icon",
   "display": "Device Alert Icon",
-  "description": "DeviceAlert Icon",
+  "description": "Device Alert Icon",
   "import_from": "terra-icon/lib/icon/IconDeviceAlert",
   "group": "Atoms::Icons",
   "properties": {
