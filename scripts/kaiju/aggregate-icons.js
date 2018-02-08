@@ -30,7 +30,7 @@ glob.sync('node_modules/terra-icon/lib/icon/*.js').forEach((file) => {
   }, null, 2));
 
   // Build out the icon map.
-  iconMap.push(`'${importFrom}': ${iconName},`);
+  iconMap.push(`'terra-icon::${iconName}': ${iconName},`);
   imports.push(`import ${iconName} from '${importFrom}';`);
 });
 
