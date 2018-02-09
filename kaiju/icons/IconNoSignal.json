@@ -2,7 +2,7 @@
   "name": "IconNoSignal",
   "library": "terra-icon",
   "display": "No Signal Icon",
-  "description": "NoSignal Icon",
+  "description": "No Signal Icon",
   "import_from": "terra-icon/lib/icon/IconNoSignal",
   "group": "Atoms::Icons",
   "properties": {

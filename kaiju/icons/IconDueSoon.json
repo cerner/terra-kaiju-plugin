@@ -2,7 +2,7 @@
   "name": "IconDueSoon",
   "library": "terra-icon",
   "display": "Due Soon Icon",
-  "description": "DueSoon Icon",
+  "description": "Due Soon Icon",
   "import_from": "terra-icon/lib/icon/IconDueSoon",
   "group": "Atoms::Icons",
   "properties": {

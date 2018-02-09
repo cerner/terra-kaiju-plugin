@@ -2,7 +2,7 @@
   "name": "IconVideoCamera",
   "library": "terra-icon",
   "display": "Video Camera Icon",
-  "description": "VideoCamera Icon",
+  "description": "Video Camera Icon",
   "import_from": "terra-icon/lib/icon/IconVideoCamera",
   "group": "Atoms::Icons",
   "properties": {

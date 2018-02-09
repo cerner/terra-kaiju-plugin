@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconMissedCall",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Missed Call Icon",
+  "description": "Missed Call Icon",
+  "import_from": "terra-icon/lib/icon/IconMissedCall",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

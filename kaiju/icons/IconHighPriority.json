@@ -2,7 +2,7 @@
   "name": "IconHighPriority",
   "library": "terra-icon",
   "display": "High Priority Icon",
-  "description": "HighPriority Icon",
+  "description": "High Priority Icon",
   "import_from": "terra-icon/lib/icon/IconHighPriority",
   "group": "Atoms::Icons",
   "properties": {

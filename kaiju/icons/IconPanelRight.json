@@ -2,7 +2,7 @@
   "name": "IconPanelRight",
   "library": "terra-icon",
   "display": "Panel Right Icon",
-  "description": "PanelRight Icon",
+  "description": "Panel Right Icon",
   "import_from": "terra-icon/lib/icon/IconPanelRight",
   "group": "Atoms::Icons",
   "properties": {

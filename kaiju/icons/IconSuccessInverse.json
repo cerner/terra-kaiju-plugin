@@ -2,7 +2,7 @@
   "name": "IconSuccessInverse",
   "library": "terra-icon",
   "display": "Success Inverse Icon",
-  "description": "SuccessInverse Icon",
+  "description": "Success Inverse Icon",
   "import_from": "terra-icon/lib/icon/IconSuccessInverse",
   "group": "Atoms::Icons",
   "properties": {

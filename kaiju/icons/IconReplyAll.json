@@ -2,7 +2,7 @@
   "name": "IconReplyAll",
   "library": "terra-icon",
   "display": "Reply All Icon",
-  "description": "ReplyAll Icon",
+  "description": "Reply All Icon",
   "import_from": "terra-icon/lib/icon/IconReplyAll",
   "group": "Atoms::Icons",
   "properties": {

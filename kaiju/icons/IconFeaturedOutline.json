@@ -2,7 +2,7 @@
   "name": "IconFeaturedOutline",
   "library": "terra-icon",
   "display": "Featured Outline Icon",
-  "description": "FeaturedOutline Icon",
+  "description": "Featured Outline Icon",
   "import_from": "terra-icon/lib/icon/IconFeaturedOutline",
   "group": "Atoms::Icons",
   "properties": {

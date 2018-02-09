@@ -2,7 +2,7 @@
   "name": "IconCaretRight",
   "library": "terra-icon",
   "display": "Caret Right Icon",
-  "description": "CaretRight Icon",
+  "description": "Caret Right Icon",
   "import_from": "terra-icon/lib/icon/IconCaretRight",
   "group": "Atoms::Icons",
   "properties": {

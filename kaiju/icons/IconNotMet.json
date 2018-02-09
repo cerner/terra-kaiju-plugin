@@ -2,7 +2,7 @@
   "name": "IconNotMet",
   "library": "terra-icon",
   "display": "Not Met Icon",
-  "description": "NotMet Icon",
+  "description": "Not Met Icon",
   "import_from": "terra-icon/lib/icon/IconNotMet",
   "group": "Atoms::Icons",
   "properties": {

@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconPinDown",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Pin Down Icon",
+  "description": "Pin Down Icon",
+  "import_from": "terra-icon/lib/icon/IconPinDown",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

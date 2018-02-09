@@ -2,7 +2,7 @@
   "name": "IconDoNotDisturb",
   "library": "terra-icon",
   "display": "Do Not Disturb Icon",
-  "description": "DoNotDisturb Icon",
+  "description": "Do Not Disturb Icon",
   "import_from": "terra-icon/lib/icon/IconDoNotDisturb",
   "group": "Atoms::Icons",
   "properties": {

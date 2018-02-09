@@ -2,7 +2,7 @@
   "name": "IconPharmacyReject",
   "library": "terra-icon",
   "display": "Pharmacy Reject Icon",
-  "description": "PharmacyReject Icon",
+  "description": "Pharmacy Reject Icon",
   "import_from": "terra-icon/lib/icon/IconPharmacyReject",
   "group": "Atoms::Icons",
   "properties": {

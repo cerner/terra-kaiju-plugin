@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconCompose",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Compose Icon",
+  "description": "Compose Icon",
+  "import_from": "terra-icon/lib/icon/IconCompose",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

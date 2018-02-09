@@ -2,7 +2,7 @@
   "name": "IconPaperFolded",
   "library": "terra-icon",
   "display": "Paper Folded Icon",
-  "description": "PaperFolded Icon",
+  "description": "Paper Folded Icon",
   "import_from": "terra-icon/lib/icon/IconPaperFolded",
   "group": "Atoms::Icons",
   "properties": {

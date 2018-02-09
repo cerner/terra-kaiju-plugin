@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconPhoneDown",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Phone Down Icon",
+  "description": "Phone Down Icon",
+  "import_from": "terra-icon/lib/icon/IconPhoneDown",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

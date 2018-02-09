@@ -2,7 +2,7 @@
   "name": "IconChevronRight",
   "library": "terra-icon",
   "display": "Chevron Right Icon",
-  "description": "ChevronRight Icon",
+  "description": "Chevron Right Icon",
   "import_from": "terra-icon/lib/icon/IconChevronRight",
   "group": "Atoms::Icons",
   "properties": {

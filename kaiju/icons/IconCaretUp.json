@@ -2,7 +2,7 @@
   "name": "IconCaretUp",
   "library": "terra-icon",
   "display": "Caret Up Icon",
-  "description": "CaretUp Icon",
+  "description": "Caret Up Icon",
   "import_from": "terra-icon/lib/icon/IconCaretUp",
   "group": "Atoms::Icons",
   "properties": {

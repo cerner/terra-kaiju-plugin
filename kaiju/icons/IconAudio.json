@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconAudio",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Audio Icon",
+  "description": "Audio Icon",
+  "import_from": "terra-icon/lib/icon/IconAudio",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {

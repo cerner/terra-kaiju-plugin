@@ -2,7 +2,7 @@
   "name": "IconPaperPencil",
   "library": "terra-icon",
   "display": "Paper Pencil Icon",
-  "description": "PaperPencil Icon",
+  "description": "Paper Pencil Icon",
   "import_from": "terra-icon/lib/icon/IconPaperPencil",
   "group": "Atoms::Icons",
   "properties": {

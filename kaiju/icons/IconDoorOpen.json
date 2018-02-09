@@ -2,7 +2,7 @@
   "name": "IconDoorOpen",
   "library": "terra-icon",
   "display": "Door Open Icon",
-  "description": "DoorOpen Icon",
+  "description": "Door Open Icon",
   "import_from": "terra-icon/lib/icon/IconDoorOpen",
   "group": "Atoms::Icons",
   "properties": {

@@ -2,7 +2,7 @@
   "name": "IconItalicI",
   "library": "terra-icon",
   "display": "Italic I Icon",
-  "description": "ItalicI Icon",
+  "description": "Italic I Icon",
   "import_from": "terra-icon/lib/icon/IconItalicI",
   "group": "Atoms::Icons",
   "properties": {

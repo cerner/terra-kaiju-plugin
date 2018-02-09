@@ -1,9 +1,9 @@
 {
-  "name": "IconHelpInverse",
+  "name": "IconVideoCameraDisabled",
   "library": "terra-icon",
-  "display": "Help Inverse Icon",
-  "description": "Help Inverse Icon",
-  "import_from": "terra-icon/lib/icon/IconHelpInverse",
+  "display": "Video Camera Disabled Icon",
+  "description": "Video Camera Disabled Icon",
+  "import_from": "terra-icon/lib/icon/IconVideoCameraDisabled",
   "group": "Atoms::Icons",
   "properties": {
     "isBidi": {
