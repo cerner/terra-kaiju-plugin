@@ -14,9 +14,6 @@
       "type": "Bool",
       "default": true
     },
-    "isScrollable": {
-      "type": "Bool"
-    },
     "isRelativeToContainer": {
       "type": "Bool"
     },
