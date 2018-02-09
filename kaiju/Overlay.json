@@ -1,0 +1,49 @@
+{
+  "name": "Overlay",
+  "library": "terra-overlay",
+  "display": "Overlay",
+  "description": "A semi-transparent overlay to block UI interactions",
+  "group": "Molecules::Overlay",
+  "import_from": "terra-overlay/lib/Overlay",
+  "properties": {
+    "isOpen": {
+      "type": "Bool",
+      "default": true
+    },
+    "isScrollable": {
+      "type": "Bool"
+    },
+    "isRelativeToContainer": {
+      "type": "Bool",
+      "default": true
+    },
+    "backgroundStyle": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "light",
+      "options": [
+        {
+          "display": "Light",
+          "value": "light",
+          "type": "String"
+        },
+        {
+          "display": "Dark",
+          "value": "dark",
+          "type": "String"
+        },
+        {
+          "display": "Clear",
+          "value": "clear",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "LoadingOverlay",
+  "library": "terra-overlay",
+  "display": "Loading Overlay",
+  "description": "A semi-transparent loading overlay to block UI interactions",
+  "group": "Molecules::Overlay",
+  "import_from": "terra-overlay/lib/LoadingOverlay",
+  "properties": {
+    "isOpen": {
+      "type": "Bool",
+      "default": true
+    },
+    "isAnimated": {
+      "type": "Bool",
+      "default": true
+    },
+    "isRelativeToContainer": {
+      "type": "Bool",
+      "default": true
+    },
+    "message": {
+      "type": "String",
+      "default": "loading..."
+    },
+    "backgroundStyle": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "light",
+      "options": [
+        {
+          "display": "Light",
+          "value": "light",
+          "type": "String"
+        },
+        {
+          "display": "Dark",
+          "value": "dark",
+          "type": "String"
+        },
+        {
+          "display": "Clear",
+          "value": "clear",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}
