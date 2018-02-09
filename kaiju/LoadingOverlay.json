@@ -45,12 +45,6 @@
           "type": "String"
         }
       ]
-    },
-    "children": {
-      "type": "Array",
-      "schema": {
-        "type": "Component"
-      }
     }
   }
 }
