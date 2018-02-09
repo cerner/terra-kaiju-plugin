@@ -80,6 +80,7 @@
     "terra-icon": "^1.0.0",
     "terra-image": "^1.0.0",
     "terra-list": "^1.0.0",
+    "terra-overlay": "^1.17.0",
     "terra-popup": "^1.0.0",
     "terra-progress-bar": "^1.0.0",
     "terra-responsive-element": "^1.0.0",
