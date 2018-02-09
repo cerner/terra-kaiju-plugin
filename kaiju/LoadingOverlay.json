@@ -7,10 +7,12 @@
   "import_from": "terra-overlay/lib/LoadingOverlay",
   "properties": {
     "isOpen": {
-      "type": "Bool"
+      "type": "Bool",
+      "default": true
     },
     "isAnimated": {
-      "type": "Bool"
+      "type": "Bool",
+      "default": true
     },
     "isScrollable": {
       "type": "Bool"
