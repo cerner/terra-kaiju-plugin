@@ -15,7 +15,8 @@
       "default": true
     },
     "isRelativeToContainer": {
-      "type": "Bool"
+      "type": "Bool",
+      "default": true
     },
     "message": {
       "type": "String",

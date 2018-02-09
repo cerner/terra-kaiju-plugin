@@ -14,7 +14,8 @@
       "type": "Bool"
     },
     "isRelativeToContainer": {
-      "type": "Bool"
+      "type": "Bool",
+      "default": true
     },
     "backgroundStyle": {
       "type": "String",
