@@ -6,10 +6,6 @@
   "group": "Molecules::Collapsible Menu View",
   "import": "CollapsibleMenuView",
   "properties": {
-    "text": {
-      "type": "String",
-      "default": "Menu Item"
-    },
     "isSelected": {
       "type": "Bool"
     },
@@ -19,6 +15,10 @@
     },
     "isDisabled": {
       "type": "Bool"
+    },
+    "text": {
+      "type": "String",
+      "default": "Menu Item"
     },
     "shouldCloseOnClick": {
       "type": "Bool",

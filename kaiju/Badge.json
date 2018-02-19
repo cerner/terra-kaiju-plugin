@@ -5,6 +5,14 @@
   "description": "Displays content classification",
   "group": "Atoms::Other",
   "properties": {
+    "isReversed": {
+      "type": "Bool",
+      "display": "Reversed"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    },
     "text": {
       "type": "String",
       "default": "Badge"
@@ -49,10 +57,6 @@
           "type": "String"
         }
       ]
-    },
-    "isReversed": {
-      "type": "Bool",
-      "display": "Reversed"
     },
     "size": {
       "type": "String",
