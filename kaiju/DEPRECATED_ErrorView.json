@@ -1,0 +1,26 @@
+{
+  "hidden": true,
+  "name": "ErrorView",
+  "library": "terra-clinical-error-view",
+  "display": "Error View",
+  "description": "Displays an error message",
+  "group": "Templates::Other",
+  "properties": {
+    "name": {
+      "type": "String",
+      "default": "Error"
+    },
+    "description": {
+      "type": "String",
+      "default": "Error description"
+    },
+    "buttonText": {
+      "type": "String",
+      "default": "Button text"
+    },
+    "isGlyphHidden": {
+      "type": "Bool",
+      "display": "Hide glyph"
+    }
+  }
+}

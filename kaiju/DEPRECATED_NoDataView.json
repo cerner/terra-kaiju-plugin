@@ -1,0 +1,22 @@
+{
+  "hidden": true,
+  "name": "NoDataView",
+  "library": "terra-clinical-no-data-view",
+  "display": "No Data View",
+  "description": "Displays a message indicating no data",
+  "group": "Templates::Other",
+  "properties": {
+    "heading": {
+      "type": "String",
+      "default": "Title"
+    },
+    "subtext": {
+      "type": "String",
+      "default": "Subtext"
+    },
+    "isGlyphHidden": {
+      "type": "Bool",
+      "display": "Hide glyph"
+    }
+  }
+}
