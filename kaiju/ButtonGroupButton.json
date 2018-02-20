@@ -6,21 +6,17 @@
   "group": "Molecules::Button Group",
   "import": "ButtonGroup",
   "properties": {
-    "isSelected": {
+    "isDisabled": {
       "type": "Bool",
-      "display": "Selected"
-    },
-    "isReversed": {
-      "type": "Bool",
-      "display": "Reversed"
-    },
-    "text": {
-      "type": "String",
-      "default": "Button"
+      "display": "Disabled"
     },
     "icon": {
       "type": "Component",
       "drop_zone": false
+    },
+    "text": {
+      "type": "String",
+      "default": "Button"
     }
   }
 }

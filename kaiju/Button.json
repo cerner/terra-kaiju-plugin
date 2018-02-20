@@ -17,37 +17,72 @@
       "type": "Bool",
       "display": "Disabled"
     },
-    "text": {
-      "type": "String",
-      "default": "Button"
+    "isIconOnly": {
+      "type": "Bool",
+      "display": "Icon Only"
+    },
+    "isReversed": {
+      "type": "Bool",
+      "display": "Reversed"
     },
     "icon": {
       "type": "Component",
       "drop_zone": false
     },
+    "text": {
+      "type": "String",
+      "default": "Button"
+    },
     "variant": {
       "type": "String",
       "form_type": "CodifiedList",
-      "default": "default",
+      "default": "neutral",
       "options": [
         {
-          "display": "default",
-          "value": "default",
+          "display": "Neutral",
+          "value": "neutral",
           "type": "String"
         },
         {
-          "display": "primary",
-          "value": "primary",
+          "display": "Emphasis",
+          "value": "emphasis",
           "type": "String"
         },
         {
-          "display": "secondary",
-          "value": "secondary",
+          "display": "De-emphasis",
+          "value": "de-emphasis",
           "type": "String"
         },
         {
-          "display": "link",
-          "value": "link",
+          "display": "Action",
+          "value": "action",
+          "type": "String"
+        },
+        {
+          "display": "Utility",
+          "value": "utility",
+          "type": "String"
+        }
+      ]
+    },
+    "type": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "button",
+      "options": [
+        {
+          "display": "Button",
+          "value": "button",
+          "type": "String"
+        },
+        {
+          "display": "Submit",
+          "value": "submit",
+          "type": "String"
+        },
+        {
+          "display": "Reset",
+          "value": "reset",
           "type": "String"
         }
       ]

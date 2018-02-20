@@ -1,13 +1,12 @@
 {
-  "name": "DatePicker",
-  "library": "terra-date-picker",
-  "display": "Date Picker",
-  "description": "A controlled input component for selecting dates",
+  "name": "DateTimePicker",
+  "library": "terra-date-time-picker",
+  "display": "Date Time Picker",
+  "description": "A controlled input component for selecting a date and time",
   "group": "Atoms::Forms",
   "properties": {
-    "isDisabled": {
-      "type": "Bool",
-      "display": "Disabled"
+    "disabled": {
+      "type": "Bool"
     },
     "excludeDates": {
       "type": "Array",
@@ -21,17 +20,17 @@
         "type": "String"
       }
     },
-    "maxDate": {
+    "maxDateTime": {
       "type": "String"
     },
-    "minDate": {
+    "minDateTime": {
       "type": "String"
     },
     "name": {
       "type": "String",
-      "default": "Date Picker"
+      "default": "Date Time Picker"
     },
-    "selectedDate": {
+    "value": {
       "type": "String"
     }
   }

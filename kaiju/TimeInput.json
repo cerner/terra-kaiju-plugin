@@ -7,12 +7,10 @@
   "properties": {
     "name": {
       "type": "String",
-      "form_type": "String",
       "default": "inputName"
     },
     "value": {
       "type": "String",
-      "form_type": "String",
       "default": "T14:51"
     }
   }

@@ -6,14 +6,6 @@
   "group": "Molecules::Collapsible Menu View",
   "import": "CollapsibleMenuView",
   "properties": {
-    "text": {
-      "type": "String",
-      "default": "Menu Item"
-    },
-    "icon": {
-      "type": "Component",
-      "drop_zone": false
-    },
     "isIconOnly": {
       "type": "Bool"
     },
@@ -29,6 +21,14 @@
     "shouldCloseOnClick": {
       "type": "Bool",
       "default": true
+    },
+    "text": {
+      "type": "String",
+      "default": "Menu Item"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
     },
     "subMenuItems": {
       "type": "Array",

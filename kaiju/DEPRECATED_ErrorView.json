@@ -2,7 +2,7 @@
   "hidden": true,
   "name": "ErrorView",
   "library": "terra-clinical-error-view",
-  "display": "Error View",
+  "display": "Deprecated Error View",
   "description": "Displays an error message",
   "group": "Templates::Other",
   "properties": {
