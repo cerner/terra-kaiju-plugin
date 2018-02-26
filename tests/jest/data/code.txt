@@ -3,6 +3,7 @@ import React from 'react';
 import Base from 'terra-base';
 import Image from 'terra-image';
 import DemographicsBanner from 'terra-demographics-banner';
+
 const Workspace = () => (
   <Base locale="en-US">
     <DemographicsBanner
