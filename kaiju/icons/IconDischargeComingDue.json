@@ -1,0 +1,32 @@
+{
+  "name": "IconDischargeComingDue",
+  "library": "terra-icon",
+  "display": "Discharge Coming Due Icon",
+  "description": "Discharge Coming Due Icon",
+  "import_from": "terra-icon/lib/icon/IconDischargeComingDue",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

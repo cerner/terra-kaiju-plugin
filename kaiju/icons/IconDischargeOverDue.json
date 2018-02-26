@@ -1,0 +1,32 @@
+{
+  "name": "IconDischargeOverDue",
+  "library": "terra-icon",
+  "display": "Discharge Over Due Icon",
+  "description": "Discharge Over Due Icon",
+  "import_from": "terra-icon/lib/icon/IconDischargeOverDue",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

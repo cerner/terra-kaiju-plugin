@@ -1,0 +1,32 @@
+{
+  "name": "IconExternalLink",
+  "library": "terra-icon",
+  "display": "External Link Icon",
+  "description": "External Link Icon",
+  "import_from": "terra-icon/lib/icon/IconExternalLink",
+  "group": "Atoms::Icons",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}
