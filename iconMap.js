@@ -10,6 +10,8 @@ import IconAttachment from 'terra-icon/lib/icon/IconAttachment';
 import IconAudio from 'terra-icon/lib/icon/IconAudio';
 import IconAvailable from 'terra-icon/lib/icon/IconAvailable';
 import IconAway from 'terra-icon/lib/icon/IconAway';
+import IconBedAssigned from 'terra-icon/lib/icon/IconBedAssigned';
+import IconBedRequested from 'terra-icon/lib/icon/IconBedRequested';
 import IconBookmark from 'terra-icon/lib/icon/IconBookmark';
 import IconBriefcase from 'terra-icon/lib/icon/IconBriefcase';
 import IconBusy from 'terra-icon/lib/icon/IconBusy';
@@ -37,10 +39,14 @@ import IconCommit from 'terra-icon/lib/icon/IconCommit';
 import IconComplete from 'terra-icon/lib/icon/IconComplete';
 import IconCompose from 'terra-icon/lib/icon/IconCompose';
 import IconCritical from 'terra-icon/lib/icon/IconCritical';
+import IconCriticalInverse from 'terra-icon/lib/icon/IconCriticalInverse';
 import IconDevice from 'terra-icon/lib/icon/IconDevice';
 import IconDeviceAlert from 'terra-icon/lib/icon/IconDeviceAlert';
 import IconDeviceCheck from 'terra-icon/lib/icon/IconDeviceCheck';
 import IconDiamond from 'terra-icon/lib/icon/IconDiamond';
+import IconDischargeComingDue from 'terra-icon/lib/icon/IconDischargeComingDue';
+import IconDischargeComplete from 'terra-icon/lib/icon/IconDischargeComplete';
+import IconDischargeOverDue from 'terra-icon/lib/icon/IconDischargeOverDue';
 import IconDocuments from 'terra-icon/lib/icon/IconDocuments';
 import IconDoNotDisturb from 'terra-icon/lib/icon/IconDoNotDisturb';
 import IconDoorOpen from 'terra-icon/lib/icon/IconDoorOpen';
@@ -52,14 +58,18 @@ import IconEdit from 'terra-icon/lib/icon/IconEdit';
 import IconEllipses from 'terra-icon/lib/icon/IconEllipses';
 import IconEnvelope from 'terra-icon/lib/icon/IconEnvelope';
 import IconError from 'terra-icon/lib/icon/IconError';
+import IconErrorDark from 'terra-icon/lib/icon/IconErrorDark';
 import IconExclamation from 'terra-icon/lib/icon/IconExclamation';
 import IconExpandLess from 'terra-icon/lib/icon/IconExpandLess';
 import IconExpandMore from 'terra-icon/lib/icon/IconExpandMore';
+import IconExternalLink from 'terra-icon/lib/icon/IconExternalLink';
 import IconFeatured from 'terra-icon/lib/icon/IconFeatured';
 import IconFeaturedOff from 'terra-icon/lib/icon/IconFeaturedOff';
 import IconFeaturedOutline from 'terra-icon/lib/icon/IconFeaturedOutline';
 import IconFirst from 'terra-icon/lib/icon/IconFirst';
 import IconFlag from 'terra-icon/lib/icon/IconFlag';
+import IconFlipHorizontal from 'terra-icon/lib/icon/IconFlipHorizontal';
+import IconFlipVertical from 'terra-icon/lib/icon/IconFlipVertical';
 import IconFlowsheet from 'terra-icon/lib/icon/IconFlowsheet';
 import IconFolder from 'terra-icon/lib/icon/IconFolder';
 import IconForward from 'terra-icon/lib/icon/IconForward';
@@ -69,7 +79,9 @@ import IconGlasses from 'terra-icon/lib/icon/IconGlasses';
 import IconHelp from 'terra-icon/lib/icon/IconHelp';
 import IconHelpInverse from 'terra-icon/lib/icon/IconHelpInverse';
 import IconHigh from 'terra-icon/lib/icon/IconHigh';
+import IconHighInverse from 'terra-icon/lib/icon/IconHighInverse';
 import IconHighPriority from 'terra-icon/lib/icon/IconHighPriority';
+import IconHold from 'terra-icon/lib/icon/IconHold';
 import IconHospital from 'terra-icon/lib/icon/IconHospital';
 import IconHouse from 'terra-icon/lib/icon/IconHouse';
 import IconImage from 'terra-icon/lib/icon/IconImage';
@@ -99,8 +111,10 @@ import IconMin from 'terra-icon/lib/icon/IconMin';
 import IconMinimize from 'terra-icon/lib/icon/IconMinimize';
 import IconMinus from 'terra-icon/lib/icon/IconMinus';
 import IconMissedCall from 'terra-icon/lib/icon/IconMissedCall';
+import IconModerate from 'terra-icon/lib/icon/IconModerate';
 import IconModified from 'terra-icon/lib/icon/IconModified';
 import IconNext from 'terra-icon/lib/icon/IconNext';
+import IconNoRisk from 'terra-icon/lib/icon/IconNoRisk';
 import IconNoSignal from 'terra-icon/lib/icon/IconNoSignal';
 import IconNotification from 'terra-icon/lib/icon/IconNotification';
 import IconNotificationOff from 'terra-icon/lib/icon/IconNotificationOff';
@@ -138,6 +152,8 @@ import IconReply from 'terra-icon/lib/icon/IconReply';
 import IconReplyAll from 'terra-icon/lib/icon/IconReplyAll';
 import IconRequired from 'terra-icon/lib/icon/IconRequired';
 import IconRight from 'terra-icon/lib/icon/IconRight';
+import IconRotateLeft from 'terra-icon/lib/icon/IconRotateLeft';
+import IconRotateRight from 'terra-icon/lib/icon/IconRotateRight';
 import IconSave from 'terra-icon/lib/icon/IconSave';
 import IconScheduled from 'terra-icon/lib/icon/IconScheduled';
 import IconScratchPad from 'terra-icon/lib/icon/IconScratchPad';
@@ -186,6 +202,8 @@ const iconMap = {
   IconAudio,
   IconAvailable,
   IconAway,
+  IconBedAssigned,
+  IconBedRequested,
   IconBookmark,
   IconBriefcase,
   IconBusy,
@@ -213,10 +231,14 @@ const iconMap = {
   IconComplete,
   IconCompose,
   IconCritical,
+  IconCriticalInverse,
   IconDevice,
   IconDeviceAlert,
   IconDeviceCheck,
   IconDiamond,
+  IconDischargeComingDue,
+  IconDischargeComplete,
+  IconDischargeOverDue,
   IconDocuments,
   IconDoNotDisturb,
   IconDoorOpen,
@@ -228,14 +250,18 @@ const iconMap = {
   IconEllipses,
   IconEnvelope,
   IconError,
+  IconErrorDark,
   IconExclamation,
   IconExpandLess,
   IconExpandMore,
+  IconExternalLink,
   IconFeatured,
   IconFeaturedOff,
   IconFeaturedOutline,
   IconFirst,
   IconFlag,
+  IconFlipHorizontal,
+  IconFlipVertical,
   IconFlowsheet,
   IconFolder,
   IconForward,
@@ -245,7 +271,9 @@ const iconMap = {
   IconHelp,
   IconHelpInverse,
   IconHigh,
+  IconHighInverse,
   IconHighPriority,
+  IconHold,
   IconHospital,
   IconHouse,
   IconImage,
@@ -275,8 +303,10 @@ const iconMap = {
   IconMinimize,
   IconMinus,
   IconMissedCall,
+  IconModerate,
   IconModified,
   IconNext,
+  IconNoRisk,
   IconNoSignal,
   IconNotification,
   IconNotificationOff,
@@ -314,6 +344,8 @@ const iconMap = {
   IconReplyAll,
   IconRequired,
   IconRight,
+  IconRotateLeft,
+  IconRotateRight,
   IconSave,
   IconScheduled,
   IconScratchPad,
