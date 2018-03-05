@@ -4,6 +4,7 @@
   "display": "Content Container",
   "description": "A structural component for arranging content with a header",
   "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/content-container/index",
   "properties": {
     "fill": {
       "type": "Bool"

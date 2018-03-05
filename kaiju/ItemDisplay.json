@@ -4,6 +4,7 @@
   "display": "Item Display",
   "description": "An ItemView text display with an optional icon",
   "group": "Molecules::Item View",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-display/index",
   "properties": {
     "isTruncated": {
       "type": "Bool",

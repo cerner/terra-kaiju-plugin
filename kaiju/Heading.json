@@ -4,6 +4,7 @@
   "display": "Heading",
   "description": "Provides standard heading styles ( h1-h6 )",
   "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/heading/index",
   "properties": {
     "level": {
       "type": "Number",

@@ -4,6 +4,7 @@
   "display": "Date Time Picker",
   "description": "A controlled input component for selecting a date and time",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/date-time-picker/index",
   "properties": {
     "disabled": {
       "type": "Bool"

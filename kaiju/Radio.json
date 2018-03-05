@@ -4,6 +4,7 @@
   "display": "Radio",
   "description": "A control element that allows the user to choose only one of a predefined set of mutually exclusive options",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-radio/index",
   "properties": {
     "defaultChecked": {
       "type": "Bool"

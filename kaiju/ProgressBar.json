@@ -4,6 +4,7 @@
   "display": "Progress Bar",
   "description": "Display the progress of a process",
   "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/progress-bar/index",
   "properties": {
     "color": {
       "type": "String"

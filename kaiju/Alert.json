@@ -4,6 +4,7 @@
   "display": "Alert",
   "description": "Provides a styled notification to the user",
   "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/alert/index",
   "properties": {
     "title": {
       "type": "String"

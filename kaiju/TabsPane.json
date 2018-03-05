@@ -5,6 +5,7 @@
   "description": "Tab content",
   "group": "Molecules::Tabs",
   "import": "Tabs",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/tabs/index",
   "properties": {
     "isDisabled": {
       "type": "Bool",

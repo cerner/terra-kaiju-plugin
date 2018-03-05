@@ -5,6 +5,7 @@
   "description": "Flip Horizontal Icon",
   "import_from": "terra-icon/lib/icon/IconFlipHorizontal",
   "group": "Atoms::Icons",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/icon/index",
   "properties": {
     "isBidi": {
       "type": "Bool"

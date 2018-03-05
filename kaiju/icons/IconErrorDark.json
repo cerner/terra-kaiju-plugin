@@ -5,6 +5,7 @@
   "description": "Error Dark Icon",
   "import_from": "terra-icon/lib/icon/IconErrorDark",
   "group": "Atoms::Icons",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/icon/index",
   "properties": {
     "isBidi": {
       "type": "Bool"

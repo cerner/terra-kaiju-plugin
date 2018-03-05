@@ -4,6 +4,7 @@
   "display": "Slide Panel",
   "description": "A progessive disclosure mechanism for content",
   "group": "Organisms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/slide-panel/index",
   "properties": {
     "mainContent": {
       "type": "Component"

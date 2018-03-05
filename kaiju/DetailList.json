@@ -5,6 +5,7 @@
   "description": "Displays a list of details",
   "group": "Templates::DetailView",
   "import": "DetailView",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/detail-view/index",
   "properties": {
     "title": {
       "type": "String",

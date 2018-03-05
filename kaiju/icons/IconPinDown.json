@@ -5,6 +5,7 @@
   "description": "Pin Down Icon",
   "import_from": "terra-icon/lib/icon/IconPinDown",
   "group": "Atoms::Icons",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/icon/index",
   "properties": {
     "isBidi": {
       "type": "Bool"
