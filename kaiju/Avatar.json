@@ -1,0 +1,39 @@
+{
+  "name": "Avatar",
+  "library": "terra-avatar",
+  "display": "Avatar",
+  "description": "A circular frame to diplay an image or text",
+  "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-core/#/site/avatar",
+  "properties": {
+    "alt": {
+      "type": "String"
+    },
+    "ariaLabel": {
+      "type": "String"
+    },
+    "image": {
+      "type": "String"
+    },
+    "initials": {
+      "type": "String"
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "user",
+      "options": [
+        {
+          "display": "User",
+          "value": "user",
+          "type": "String"
+        },
+        {
+          "display": "Facility",
+          "value": "facility",
+          "type": "String"
+        }
+      ]
+    }
+  }
+}

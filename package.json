@@ -48,6 +48,7 @@
     "style-loader": "^0.13.1",
     "terra-alert": "^2.0.0",
     "terra-arrange": "^2.0.0",
+    "terra-avatar": "^1.0.0",
     "terra-badge": "^2.0.0",
     "terra-base": "^3.0.0",
     "terra-button": "^2.0.0",
