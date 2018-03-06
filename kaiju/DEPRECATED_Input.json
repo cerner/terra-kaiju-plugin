@@ -1,0 +1,20 @@
+{
+  "hidden": true,
+  "name": "Input",
+  "library": "terra-form",
+  "display": "Deprecated Input",
+  "description": "Input form element",
+  "group": "Atoms::Forms",
+  "import_from": "terra-form/lib/Input",
+  "properties": {
+    "value": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    },
+    "required": {
+      "type": "Bool"
+    }
+  }
+}

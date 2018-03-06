@@ -1,19 +1,26 @@
 {
   "name": "Input",
-  "library": "terra-form",
+  "library": "terra-form-input",
   "display": "Input",
   "description": "Input form element",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-input/index",
   "group": "Atoms::Forms",
-  "import_from": "terra-form/lib/Input",
   "properties": {
-    "value": {
-      "type": "String"
+    "required": {
+      "type": "Bool"
+    },
+    "disabled": {
+      "type": "Bool"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
     },
     "name": {
       "type": "String"
     },
-    "required": {
-      "type": "Bool"
+    "defaultValue": {
+      "type": "String"
     }
   }
 }
