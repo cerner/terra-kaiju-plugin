@@ -5,6 +5,7 @@
   "description": "An item collection display",
   "group": "Molecules::Item Collection",
   "import": "ItemCollection",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-collection/index",
   "properties": {
     "isTruncated": {
       "type": "Bool",

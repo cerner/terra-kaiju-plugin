@@ -4,6 +4,7 @@
   "display": "Signature",
   "description": "A customizable signature",
   "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/signature/index",
   "properties": {
     "lineWidth": {
       "type": "Number",

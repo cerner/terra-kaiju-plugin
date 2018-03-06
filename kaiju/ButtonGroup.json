@@ -4,6 +4,7 @@
   "display": "Button Group",
   "description": "Groups buttons and maintains a toggle selection state",
   "group": "Molecules::Button Group",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/button-group/index",
   "properties": {
     "children": {
       "type": "Array",

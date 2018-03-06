@@ -5,6 +5,7 @@
   "description": "A collapsing menu item",
   "group": "Molecules::Collapsible Menu View",
   "import": "CollapsibleMenuView",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/collapsible-menu-view/index",
   "properties": {
     "isIconOnly": {
       "type": "Bool"

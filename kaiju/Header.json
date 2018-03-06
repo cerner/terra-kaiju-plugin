@@ -4,6 +4,7 @@
   "display": "Header",
   "description": "Arranges a title and content within a Header",
   "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/header/index",
   "properties": {
     "title": {
       "type": "String",

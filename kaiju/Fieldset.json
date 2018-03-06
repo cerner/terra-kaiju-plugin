@@ -5,6 +5,7 @@
   "description": "A form container for arranging error, help, label, legend, and value text",
   "group": "Atoms::Forms",
   "import_from": "terra-form/lib/Fieldset",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form/index",
   "properties": {
     "error": {
       "type": "String"

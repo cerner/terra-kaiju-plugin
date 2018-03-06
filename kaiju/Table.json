@@ -4,6 +4,7 @@
   "display": "Table",
   "description": "Structural table",
   "group": "Organisms::Table",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/table/index",
   "properties": {
     "isStriped": {
       "type": "Bool",

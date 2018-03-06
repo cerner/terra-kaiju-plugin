@@ -4,6 +4,7 @@
   "display": "Button",
   "description": "Provides a way to trigger actions in the UI",
   "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/button/index",
   "properties": {
     "isBlock": {
       "type": "Bool",

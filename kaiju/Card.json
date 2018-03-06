@@ -4,6 +4,7 @@
   "display": "Card",
   "description": "Simple container for content",
   "group": "Atoms::Card",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/card/index",
   "properties": {
     "children": {
       "type": "Array",

@@ -4,6 +4,7 @@
   "display": "Toggle",
   "description": "A disclosure mechanism for showing and hiding content in an animated fashion",
   "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/toggle/index",
   "properties": {
     "isOpen": {
       "type": "Bool",

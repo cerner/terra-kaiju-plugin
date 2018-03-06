@@ -5,6 +5,7 @@
   "description": "Padding container to be placed within a Card",
   "group": "Atoms::Card",
   "import": "Card",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/card/index",
   "properties": {
     "hasPaddingVertical": {
       "type": "Bool",

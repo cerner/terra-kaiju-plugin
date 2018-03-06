@@ -4,6 +4,7 @@
   "display": "Time Input",
   "description": "A controlled input for time entry",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/time-input/index",
   "properties": {
     "name": {
       "type": "String",

@@ -4,6 +4,7 @@
   "display": "Item Collection",
   "description": "Responsively displays data as a table or a list",
   "group": "Molecules::Item Collection",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-collection/index",
   "properties": {
     "numberOfDisplays": {
       "type": "Number",

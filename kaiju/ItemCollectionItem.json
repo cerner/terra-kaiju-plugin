@@ -5,6 +5,7 @@
   "description": "A collection item",
   "group": "Molecules::Item Collection",
   "import": "ItemCollection",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-collection/index",
   "properties": {
     "startAccessory": {
       "type": "Component",

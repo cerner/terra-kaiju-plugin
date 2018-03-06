@@ -4,6 +4,7 @@
   "display": "Demographics Banner",
   "description": "Displays condensed demographic information",
   "group": "Organisms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/demographics-banner/index",
   "properties": {
     "personName": {
       "type": "String",

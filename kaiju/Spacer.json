@@ -4,6 +4,7 @@
   "display": "Spacer",
   "description": "Adds margins and padding",
   "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/spacer/index",
   "properties": {
     "isInlineBlock": {
       "type": "Bool",

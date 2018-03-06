@@ -4,6 +4,7 @@
   "display": "Responsive Element",
   "description": "Conditionally renders components based on viewport size",
   "group": "Organisms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/responsive-element/index",
   "properties": {
     "responsiveTo": {
       "type": "String",

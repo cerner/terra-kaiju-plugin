@@ -5,6 +5,7 @@
   "description": "A Button Group Button",
   "group": "Molecules::Button Group",
   "import": "ButtonGroup",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/button-group/index",
   "properties": {
     "isDisabled": {
       "type": "Bool",

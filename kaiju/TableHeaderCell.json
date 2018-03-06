@@ -5,6 +5,7 @@
   "description": "A table header cell",
   "group": "Organisms::Table",
   "import": "Table",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/table/index",
   "properties": {
     "minWidth": {
       "type": "String",

@@ -5,6 +5,7 @@
   "description": "A select option",
   "import": "Select",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-select/index",
   "properties": {
     "value": {
       "type": "String"

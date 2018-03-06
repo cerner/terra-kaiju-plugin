@@ -4,6 +4,7 @@
   "display": "Textarea",
   "description": "A text area",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-textarea/index",
   "properties": {
     "required": {
       "type": "Bool"

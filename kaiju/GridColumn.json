@@ -5,6 +5,7 @@
   "description": "A grid column",
   "group": "Organisms::Grid",
   "import": "Grid",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/grid/index",
   "properties": {
     "col": {
       "type": "Number",
