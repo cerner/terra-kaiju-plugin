@@ -7,6 +7,10 @@
   "import": "Card",
   "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/card/index",
   "properties": {
+    "isContentCentered": {
+      "type": "Bool",
+      "display": "Center content"
+    },
     "hasPaddingVertical": {
       "type": "Bool",
       "display": "Vertical padding",
