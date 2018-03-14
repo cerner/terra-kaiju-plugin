@@ -1,0 +1,65 @@
+{
+  "name": "ToggleSectionHeader",
+  "library": "terra-toggle-section-header",
+  "display": "Toggle Section Header",
+  "description": "Interactable section for collapsing content",
+  "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/toggle-section-header/index",
+  "properties": {
+    "isAnimated": {
+      "type": "Bool",
+      "display": "Animated"
+    },
+    "isInitiallyOpen": {
+      "type": "Bool",
+      "default": true,
+      "display": "Open"
+    },
+    "title": {
+      "type": "String"
+    },
+    "level": {
+      "type": "Number",
+      "form_type": "CodifiedList",
+      "default": "1",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Dialog",
+  "library": "terra-dialog",
+  "display": "Dialog",
+  "description": "A presentational layout for presenting alerts or actions",
+  "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/dialog/index",
+  "properties": {
+    "header": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "footer": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}
