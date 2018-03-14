@@ -9,7 +9,8 @@
     "header": {
       "type": "Array",
       "schema": {
-        "type": "Component"
+        "type": "Component",
+        "drop_zone": false
       }
     },
     "children": {
@@ -21,7 +22,8 @@
     "footer": {
       "type": "Array",
       "schema": {
-        "type": "Component"
+        "type": "Component",
+        "drop_zone": false
       }
     }
   }

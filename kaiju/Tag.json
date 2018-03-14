@@ -14,7 +14,8 @@
       "drop_zone": false
     },
     "text": {
-      "type": "String"
+      "type": "String",
+      "default": "Text"
     }
   }
 }

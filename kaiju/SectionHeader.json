@@ -6,13 +6,9 @@
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/section-header/index",
   "properties": {
-    "isOpen": {
-      "type": "Bool",
-      "default": true,
-      "display": "Open"
-    },
     "title": {
-      "type": "String"
+      "type": "String",
+      "default": "Title"
     },
     "level": {
       "type": "Number",

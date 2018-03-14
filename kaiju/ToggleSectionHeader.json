@@ -16,7 +16,8 @@
       "display": "Open"
     },
     "title": {
-      "type": "String"
+      "type": "String",
+      "default": "Title"
     },
     "level": {
       "type": "Number",
