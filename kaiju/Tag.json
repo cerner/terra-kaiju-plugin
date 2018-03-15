@@ -1,0 +1,21 @@
+{
+  "name": "Tag",
+  "library": "terra-tag",
+  "display": "Tag",
+  "description": "An actionable tag",
+  "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/tag/index",
+  "properties": {
+    "href": {
+      "type": "String"
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "text": {
+      "type": "String",
+      "default": "Text"
+    }
+  }
+}

@@ -1,27 +1,28 @@
 {
   "name": "Fieldset",
-  "library": "terra-form",
+  "library": "terra-form-fieldset",
   "display": "Fieldset",
-  "description": "A form container for arranging error, help, label, legend, and value text",
+  "description": "A form layout for error, help, label, legend, and value text",
   "group": "Atoms::Forms",
-  "import_from": "terra-form/lib/Fieldset",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-fieldset/index",
   "properties": {
-    "error": {
-      "type": "String"
-    },
-    "help": {
-      "type": "String"
-    },
-    "legend": {
-      "type": "String"
-    },
     "isInline": {
       "type": "Bool",
       "display": "Inline"
     },
     "required": {
       "type": "Bool"
+    },
+    "legend": {
+      "type": "String",
+      "default": "Legend"
+    },
+    "help": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
     },
     "children": {
       "type": "Array",
