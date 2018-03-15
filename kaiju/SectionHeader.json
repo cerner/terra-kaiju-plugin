@@ -2,7 +2,7 @@
   "name": "SectionHeader",
   "library": "terra-section-header",
   "display": "Section Header",
-  "description": "Presentational header for sections",
+  "description": "Presentational header for distinguishing sections",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/section-header/index",
   "properties": {
