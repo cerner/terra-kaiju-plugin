@@ -14,7 +14,8 @@
       "type": "Bool"
     },
     "legend": {
-      "type": "String"
+      "type": "String",
+      "default": "Legend"
     },
     "help": {
       "type": "Array",
