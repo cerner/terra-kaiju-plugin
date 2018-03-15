@@ -13,7 +13,7 @@
     "isInitiallyOpen": {
       "type": "Bool",
       "default": true,
-      "display": "Open"
+      "display": "Initially Open"
     },
     "title": {
       "type": "String",
