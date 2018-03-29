@@ -6,10 +6,6 @@
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-fieldset/index",
   "properties": {
-    "isInline": {
-      "type": "Bool",
-      "display": "Inline"
-    },
     "required": {
       "type": "Bool"
     },
