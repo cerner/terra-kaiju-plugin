@@ -46,8 +46,13 @@
     "size": {
       "type": "String",
       "form_type": "CodifiedList",
-      "default": "medium",
+      "default": "default",
       "options": [
+        {
+          "display": "default",
+          "value": "",
+          "type": "String"
+        },
         {
           "display": "Mini",
           "value": "mini",
