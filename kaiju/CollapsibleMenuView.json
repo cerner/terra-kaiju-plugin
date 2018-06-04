@@ -52,7 +52,37 @@
       "type": "Array",
       "schema": {
         "type": "Component"
-      }
+      },
+      "default": [
+        {
+          "type": "terra-collapsible-menu-view::Item",
+          "props": {
+            "text": "Button 1"
+          }
+        },
+        {
+          "type": "terra-collapsible-menu-view::Item",
+          "props": {
+            "text": "Button 2"
+          }
+        },
+        {
+          "type": "terra-collapsible-menu-view::Divider",
+          "props": {}
+        },
+        {
+          "type": "terra-collapsible-menu-view::Item",
+          "props": {
+            "text": "Button 3"
+          }
+        },
+        {
+          "type": "terra-collapsible-menu-view::Item",
+          "props": {
+            "text": "Button 4"
+          }
+        }
+      ]
     }
   }
 }
