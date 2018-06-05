@@ -4,7 +4,7 @@
   "display": "Arrange",
   "description": "A flexible container for aligning start, fill, and end content",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/arrange/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-arrange/arrange",
   "properties": {
     "fitStart": {
       "type": "Component",

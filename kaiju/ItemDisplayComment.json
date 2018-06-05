@@ -5,7 +5,7 @@
   "description": "A styled ItemView comment display and icon",
   "group": "Molecules::Item View",
   "import": "ItemDisplay",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-display/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-display/clinical-item-display",
   "properties": {
     "isTruncated": {
       "type": "Bool",

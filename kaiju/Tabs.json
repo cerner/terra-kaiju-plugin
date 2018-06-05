@@ -4,7 +4,7 @@
   "display": "Tabs",
   "description": "Container for organizing content",
   "group": "Molecules::Tabs",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/tabs/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-tabs/tabs",
   "properties": {
     "tabFill": {
       "type": "Bool"

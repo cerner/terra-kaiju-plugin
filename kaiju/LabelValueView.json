@@ -4,7 +4,7 @@
   "display": "Label Value View",
   "description": "Displays a label and associated value",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/label-value-view/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-label-value-view/clinical-label-value-view",
   "properties": {
     "label": {
       "type": "String",

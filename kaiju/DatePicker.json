@@ -4,7 +4,7 @@
   "display": "Date Picker",
   "description": "A controlled input component for selecting dates",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/date-picker/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-picker/date-picker",
   "properties": {
     "isDisabled": {
       "type": "Bool",

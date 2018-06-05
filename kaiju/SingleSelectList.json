@@ -5,7 +5,7 @@
   "description": "A list for managing a single selection",
   "group": "Organisms::List",
   "import_from": "terra-list/lib/SingleSelectList",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/list/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {
     "hasChevrons": {
       "type": "Bool",

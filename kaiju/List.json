@@ -4,7 +4,7 @@
   "display": "List",
   "description": "A list",
   "group": "Organisms::List",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/list/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {
     "isDivided": {
       "type": "Bool",

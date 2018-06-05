@@ -5,7 +5,7 @@
   "description": "A table cell",
   "group": "Organisms::Table",
   "import": "Table",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/table/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "content": {
       "type": "Component"

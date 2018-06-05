@@ -4,7 +4,7 @@
   "display": "Toggle Section Header",
   "description": "Interactable section for collapsing content",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/toggle-section-header/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-section-header/toggle-section-header",
   "properties": {
     "isAnimated": {
       "type": "Bool",

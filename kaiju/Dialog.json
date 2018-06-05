@@ -4,7 +4,7 @@
   "display": "Dialog",
   "description": "A presentational layout for presenting alerts or actions",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/dialog/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-dialog/dialog",
   "properties": {
     "header": {
       "type": "Array",

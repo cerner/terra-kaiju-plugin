@@ -4,7 +4,7 @@
   "display": "Detail View",
   "description": "Displays text at different levels of importance",
   "group": "Templates::DetailView",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/detail-view/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-detail-view/clinical-detail-view",
   "properties": {
     "title": {
       "type": "String",

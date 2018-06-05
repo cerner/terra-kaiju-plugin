@@ -4,7 +4,7 @@
   "display": "Collapsible Menu View",
   "description": "Collection of collapsible menu items",
   "group": "Molecules::Collapsible Menu View",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/collapsible-menu-view/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-collapsible-menu-view/collapsible-menu-view",
   "properties": {
     "menuWidth": {
       "type": "String",
