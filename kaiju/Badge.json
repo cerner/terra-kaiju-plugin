@@ -4,7 +4,7 @@
   "display": "Badge",
   "description": "Displays content classification",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/badge/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-badge/badge",
   "properties": {
     "isReversed": {
       "type": "Bool",

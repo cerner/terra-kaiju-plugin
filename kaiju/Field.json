@@ -4,7 +4,7 @@
   "display": "Field",
   "description": "A form container for arranging error, help, label, and value text",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-field/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-field/form-field",
   "properties": {
     "isInline": {
       "type": "Bool",

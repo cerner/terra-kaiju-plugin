@@ -3,7 +3,7 @@
   "library": "terra-form-input",
   "display": "Input",
   "description": "Input form element",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-input/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
   "group": "Atoms::Forms",
   "properties": {
     "required": {

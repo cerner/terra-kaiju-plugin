@@ -4,7 +4,7 @@
   "display": "Action Header",
   "description": "A Header with actionable navigation buttons",
   "group": "Organisms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/action-header/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-action-header/clinical-action-header",
   "properties": {
     "title": {
       "type": "String",

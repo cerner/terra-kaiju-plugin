@@ -5,7 +5,7 @@
   "description": "Video Camera Disabled Icon",
   "import_from": "terra-icon/lib/icon/IconVideoCameraDisabled",
   "group": "Atoms::Icons",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/icon/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon",
   "properties": {
     "isBidi": {
       "type": "Bool"

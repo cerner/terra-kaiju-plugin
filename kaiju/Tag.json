@@ -4,7 +4,7 @@
   "display": "Tag",
   "description": "An actionable tag",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/tag/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-tag/tag",
   "properties": {
     "href": {
       "type": "String"

@@ -4,7 +4,7 @@
   "display": "Base",
   "description": "Provides global style and translation support",
   "group": "Organisms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/base/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-base/base",
   "hidden": true,
   "properties": {
     "children": {

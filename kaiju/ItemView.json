@@ -4,7 +4,7 @@
   "display": "Item View",
   "description": "Organizes displays into rows and columns with optional start and end accessory elements",
   "group": "Molecules::Item View",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/clinical/site/item-view/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-view/clinical-item-view",
   "properties": {
     "isTruncated": {
       "type": "Bool"

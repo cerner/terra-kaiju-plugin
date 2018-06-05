@@ -4,7 +4,7 @@
   "display": "Avatar",
   "description": "A circular frame to diplay an image or text",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/avatar/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-avatar/avatar",
   "properties": {
     "alt": {
       "type": "String"

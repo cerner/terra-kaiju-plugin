@@ -4,7 +4,7 @@
   "display": "Search Field",
   "description": "A styled search input with a debounce callback",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/search-field/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-search-field/search-field",
   "properties": {
     "isBlock": {
       "type": "Bool",

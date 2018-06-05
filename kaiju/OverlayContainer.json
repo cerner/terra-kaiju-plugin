@@ -5,7 +5,7 @@
   "description": "A semi-transparent overlay to block UI interactions within restricted content region",
   "group": "Molecules::Overlay",
   "import_from": "terra-overlay/lib/OverlayContainer",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/overlay/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-overlay/overlay",
   "properties": {
     "children": {
       "type": "Array",

@@ -5,7 +5,7 @@
   "description": "Provides a standard Number Input with an optional label, error, and help property",
   "group": "Molecules::Forms",
   "import_from": "terra-form/lib/NumberField",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form/form",
   "properties": {
     "value": {
       "type": "String"

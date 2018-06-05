@@ -4,7 +4,7 @@
   "display": "Grid",
   "description": "Provides a flexbox based grid layout",
   "group": "Organisms::Grid",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/grid/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
   "properties": {
     "children": {
       "type": "Array",

@@ -4,7 +4,7 @@
   "display": "Select",
   "description": "A dropdown of selectable options",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-select/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
     "isInvalid": {
       "type": "Bool",

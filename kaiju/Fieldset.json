@@ -4,7 +4,7 @@
   "display": "Fieldset",
   "description": "A form layout for error, help, label, legend, and value text",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/form-fieldset/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-fieldset/form-fieldset",
   "properties": {
     "required": {
       "type": "Bool"

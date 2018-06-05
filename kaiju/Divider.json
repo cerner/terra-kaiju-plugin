@@ -4,6 +4,6 @@
   "display": "Divider",
   "description": "A divider to separate content",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/divider/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-divider/divider",
   "properties": {}
 }

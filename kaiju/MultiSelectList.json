@@ -5,7 +5,7 @@
   "description": "A list for managing multiple selections",
   "group": "Organisms::List",
   "import_from": "terra-list/lib/MultiSelectList",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/list/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {
     "isDivided": {
       "type": "Bool",

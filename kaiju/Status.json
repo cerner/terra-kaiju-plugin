@@ -4,7 +4,7 @@
   "display": "Status",
   "description": "A customizable color indictor to signify a specific condition",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/site/components/core/site/status/index",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-status/status",
   "properties": {
     "color": {
       "type": "String",
