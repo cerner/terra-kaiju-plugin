@@ -10,7 +10,84 @@
       "type": "Array",
       "schema": {
         "type": "Component"
-      }
+      },
+      "default": [
+        {
+          "type": "terra-grid::Row",
+          "props": {
+            "children": [
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "terra-grid::Row",
+          "props": {
+            "children": [
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "terra-grid::Row",
+          "props": {
+            "children": [
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              },
+              {
+                "type": "terra-grid::Column",
+                "props": {
+                  "col": "4"
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }

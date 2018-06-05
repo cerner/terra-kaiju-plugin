@@ -23,7 +23,64 @@
       "type": "Array",
       "schema": {
         "type": "Component"
-      }
+      },
+      "default": [
+        {
+          "type": "terra-clinical-detail-view::DetailList",
+          "props": {
+            "children": [
+              {
+                "type": "terra-clinical-detail-view::DetailListItem",
+                "props": {
+                  "item": {
+                    "type": "terra-clinical-label-value-view::LabelValueView",
+                    "props": {
+                      "label": "Age",
+                      "textValue": "38 Years"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "terra-clinical-detail-view::DetailListItem",
+                "props": {
+                  "item": {
+                    "type": "terra-clinical-label-value-view::LabelValueView",
+                    "props": {
+                      "label": "Height",
+                      "textValue": "182.88 cm"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "terra-clinical-detail-view::DetailListItem",
+                "props": {
+                  "item": {
+                    "type": "terra-clinical-label-value-view::LabelValueView",
+                    "props": {
+                      "label": "Eye color",
+                      "textValue": "Brown"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "terra-clinical-detail-view::DetailListItem",
+                "props": {
+                  "item": {
+                    "type": "terra-clinical-label-value-view::LabelValueView",
+                    "props": {
+                      "label": "Blood Pressure",
+                      "textValue": "120/80"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     "subtitles": {
       "type": "Array",
