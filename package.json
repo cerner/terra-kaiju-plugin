@@ -102,8 +102,7 @@
     "terra-toggle": "^2.11.0",
     "terra-toggle-button": "^2.13.0",
     "terra-toggle-section-header": "^1.10.0",
-    "terra-toolkit": "^3.6.0",
-    "webpack-merge": "^4.1.2"
+    "terra-toolkit": "^3.6.0"
   },
   "peerDependencies": {
     "react": "^16.4.0",
