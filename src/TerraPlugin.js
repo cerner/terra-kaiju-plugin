@@ -14,8 +14,7 @@ class TerraPlugin {
   static generatePreview(fs, publicPath) {
     const webpackFs = PluginUtils.webpackFs(fs);
     const outputPath = '/build/';
-    const modifiedConfig = Object.assign(
-      {}, PluginUtils.defaultWebpackConfig(publicPath, outputPath), config(PluginUtils.rootPath(), '/src/code.jsx', webpackFs));
+    const modifiedConfig = Object.assign({}, PluginUtils.defaultWebpackConfig(publicPath, outputPath), config(PluginUtils.rootPath(), '/src/code.jsx', webpackFs));
     return Promise.all([
       'preview.js',
       outputPath,

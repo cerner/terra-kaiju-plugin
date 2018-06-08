@@ -13,16 +13,6 @@
     "disabled": {
       "type": "Bool"
     },
-    "required": {
-      "type": "Bool"
-    },
-    "isPlaceholderHidden": {
-      "type": "Bool",
-      "display": "Hide Placeholder"
-    },
-    "name": {
-      "type": "String"
-    },
     "defaultValue": {
       "type": "String",
       "default": "apple"

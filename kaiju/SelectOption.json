@@ -15,17 +15,6 @@
     },
     "disabled": {
       "type": "Bool"
-    },
-    "isSelected": {
-      "type": "Bool",
-      "display": "Selected"
-    },
-    "children": {
-      "drop_zone": false,
-      "type": "Array",
-      "schema": {
-        "type": "Component"
-      }
     }
   }
 }
