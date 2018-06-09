@@ -13,19 +13,31 @@
     "disabled": {
       "type": "Bool"
     },
-    "required": {
-      "type": "Bool"
-    },
-    "isPlaceholderHidden": {
-      "type": "Bool",
-      "display": "Hide Placeholder"
-    },
-    "name": {
-      "type": "String"
-    },
     "defaultValue": {
       "type": "String",
       "default": "apple"
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "Default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "Search",
+          "value": "search",
+          "type": "String"
+        },
+        {
+          "display": "Combobox",
+          "value": "combobox",
+          "type": "String"
+        }
+      ]
     },
     "children": {
       "type": "Array",
