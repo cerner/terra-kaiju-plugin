@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf node_modules",
-    "aggregate-icons": "node scripts/kaiju/aggregate-icons.js",
+    "generate:icons": "node scripts/icons/generate-icons.js",
     "lint": "npm run lint-js",
     "lint-js": "eslint --ext .js,.jsx .",
     "prepublishOnly": "npm test",
@@ -40,7 +40,7 @@
     "css-loader": "^0.28.11",
     "js-string-escape": "^1.0.1",
     "kaiju-plugin-utils": "^0.1.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "postcss-custom-properties": "^7.0.0",
     "postcss-loader": "^2.1.5",
     "prettier-eslint": "^8.2.0",
@@ -102,7 +102,7 @@
     "terra-toggle": "^2.11.0",
     "terra-toggle-button": "^2.13.0",
     "terra-toggle-section-header": "^1.10.0",
-    "terra-toolkit": "^3.6.0"
+    "terra-toolkit": "^4.1.0"
   },
   "peerDependencies": {
     "react": "^16.4.0",

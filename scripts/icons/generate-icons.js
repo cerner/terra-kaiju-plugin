@@ -25,13 +25,16 @@ glob.sync('node_modules/terra-icon/lib/icon/*.js').forEach((file) => {
   iconMap.push(`${iconName},`);
   imports.push(`import ${iconName} from '${importFrom}';`);
 
-  fs.writeFileSync(`kaiju/icons/${iconName}.json`, JSON.stringify({
-    ...template,
-    name: iconName,
-    display: titleCase,
-    description: titleCase,
-    import_from: importFrom,
-  }, null, 2));
+  fs.writeFileSync(
+    `kaiju/icons/${iconName}.json`,
+    `${JSON.stringify({
+      ...template,
+      name: iconName,
+      display: titleCase,
+      description: titleCase,
+      import_from: importFrom,
+    }, null, 2)}\n`,
+  );
 });
 
 // Generate the icon map file.
