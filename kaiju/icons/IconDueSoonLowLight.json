@@ -1,0 +1,33 @@
+{
+  "name": "IconDueSoonLowLight",
+  "library": "terra-icon",
+  "display": "Due Soon Low Light Icon",
+  "description": "Due Soon Low Light Icon",
+  "import_from": "terra-icon/lib/icon/IconDueSoonLowLight",
+  "group": "Atoms::Icons",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}

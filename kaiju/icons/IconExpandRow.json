@@ -1,0 +1,33 @@
+{
+  "name": "IconExpandRow",
+  "library": "terra-icon",
+  "display": "Expand Row Icon",
+  "description": "Expand Row Icon",
+  "import_from": "terra-icon/lib/icon/IconExpandRow",
+  "group": "Atoms::Icons",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon",
+  "properties": {
+    "isBidi": {
+      "type": "Bool"
+    },
+    "isSpin": {
+      "type": "Bool"
+    },
+    "focusable": {
+      "type": "Bool"
+    },
+    "height": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "width": {
+      "type": "String",
+      "form_type": "DelayedInput",
+      "default": "1em"
+    },
+    "ariaLabel": {
+      "type": "String"
+    }
+  }
+}
