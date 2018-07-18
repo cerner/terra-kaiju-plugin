@@ -17,8 +17,7 @@
       "type": "String"
     },
     "defaultValue": {
-      "type": "String",
-      "default": "apple"
+      "type": "String"
     },
     "variant": {
       "type": "String",
