@@ -13,9 +13,11 @@
     "disabled": {
       "type": "Bool"
     },
+    "placeholder": {
+      "type": "String"
+    },
     "defaultValue": {
-      "type": "String",
-      "default": "apple"
+      "type": "String"
     },
     "variant": {
       "type": "String",
@@ -35,6 +37,16 @@
         {
           "display": "Combobox",
           "value": "combobox",
+          "type": "String"
+        },
+        {
+          "display": "Multiple",
+          "value": "multiple",
+          "type": "String"
+        },
+        {
+          "display": "Tag",
+          "value": "tag",
           "type": "String"
         }
       ]
