@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "terra-action-footer": {},
     "terra-alert": {},
     "terra-arrange": {},
     "terra-avatar": {},
@@ -56,13 +55,33 @@
     "terra-demographics-banner": {},
     "terra-dialog": {},
     "terra-divider": {},
-    "terra-form-checkbox": {},
+    "terra-form-checkbox": {
+      "ignoredProperties": [
+        "checked"
+      ]
+    },
     "terra-form-field": {},
     "terra-form-fieldset": {},
-    "terra-form-input": {},
-    "terra-form-radio": {},
-    "terra-form-select": {},
-    "terra-form-textarea": {},
+    "terra-form-input": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-form-radio": {
+      "ignoredProperties": [
+        "checked"
+      ]
+    },
+    "terra-form-select": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-form-textarea": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
     "terra-grid": {
       "subcomponents": {
         "GridColumn": {},
@@ -88,7 +107,11 @@
     },
     "terra-progress-bar": {},
     "terra-responsive-element": {},
-    "terra-search-field": {},
+    "terra-search-field": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
     "terra-signature": {},
     "terra-slide-panel": {},
     "terra-spacer": {},

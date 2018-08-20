@@ -8,7 +8,6 @@ const { parse } = require('react-docgen');
  * Supported Kaiju types.
  */
 const SupportedTypes = {
-  Array: 'Array',
   Bool: 'Bool',
   CodifiedList: 'CodifiedList',
   Component: 'Component',
@@ -20,7 +19,6 @@ const SupportedTypes = {
  * A map from react-docgen to Kaiju types.
  */
 const TypeMap = {
-  array: SupportedTypes.Array,
   arrayOf: SupportedTypes.Array,
   bool: SupportedTypes.Bool,
   element: SupportedTypes.Component,
@@ -29,11 +27,23 @@ const TypeMap = {
   string: SupportedTypes.String,
 };
 
+/**
+ * The base url for component documentation.
+ */
+const BASE_URL = 'http://engineering.cerner.com/terra-ui/#/components/';
+
+/**
+ * The Generator reads a configuration file and outputs a fully generated
+ * Kaiju JSON file for each dependency, subcomponent, and export.
+ *
+ * The generated JSON files will merge with an existing file if one exists. Existing properties will
+ * not be overwritten.
+ */
 class Generator {
   /**
    * Returns a hash containing the default value of the property.
    * @param {Object} property - The component property.
-   * @return {Object} - A JSON object representing the property defaults.
+   * @return {Object} - A JSON object representing the property default value.
    */
   static defaultValue(property) {
     const { type, defaultValue } = property;
@@ -83,15 +93,21 @@ class Generator {
   /**
    * Combines existing properties with new properties.
    * @param {string} dependency - The React dependency.
+   * @param {Object} config - All dependency configuration.
    * @param {Object} props - All interpreted component properties.
    * @param {Object} properties - Existing properties.
    * @return {Object} - A hash containing all the properties.
    */
-  static mergeProperties(dependency, props, properties) {
+  static mergeProperties(dependency, config, props, properties) {
     const componentProps = { ...properties };
+    const { ignoredProperties = [] } = config;
 
     // Generate new properties.
     Object.keys(props).filter(key => properties[key] === undefined).forEach((prop) => {
+      if (ignoredProperties.indexOf(prop) > -1) {
+        return;
+      }
+
       const property = Generator.createProperty(dependency, prop, props[prop]);
 
       if (property) {
@@ -109,51 +125,27 @@ class Generator {
 
   /**
    * Creates a JSON representation of the dependency.
-   * @param {Object} dependency - The React dependency.
+   * @param {Object} config - The component configuration.
    * @return {Object} - A JSON representing the dependency.
    */
-  static createJSON(data) {
-    const {
-      dependency,
-      name,
-      exported,
-      subcomponent,
-    } = data;
-
-    const { main, description } = JSON.parse(fs.readFileSync(`node_modules/${dependency}/package.json`));
-
-    const sourceFile = name || main.substring(main.lastIndexOf('/') + 1, main.lastIndexOf('.js'));
+  static createJSON(config) {
+    const { dependency, fileName, sourceFile } = config;
     const { props = {} } = parse(fs.readFileSync(`node_modules/${dependency}/src/${sourceFile}.jsx`));
-    const { group = '', properties = {} } = Generator.retrieveJSON(`./kaiju/${sourceFile}.json`);
+    const { properties = {}, ...attributes } = Generator.retrieveJSON(fileName || sourceFile);
 
-    const file = {
-      name: Generator.titleize(name || dependency),
-      library: dependency,
-      display: Generator.titleize(name || dependency, ' '),
-      description,
-      group,
-      ...subcomponent && { import: Generator.titleize(dependency) },
-      ...exported && { import_from: `${dependency}/lib/${name}` },
-      documentation: `http://engineering.cerner.com/terra-ui/#/components/${dependency}/${dependency.replace('terra-', '')}`,
-      properties: Generator.mergeProperties(dependency, props, properties),
-    };
-    //
-    // fs.writeFileSync(
-    //   `./kaiju/${sourceFile}.json`,
-    //   `${JSON.stringify({
-    //     name: Generator.titleize(name || dependency),
-    //     library: dependency,
-    //     display: Generator.titleize(name || dependency, ' '),
-    //     description,
-    //     group,
-    //     ...subcomponent && { import: Generator.titleize(dependency) },
-    //     ...exported && { import_from: `${dependency}/lib/${name}` },
-    //     documentation: `http://engineering.cerner.com/terra-ui/#/components/${dependency}/${dependency.replace('terra-', '')}`,
-    //     properties: Generator.mergeProperties(dependency, props, properties),
-    //   }, null, 2)}\n`,
-    // );
-
-    return file;
+    return Object.assign(
+      {
+        name: Generator.titleize(sourceFile),
+        library: dependency,
+        display: Generator.titleize(sourceFile, ' '),
+        description: '',
+        group: '',
+        documentation: `${BASE_URL}${dependency}/${dependency.replace('terra-', '')}`,
+        properties: {},
+      },
+      attributes,
+      { properties: Generator.mergeProperties(dependency, config, props, properties) },
+    );
   }
 
   /**
@@ -171,9 +163,14 @@ class Generator {
         return;
       }
 
-      Generator.createJSON({ dependency });
       Generator.generateExports(dependency, exports);
       Generator.generateSubcomponents(dependency, subcomponents);
+
+      const { main, description } = JSON.parse(fs.readFileSync(`node_modules/${dependency}/package.json`));
+      const sourceFile = main.substring(main.lastIndexOf('/') + 1, main.lastIndexOf('.js'));
+      const json = Generator.createJSON({ dependency, sourceFile, ...dependencies[dependency] });
+
+      Generator.writeJSON({ ...json, description }, sourceFile);
     });
   }
 
@@ -183,8 +180,15 @@ class Generator {
    * @param {Object} subComponents - The dependency subcomponents.
    */
   static generateSubcomponents(dependency, subcomponents) {
-    Object.keys(subcomponents).forEach((name) => {
-      Generator.createJSON({ dependency, name, subcomponent: true });
+    Object.keys(subcomponents).forEach((sourceFile) => {
+      const fileName = Generator.namespace(dependency, sourceFile);
+      const importName = Generator.titleize(dependency);
+
+      const json = Generator.createJSON({
+        dependency, fileName, sourceFile, ...subcomponents[dependency],
+      });
+
+      Generator.writeJSON({ ...json, import: importName }, fileName);
     });
   }
 
@@ -194,8 +198,15 @@ class Generator {
    * @param {Object} exports - The dependency exports.
    */
   static generateExports(dependency, exports) {
-    Object.keys(exports).forEach((name) => {
-      Generator.createJSON({ dependency, name, exported: true });
+    Object.keys(exports).forEach((sourceFile) => {
+      const fileName = Generator.namespace(dependency, sourceFile);
+      const importFrom = `${dependency}/lib/${sourceFile}`;
+
+      const json = Generator.createJSON({
+        dependency, fileName, sourceFile, ...exports[dependency],
+      });
+
+      Generator.writeJSON({ ...json, import_from: importFrom }, fileName);
     });
   }
 
@@ -218,12 +229,24 @@ class Generator {
   /**
    * Transforms a string into titlecase. Removes the terra prefix.
    * Example:  terra-button-group -> ButtonGroup.
-   * @param {string} string - The string to titleize
+   * @param {string} string - The string to titleize.
    * @param {string} delimiter - The delimiter to insert between words.
    * @return {string} - A titleized string.
    */
   static titleize(string, delimiter = '') {
-    return string.split('-').slice(1).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(delimiter);
+    const title = string.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(delimiter);
+    return title.replace('Terra', '').replace('Clinical', '').replace('Form', '').trim();
+  }
+
+  /**
+   * Creates a string that combines the dependency and file name.
+   * @param {string} dependency - The dependency name.
+   * @param {string} fileName  - The file name.
+   * @return {string} - A unique file name.
+   */
+  static namespace(dependency, fileName) {
+    const title = Generator.titleize(dependency);
+    return `${title}${fileName.replace(title, '')}`;
   }
 
   /**
@@ -232,10 +255,21 @@ class Generator {
    * @return {Object} - The JSON file.
    */
   static retrieveJSON(fileName) {
-    if (fs.existsSync(fileName)) {
-      return JSON.parse(fs.readFileSync(fileName));
+    const filePath = `./kaiju/${fileName}.json`;
+
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath));
     }
     return {};
+  }
+
+  /**
+   * Writes the json to a file.
+   * @param {Object} json - The JSON object.
+   * @param {string} fileName - The file name to write to.
+   */
+  static writeJSON(json, fileName) {
+    fs.writeFileSync(`./kaiju/${fileName}.json`, `${JSON.stringify(json, null, 2)}\n`);
   }
 
   /**
