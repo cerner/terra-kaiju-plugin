@@ -92,15 +92,14 @@ class Generator {
 
   /**
    * Combines existing properties with new properties.
-   * @param {string} dependency - The React dependency.
    * @param {Object} config - All dependency configuration.
    * @param {Object} props - All interpreted component properties.
    * @param {Object} properties - Existing properties.
    * @return {Object} - A hash containing all the properties.
    */
-  static mergeProperties(dependency, config, props, properties) {
+  static mergeProperties(config, props, properties) {
     const componentProps = { ...properties };
-    const { ignoredProperties = [] } = config;
+    const { dependency, ignoredProperties = [] } = config;
 
     // Generate new properties.
     Object.keys(props).filter(key => properties[key] === undefined).forEach((prop) => {
@@ -144,7 +143,7 @@ class Generator {
         properties: {},
       },
       attributes,
-      { properties: Generator.mergeProperties(dependency, config, props, properties) },
+      { properties: Generator.mergeProperties(config, props, properties) },
     );
   }
 
@@ -185,7 +184,7 @@ class Generator {
       const importName = Generator.titleize(dependency);
 
       const json = Generator.createJSON({
-        dependency, fileName, sourceFile, ...subcomponents[dependency],
+        dependency, fileName, sourceFile, ...subcomponents[sourceFile],
       });
 
       Generator.writeJSON({ ...json, import: importName }, fileName);
@@ -203,7 +202,7 @@ class Generator {
       const importFrom = `${dependency}/lib/${sourceFile}`;
 
       const json = Generator.createJSON({
-        dependency, fileName, sourceFile, ...exports[dependency],
+        dependency, fileName, sourceFile, ...exports[sourceFile],
       });
 
       Generator.writeJSON({ ...json, import_from: importFrom }, fileName);
