@@ -92,10 +92,10 @@ class Generator {
 
   /**
    * Combines existing properties with new properties.
-   * @param {Object} config - All dependency configuration.
+   * @param {Object} config - The dependency configuration.
    * @param {Object} props - All interpreted component properties.
    * @param {Object} properties - Existing properties.
-   * @return {Object} - A hash containing all the properties.
+   * @return {Object} - A hash containing the merged properties.
    */
   static mergeProperties(config, props, properties) {
     const componentProps = { ...properties };
