@@ -38,6 +38,11 @@
           "display": "StrikeThrough",
           "value": "strikeThrough",
           "type": "String"
+        },
+        {
+          "display": "Strong",
+          "value": "strong",
+          "type": "String"
         }
       ]
     },

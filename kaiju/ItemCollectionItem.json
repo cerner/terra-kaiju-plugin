@@ -10,6 +10,10 @@
       "type": "Bool",
       "display": "Reserve start accessory space"
     },
+    "isListItemTruncated": {
+      "type": "Bool",
+      "display": "List item truncated"
+    },
     "startAccessory": {
       "type": "Component",
       "drop_zone": false
@@ -86,17 +90,6 @@
         }
       ]
     },
-    "isListItemTruncated": {
-      "type": "Bool",
-      "display": "Truncated"
-    },
-    "children": {
-      "type": "Array",
-      "schema": {
-        "type": "Component",
-        "drop_zone": false
-      }
-    },
     "view": {
       "type": "String",
       "display": "View",
@@ -114,6 +107,13 @@
           "type": "String"
         }
       ]
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
     }
   },
   "import": "ItemCollection"

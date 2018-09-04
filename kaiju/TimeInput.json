@@ -21,7 +21,7 @@
     "variant": {
       "type": "String",
       "form_type": "CodifiedList",
-      "default": "default",
+      "default": "24-hour",
       "options": [
         {
           "display": "24-hour",
