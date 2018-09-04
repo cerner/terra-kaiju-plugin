@@ -120,6 +120,7 @@
     "eslint-plugin-react": "^7.9.1",
     "jest": "^23.1.0",
     "memory-fs": "^0.4.1",
+    "prop-types": "^15.6.2",
     "react": "^16.4.0",
     "react-docgen": "^2.21.0",
     "react-dom": "^16.4.0",
