@@ -2,10 +2,14 @@
   "name": "ActionHeader",
   "library": "terra-clinical-action-header",
   "display": "Action Header",
-  "description": "A Header with actionable navigation buttons",
+  "description": "An action header is a header bar with a grey background containing actionable navigation buttons, a left aligned title, and a space for an additional element to be added on the right side.",
   "group": "Organisms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-action-header/clinical-action-header",
   "properties": {
+    "keepCloseButton": {
+      "type": "Bool",
+      "display": "Keep close button"
+    },
     "title": {
       "type": "String",
       "default": "Title"

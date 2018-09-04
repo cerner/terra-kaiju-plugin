@@ -2,7 +2,7 @@
   "name": "Text",
   "library": "terra-text",
   "display": "Text Component",
-  "description": "Component for displaying customizable text in UI",
+  "description": "Component for displaying customizable text in UI.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-text/text",
   "properties": {

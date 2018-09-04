@@ -4,7 +4,6 @@
   "display": "Detail View List",
   "description": "Displays a list of details",
   "group": "Templates::DetailView",
-  "import": "DetailView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-detail-view/clinical-detail-view",
   "properties": {
     "title": {
@@ -17,5 +16,6 @@
         "type": "Component"
       }
     }
-  }
+  },
+  "import": "DetailView"
 }

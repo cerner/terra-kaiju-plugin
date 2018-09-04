@@ -2,7 +2,7 @@
   "name": "Grid",
   "library": "terra-grid",
   "display": "Grid",
-  "description": "Provides a flexbox based grid layout",
+  "description": "The grid component provides a flexbox based grid system.",
   "group": "Organisms::Grid",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
   "properties": {

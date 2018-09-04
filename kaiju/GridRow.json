@@ -4,7 +4,6 @@
   "display": "Grid Row",
   "description": "A grid row",
   "group": "Organisms::Grid",
-  "import": "Grid",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
   "properties": {
     "children": {
@@ -12,6 +11,11 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "className": {
+      "type": "String",
+      "display": "Class name"
     }
-  }
+  },
+  "import": "Grid"
 }

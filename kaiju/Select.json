@@ -2,7 +2,7 @@
   "name": "Select",
   "library": "terra-form-select",
   "display": "Select",
-  "description": "A dropdown of selectable options",
+  "description": "Provides a drop down of selectable options.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
@@ -79,6 +79,10 @@
           }
         }
       ]
+    },
+    "maxHeight": {
+      "type": "Number",
+      "display": "Max height"
     }
   }
 }

@@ -2,7 +2,7 @@
   "name": "Button",
   "library": "terra-button",
   "display": "Button",
-  "description": "Provides a way to trigger actions in the UI",
+  "description": "The terra-button component provides users a way to trigger actions in the UI.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button/button",
   "properties": {

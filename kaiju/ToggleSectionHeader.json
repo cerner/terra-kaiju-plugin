@@ -2,13 +2,17 @@
   "name": "ToggleSectionHeader",
   "library": "terra-toggle-section-header",
   "display": "Toggle Section Header",
-  "description": "Interactable section for collapsing content",
+  "description": "Toggle section header component that transitions content in and out with a click on the header.",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-section-header/toggle-section-header",
   "properties": {
     "isAnimated": {
       "type": "Bool",
       "display": "Animated"
+    },
+    "isTransparent": {
+      "type": "Bool",
+      "display": "Transparent"
     },
     "isInitiallyOpen": {
       "type": "Bool",

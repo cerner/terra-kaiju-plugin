@@ -4,7 +4,7 @@
   "display": "Collapsible Menu divider",
   "description": "A dividing line between menu items",
   "group": "Molecules::Collapsible Menu View",
-  "import": "CollapsibleMenuView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-collapsible-menu-view/collapsible-menu-view",
-  "properties": {}
+  "properties": {},
+  "import": "CollapsibleMenuView"
 }

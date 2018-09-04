@@ -4,11 +4,11 @@
   "display": "Detail List Item",
   "description": "Detail list item",
   "group": "Templates::DetailView",
-  "import": "DetailView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-detail-view/clinical-detail-view",
   "properties": {
     "item": {
       "type": "Component"
     }
-  }
+  },
+  "import": "DetailView"
 }

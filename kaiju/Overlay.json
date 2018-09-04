@@ -2,9 +2,8 @@
   "name": "Overlay",
   "library": "terra-overlay",
   "display": "Overlay",
-  "description": "A semi-transparent overlay to block UI interactions",
+  "description": "The Overlay component is a component that creates an semi-transparent overlay screen that blocks interactions with the elements underneath the display. There are two types of overlays: fullscreen and relative to its container.",
   "group": "Molecules::Overlay",
-  "import_from": "terra-overlay/lib/Overlay",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-overlay/overlay",
   "properties": {
     "isOpen": {
@@ -46,5 +45,6 @@
         "type": "Component"
       }
     }
-  }
+  },
+  "import_from": "terra-overlay/lib/Overlay"
 }

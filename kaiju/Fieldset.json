@@ -2,7 +2,7 @@
   "name": "Fieldset",
   "library": "terra-form-fieldset",
   "display": "Fieldset",
-  "description": "A form layout for error, help, label, legend, and value text",
+  "description": "Generic form fieldset component which handles the layout of a standard form fieldset including help text, legend, value and widget placement.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-fieldset/form-fieldset",
   "properties": {

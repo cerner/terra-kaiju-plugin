@@ -2,7 +2,7 @@
   "name": "Divider",
   "library": "terra-divider",
   "display": "Divider",
-  "description": "A divider to separate content",
+  "description": "The divider component is used to visually separate content on a layout.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-divider/divider",
   "properties": {}

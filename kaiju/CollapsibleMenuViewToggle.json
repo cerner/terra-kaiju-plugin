@@ -4,7 +4,6 @@
   "display": "Collapsible Menu Toggle",
   "description": "A collapsing menu toggle",
   "group": "Molecules::Collapsible Menu View",
-  "import": "CollapsibleMenuView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-collapsible-menu-view/collapsible-menu-view",
   "properties": {
     "isSelected": {
@@ -25,5 +24,6 @@
       "type": "Bool",
       "default": true
     }
-  }
+  },
+  "import": "CollapsibleMenuView"
 }

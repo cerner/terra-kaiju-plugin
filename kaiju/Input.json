@@ -2,9 +2,9 @@
   "name": "Input",
   "library": "terra-form-input",
   "display": "Input",
-  "description": "Input form element",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
+  "description": "Element for building out inputs in a form.",
   "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
   "properties": {
     "required": {
       "type": "Bool"

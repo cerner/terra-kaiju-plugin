@@ -2,7 +2,7 @@
   "name": "ToggleButton",
   "library": "terra-toggle-button",
   "display": "Toggle Button",
-  "description": "A disclosure mechanism for showing and hiding content in an animated fashion by interacting with a Button",
+  "description": "Toggle button component that transitions content in and out with the click on a button.",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-button/toggle-button",
   "properties": {
@@ -36,6 +36,10 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "icon": {
+      "type": "Component",
+      "display": "Icon"
     }
   }
 }

@@ -2,11 +2,11 @@
   "name": "DatePicker",
   "library": "terra-date-picker",
   "display": "Date Picker",
-  "description": "A controlled input component for selecting dates",
+  "description": "The terra-date-picker component provides users a way to enter or select a date from the date picker.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-picker/date-picker",
   "properties": {
-    "isDisabled": {
+    "disabled": {
       "type": "Bool",
       "display": "Disabled"
     },

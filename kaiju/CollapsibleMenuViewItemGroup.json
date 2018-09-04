@@ -4,17 +4,14 @@
   "display": "Collapsible Menu group",
   "description": "A collapsing menu group",
   "group": "Molecules::Collapsible Menu View",
-  "import": "CollapsibleMenuView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-collapsible-menu-view/collapsible-menu-view",
   "properties": {
-    "isSelectable": {
-      "type": "Bool"
-    },
     "children": {
       "type": "Array",
       "schema": {
         "type": "Component"
       }
     }
-  }
+  },
+  "import": "CollapsibleMenuView"
 }

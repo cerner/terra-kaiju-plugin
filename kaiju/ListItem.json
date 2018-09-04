@@ -4,7 +4,6 @@
   "display": "List Item",
   "description": "A list item for managing selections and chevrons",
   "group": "Organisms::List",
-  "import": "List",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {
     "isSelected": {
@@ -22,5 +21,6 @@
     "content": {
       "type": "Component"
     }
-  }
+  },
+  "import": "List"
 }

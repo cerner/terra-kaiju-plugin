@@ -4,7 +4,6 @@
   "display": "Table Row",
   "description": "A table row",
   "group": "Organisms::Table",
-  "import": "Table",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "isSelected": {
@@ -21,5 +20,6 @@
         "type": "Component"
       }
     }
-  }
+  },
+  "import": "Table"
 }

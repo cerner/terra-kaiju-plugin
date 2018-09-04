@@ -2,10 +2,14 @@
   "name": "ProgressBar",
   "library": "terra-progress-bar",
   "display": "Progress Bar",
-  "description": "Display the progress of a process",
+  "description": "terra-progress-bar",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-progress-bar/progress-bar",
   "properties": {
+    "hasGradient": {
+      "type": "Bool",
+      "display": "Has gradient"
+    },
     "color": {
       "type": "String"
     },
@@ -16,6 +20,39 @@
     "value": {
       "type": "Number",
       "default": 20
+    },
+    "heightSize": {
+      "type": "String",
+      "display": "Height size",
+      "default": "small",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Tiny",
+          "value": "tiny",
+          "type": "String"
+        },
+        {
+          "display": "Small",
+          "value": "small",
+          "type": "String"
+        },
+        {
+          "display": "Medium",
+          "value": "medium",
+          "type": "String"
+        },
+        {
+          "display": "Large",
+          "value": "large",
+          "type": "String"
+        },
+        {
+          "display": "Huge",
+          "value": "huge",
+          "type": "String"
+        }
+      ]
     }
   }
 }

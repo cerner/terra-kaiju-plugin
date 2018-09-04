@@ -2,7 +2,7 @@
   "name": "Heading",
   "library": "terra-heading",
   "display": "Heading",
-  "description": "Provides standard heading styles ( h1-h6 )",
+  "description": "Terra includes styling for all standard headings `h1` through `h6`, as well as styles that match the size of their respective heading.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-heading/heading",
   "properties": {

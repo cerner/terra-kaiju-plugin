@@ -4,7 +4,6 @@
   "display": "Item Display Comment",
   "description": "A styled ItemView comment display and icon",
   "group": "Molecules::Item View",
-  "import": "ItemDisplay",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-display/clinical-item-display",
   "properties": {
     "isTruncated": {
@@ -15,5 +14,6 @@
       "type": "String",
       "default": "Comment text"
     }
-  }
+  },
+  "import": "ItemDisplay"
 }

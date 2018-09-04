@@ -136,7 +136,7 @@ class Generator {
       {
         name: Generator.titleize(sourceFile),
         library: dependency,
-        display: Generator.titleize(sourceFile, ' '),
+        display: Generator.humanize(Generator.titleize(sourceFile)),
         description: '',
         group: '',
         documentation: `${BASE_URL}${dependency}/${dependency.replace('terra-', '')}`,

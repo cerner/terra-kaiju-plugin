@@ -2,7 +2,7 @@
   "name": "ResponsiveElement",
   "library": "terra-responsive-element",
   "display": "Responsive Element",
-  "description": "Conditionally renders components based on viewport size",
+  "description": "The terra-responsive-element conditionally renders components based on viewport size",
   "group": "Organisms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-responsive-element/responsive-element",
   "properties": {

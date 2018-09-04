@@ -2,7 +2,7 @@
   "name": "DemographicsBanner",
   "library": "terra-demographics-banner",
   "display": "Demographics Banner",
-  "description": "Displays condensed demographic information",
+  "description": "The demographics component is used to display demographic information about a person in a condensed, easy to read format.",
   "group": "Organisms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-demographics-banner/demographics-banner",
   "properties": {
@@ -50,6 +50,10 @@
         "type": "Component",
         "drop_zone": false
       }
+    },
+    "preferredFirstName": {
+      "type": "String",
+      "display": "Preferred first name"
     }
   }
 }

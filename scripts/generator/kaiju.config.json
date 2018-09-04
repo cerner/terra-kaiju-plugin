@@ -91,10 +91,6 @@
     "terra-heading": {},
     "terra-image": {},
     "terra-list": {
-      "exports": {
-        "SingleSelectList": {},
-        "MultiSelectList": {}
-      },
       "subcomponents": {
         "ListItem": {}
       }
@@ -129,7 +125,10 @@
     "terra-tabs": {
       "subcomponents": {
         "TabPane": {}
-      }
+      },
+      "ignoredProperties": [
+        "activeKey"
+      ]
     },
     "terra-tag": {},
     "terra-text": {},

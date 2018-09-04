@@ -2,7 +2,7 @@
   "name": "Checkbox",
   "library": "terra-form-checkbox",
   "display": "Checkbox",
-  "description": "An on/off toggle represented by a checkmark inside of a box to the left of a description",
+  "description": "The Terra Form Checkbox is a responsive input component rendered as a box. When activated, a check mark shall appear. Focus can be activated through tabbing and the checked state can be toggled with the space bar.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-checkbox/form-checkbox",
   "properties": {
@@ -25,6 +25,14 @@
     },
     "value": {
       "type": "String"
+    },
+    "id": {
+      "type": "String",
+      "display": "Id"
+    },
+    "name": {
+      "type": "String",
+      "display": "Name"
     }
   }
 }
