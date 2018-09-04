@@ -2,7 +2,7 @@
   "name": "ProgressBar",
   "library": "terra-progress-bar",
   "display": "Progress Bar",
-  "description": "terra-progress-bar",
+  "description": "Display the progress of a process.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-progress-bar/progress-bar",
   "properties": {
