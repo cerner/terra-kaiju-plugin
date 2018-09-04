@@ -1,0 +1,141 @@
+{
+  "dependencies": {
+    "terra-alert": {},
+    "terra-arrange": {},
+    "terra-avatar": {},
+    "terra-badge": {},
+    "terra-button": {},
+    "terra-button-group": {
+      "subcomponents": {
+        "ButtonGroupButton": {}
+      }
+    },
+    "terra-card": {
+      "subcomponents": {
+        "CardBody": {}
+      }
+    },
+    "terra-clinical-action-header": {},
+    "terra-clinical-detail-view": {
+      "subcomponents": {
+        "DetailList": {},
+        "DetailListItem": {}
+      }
+    },
+    "terra-clinical-error-view": {
+      "deprecated": true
+    },
+    "terra-clinical-header": {},
+    "terra-clinical-item-collection": {
+      "subcomponents": {
+        "Item": {}
+      }
+    },
+    "terra-clinical-item-display": {
+      "subcomponents": {
+        "ItemComment": {}
+      }
+    },
+    "terra-clinical-item-view": {},
+    "terra-clinical-label-value-view": {},
+    "terra-clinical-no-data-view": {
+      "deprecated": true
+    },
+    "terra-collapsible-menu-view": {
+      "subcomponents": {
+        "CollapsibleMenuViewDivider": {},
+        "CollapsibleMenuViewItem": {},
+        "CollapsibleMenuViewItemGroup": {},
+        "CollapsibleMenuViewToggle": {}
+      }
+    },
+    "terra-content-container": {},
+    "terra-date-picker": {},
+    "terra-date-time-picker": {},
+    "terra-demographics-banner": {},
+    "terra-dialog": {},
+    "terra-divider": {},
+    "terra-form-checkbox": {
+      "ignoredProperties": [
+        "checked"
+      ]
+    },
+    "terra-form-field": {},
+    "terra-form-fieldset": {},
+    "terra-form-input": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-form-radio": {
+      "ignoredProperties": [
+        "checked"
+      ]
+    },
+    "terra-form-select": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-form-textarea": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-grid": {
+      "subcomponents": {
+        "GridColumn": {},
+        "GridRow": {}
+      }
+    },
+    "terra-heading": {},
+    "terra-image": {},
+    "terra-list": {
+      "exports": {
+        "SingleSelectList": {},
+        "MultiSelectList": {}
+      },
+      "subcomponents": {
+        "ListItem": {}
+      }
+    },
+    "terra-overlay": {
+      "exports": {
+        "LoadingOverlay": {},
+        "OverlayContainer": {}
+      }
+    },
+    "terra-progress-bar": {},
+    "terra-responsive-element": {},
+    "terra-search-field": {
+      "ignoredProperties": [
+        "value"
+      ]
+    },
+    "terra-signature": {},
+    "terra-slide-panel": {},
+    "terra-spacer": {},
+    "terra-status": {},
+    "terra-status-view": {},
+    "terra-table": {
+      "subcomponents": {
+        "TableCell": {},
+        "TableHeader": {},
+        "TableHeaderCell": {},
+        "TableRow": {},
+        "TableRows": {}
+      }
+    },
+    "terra-tabs": {
+      "subcomponents": {
+        "TabPane": {}
+      }
+    },
+    "terra-tag": {},
+    "terra-text": {},
+    "terra-time-input": {},
+    "terra-toggle": {},
+    "terra-toggle-button": {},
+    "terra-toggle-section-header": {}
+  }
+}
