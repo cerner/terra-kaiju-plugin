@@ -14,6 +14,13 @@
       "type": "String",
       "default": "Title"
     },
+    "secondaryTitles": {
+      "type": "Array",
+      "display": "Secondary titles",
+      "schema": {
+        "type": "String"
+      }
+    },
     "footer": {
       "type": "String",
       "default": "Footer"

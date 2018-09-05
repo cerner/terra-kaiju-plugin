@@ -2,10 +2,18 @@
   "name": "SectionHeader",
   "library": "terra-section-header",
   "display": "Section Header",
-  "description": "Presentational header for distinguishing sections",
+  "description": "Section Header component that contains text and can be optionally interacted with.",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-section-header/section-header",
   "properties": {
+    "isOpen": {
+      "type": "Bool",
+      "display": "Open"
+    },
+    "isTransparent": {
+      "type": "Bool",
+      "display": "Transparent"
+    },
     "title": {
       "type": "String",
       "default": "Title"

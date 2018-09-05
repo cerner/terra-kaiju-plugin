@@ -1,35 +1,63 @@
 {
-  "name": "Select",
+  "name": "SelectField",
   "library": "terra-form-select",
-  "display": "Select",
-  "description": "Provides a drop down of selectable options.",
-  "group": "Atoms::Forms",
+  "display": "Select field",
+  "description": "",
+  "group": "Molecules::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
     "isInvalid": {
       "type": "Bool",
       "display": "Invalid"
     },
-    "disabled": {
-      "type": "Bool"
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Label hidden"
+    },
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
     },
     "placeholder": {
-      "type": "String"
+      "type": "String",
+      "display": "Placeholder"
     },
-    "defaultValue": {
-      "type": "String"
-    },
-    "maxHeight": {
-      "type": "Number",
-      "display": "Max height"
-    },
-    "noResultContent": {
-      "type": "Array",
-      "display": "No result content",
-      "schema": {
-        "type": "Component",
-        "drop_zone": false
-      }
+    "selectId": {
+      "type": "String",
+      "display": "Select id"
     },
     "variant": {
       "type": "String",
@@ -92,5 +120,6 @@
         }
       ]
     }
-  }
+  },
+  "import_from": "terra-form-select/lib/SelectField"
 }

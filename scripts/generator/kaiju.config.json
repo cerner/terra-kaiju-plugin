@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "terra-action-footer": {},
+    "terra-action-header": {},
     "terra-alert": {},
     "terra-arrange": {},
     "terra-avatar": {},
@@ -8,14 +10,19 @@
     "terra-button-group": {
       "subcomponents": {
         "ButtonGroupButton": {}
-      }
+      },
+      "ignoredProperties": [
+        "selectedKeys"
+      ]
     },
     "terra-card": {
       "subcomponents": {
         "CardBody": {}
       }
     },
-    "terra-clinical-action-header": {},
+    "terra-clinical-action-header": {
+      "deprecated": true
+    },
     "terra-clinical-detail-view": {
       "subcomponents": {
         "DetailList": {},
@@ -45,7 +52,11 @@
       "subcomponents": {
         "CollapsibleMenuViewDivider": {},
         "CollapsibleMenuViewItem": {},
-        "CollapsibleMenuViewItemGroup": {},
+        "CollapsibleMenuViewItemGroup": {
+          "ignoredProperties": [
+            "selectedKeys"
+          ]
+        },
         "CollapsibleMenuViewToggle": {}
       }
     },
@@ -63,21 +74,33 @@
     "terra-form-field": {},
     "terra-form-fieldset": {},
     "terra-form-input": {
+      "exports": {
+        "InputField": {}
+      },
       "ignoredProperties": [
         "value"
       ]
     },
     "terra-form-radio": {
+      "exports": {
+        "RadioField": {}
+      },
       "ignoredProperties": [
         "checked"
       ]
     },
     "terra-form-select": {
+      "exports": {
+        "SelectField": {}
+      },
       "ignoredProperties": [
         "value"
       ]
     },
     "terra-form-textarea": {
+      "exports": {
+        "TextareaField": {}
+      },
       "ignoredProperties": [
         "value"
       ]
@@ -89,6 +112,7 @@
       }
     },
     "terra-heading": {},
+    "terra-hyperlink": {},
     "terra-image": {},
     "terra-list": {
       "subcomponents": {
@@ -103,11 +127,13 @@
     },
     "terra-progress-bar": {},
     "terra-responsive-element": {},
+    "terra-scroll": {},
     "terra-search-field": {
       "ignoredProperties": [
         "value"
       ]
     },
+    "terra-section-header": {},
     "terra-signature": {},
     "terra-slide-panel": {},
     "terra-spacer": {},

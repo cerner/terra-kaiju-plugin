@@ -2,7 +2,7 @@
   "name": "Image",
   "library": "terra-image",
   "display": "Image",
-  "description": "Provides a flexible image container",
+  "description": "The terra-image component provides styling for visual imagery.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-image/image",
   "properties": {

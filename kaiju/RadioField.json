@@ -1,0 +1,63 @@
+{
+  "name": "RadioField",
+  "library": "terra-form-radio",
+  "display": "Radio field",
+  "description": "",
+  "group": "Molecules::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-radio/form-radio",
+  "properties": {
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "isLegendHidden": {
+      "type": "Bool",
+      "display": "Legend hidden"
+    },
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    },
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "legend": {
+      "type": "Array",
+      "display": "Legend",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "children": {
+      "type": "Array",
+      "display": "Children",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  },
+  "import_from": "terra-form-radio/lib/RadioField"
+}

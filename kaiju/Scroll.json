@@ -1,0 +1,17 @@
+{
+  "name": "Scroll",
+  "library": "terra-scroll",
+  "display": "Scroll",
+  "description": "The terra-scroll is a content view that hides data accessible with scrolling and provides a refCallback.",
+  "group": "",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-scroll/scroll",
+  "properties": {
+    "children": {
+      "type": "Array",
+      "display": "Children",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  }
+}

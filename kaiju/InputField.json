@@ -1,0 +1,64 @@
+{
+  "name": "InputField",
+  "library": "terra-form-input",
+  "display": "Input field",
+  "description": "",
+  "group": "Molecules::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
+  "properties": {
+    "inputId": {
+      "type": "String",
+      "display": "Input id"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "errorIcon": {
+      "type": "Component",
+      "display": "Error icon"
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Label hidden"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    }
+  },
+  "import_from": "terra-form-input/lib/InputField"
+}

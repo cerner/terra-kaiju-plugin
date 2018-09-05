@@ -8,6 +8,7 @@ const { parse } = require('react-docgen');
  * Supported Kaiju types.
  */
 const SupportedTypes = {
+  Array: 'Array',
   Bool: 'Bool',
   CodifiedList: 'CodifiedList',
   Component: 'Component',
