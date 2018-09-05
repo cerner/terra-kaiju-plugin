@@ -2,7 +2,7 @@
   "name": "Textarea",
   "library": "terra-form-textarea",
   "display": "Textarea",
-  "description": "A text area",
+  "description": "Element for building out textareas in a form.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea",
   "properties": {

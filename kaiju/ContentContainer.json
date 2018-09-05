@@ -2,7 +2,7 @@
   "name": "ContentContainer",
   "library": "terra-content-container",
   "display": "Content Container",
-  "description": "A structural component for arranging content with a header",
+  "description": "The Terra ContentContainer is a structural component for the purpose of arranging content with a header.",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-content-container/content-container",
   "properties": {

@@ -2,7 +2,7 @@
   "name": "Arrange",
   "library": "terra-arrange",
   "display": "Arrange",
-  "description": "A flexible container for aligning start, fill, and end content",
+  "description": "The arrange component is used for horizontally arranging and vertically aligning a single row of container elements.",
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-arrange/arrange",
   "properties": {

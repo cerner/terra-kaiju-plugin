@@ -51,6 +51,10 @@
           "type": "String"
         }
       ]
+    },
+    "placeholder": {
+      "type": "Component",
+      "display": "Placeholder"
     }
   }
 }

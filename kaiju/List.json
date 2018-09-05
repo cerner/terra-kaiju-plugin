@@ -2,7 +2,7 @@
   "name": "List",
   "library": "terra-list",
   "display": "List",
-  "description": "A list",
+  "description": "terra-list",
   "group": "Organisms::List",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {

@@ -2,10 +2,14 @@
   "name": "TimeInput",
   "library": "terra-time-input",
   "display": "Time Input",
-  "description": "A controlled input for time entry",
+  "description": "A controlled input component for entering time.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-time-input/time-input",
   "properties": {
+    "disabled": {
+      "type": "Bool",
+      "display": "Disabled"
+    },
     "name": {
       "type": "String",
       "default": "inputName"
@@ -13,6 +17,23 @@
     "value": {
       "type": "String",
       "default": "T14:51"
+    },
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "24-hour",
+      "options": [
+        {
+          "display": "24-hour",
+          "value": "24-hour",
+          "type": "String"
+        },
+        {
+          "display": "12-hour",
+          "value": "12-hour",
+          "type": "String"
+        }
+      ]
     }
   }
 }

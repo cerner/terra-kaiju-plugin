@@ -2,7 +2,7 @@
   "name": "Spacer",
   "library": "terra-spacer",
   "display": "Spacer",
-  "description": "Adds margins and padding",
+  "description": "This component is used to provide margin and/or padding space between two components based on the given values.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-spacer/spacer",
   "properties": {

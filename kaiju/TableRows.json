@@ -4,7 +4,6 @@
   "display": "Table Rows",
   "description": "Table rows",
   "group": "Organisms::Table",
-  "import": "Table",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "children": {
@@ -13,5 +12,6 @@
         "type": "Component"
       }
     }
-  }
+  },
+  "import": "Table"
 }

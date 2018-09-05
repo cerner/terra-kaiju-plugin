@@ -2,7 +2,7 @@
   "name": "Field",
   "library": "terra-form-field",
   "display": "Field",
-  "description": "A form container for arranging error, help, label, and value text",
+  "description": "The Form Field component handles the layout of the label, help text and error text associated with a form element.",
   "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-field/form-field",
   "properties": {

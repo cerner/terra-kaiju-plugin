@@ -4,9 +4,16 @@
   "display": "Item Collection Item",
   "description": "A collection item",
   "group": "Molecules::Item Collection",
-  "import": "ItemCollection",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-collection/clinical-item-collection",
   "properties": {
+    "reserveStartAccessorySpace": {
+      "type": "Bool",
+      "display": "Reserve start accessory space"
+    },
+    "isListItemTruncated": {
+      "type": "Bool",
+      "display": "List item truncated"
+    },
     "startAccessory": {
       "type": "Component",
       "drop_zone": false
@@ -83,9 +90,23 @@
         }
       ]
     },
-    "isListItemTruncated": {
-      "type": "Bool",
-      "display": "Truncated"
+    "view": {
+      "type": "String",
+      "display": "View",
+      "default": "list",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "List",
+          "value": "list",
+          "type": "String"
+        },
+        {
+          "display": "Table",
+          "value": "table",
+          "type": "String"
+        }
+      ]
     },
     "children": {
       "type": "Array",
@@ -94,5 +115,6 @@
         "drop_zone": false
       }
     }
-  }
+  },
+  "import": "ItemCollection"
 }

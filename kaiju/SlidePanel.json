@@ -2,7 +2,7 @@
   "name": "SlidePanel",
   "library": "terra-slide-panel",
   "display": "Slide Panel",
-  "description": "A progessive disclosure mechanism for content",
+  "description": "The Terra SlidePanel component is a progressive disclosure mechanism that allows additional content to be shown and hidden in a variety of ways.",
   "group": "Organisms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-slide-panel/slide-panel",
   "properties": {

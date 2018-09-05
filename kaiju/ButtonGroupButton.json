@@ -4,7 +4,6 @@
   "display": "Button Group Button",
   "description": "A Button Group Button",
   "group": "Molecules::Button Group",
-  "import": "ButtonGroup",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button-group/button-group",
   "properties": {
     "isDisabled": {
@@ -19,5 +18,6 @@
       "type": "String",
       "default": "Button"
     }
-  }
+  },
+  "import": "ButtonGroup"
 }

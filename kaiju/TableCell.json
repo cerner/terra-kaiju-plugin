@@ -4,11 +4,11 @@
   "display": "Table Cell",
   "description": "A table cell",
   "group": "Organisms::Table",
-  "import": "Table",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "content": {
       "type": "Component"
     }
-  }
+  },
+  "import": "Table"
 }

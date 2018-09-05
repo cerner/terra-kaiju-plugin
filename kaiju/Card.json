@@ -2,10 +2,27 @@
   "name": "Card",
   "library": "terra-card",
   "display": "Card",
-  "description": "Simple container for content",
+  "description": "Card is a basic container with some base styling to help seperate elements with different content",
   "group": "Atoms::Card",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-card/card",
   "properties": {
+    "variant": {
+      "type": "String",
+      "form_type": "CodifiedList",
+      "default": "default",
+      "options": [
+        {
+          "display": "Default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "Raised",
+          "value": "raised",
+          "type": "String"
+        }
+      ]
+    },
     "children": {
       "type": "Array",
       "schema": {

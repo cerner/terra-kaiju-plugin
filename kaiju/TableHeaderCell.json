@@ -4,7 +4,6 @@
   "display": "Table Header Cell",
   "description": "A table header cell",
   "group": "Organisms::Table",
-  "import": "Table",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "minWidth": {
@@ -64,5 +63,6 @@
     "content": {
       "type": "Component"
     }
-  }
+  },
+  "import": "Table"
 }

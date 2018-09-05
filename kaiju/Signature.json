@@ -2,7 +2,7 @@
   "name": "Signature",
   "library": "terra-signature",
   "display": "Signature",
-  "description": "A customizable signature",
+  "description": "A signature defined by an array of line segments.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-signature/signature",
   "properties": {

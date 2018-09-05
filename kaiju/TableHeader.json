@@ -4,7 +4,6 @@
   "display": "Table Header",
   "description": "A table header",
   "group": "Organisms::Table",
-  "import": "Table",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
   "properties": {
     "children": {
@@ -13,5 +12,6 @@
         "type": "Component"
       }
     }
-  }
+  },
+  "import": "Table"
 }

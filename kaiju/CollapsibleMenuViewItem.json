@@ -4,7 +4,6 @@
   "display": "Collapsible Menu Item",
   "description": "A collapsing menu item",
   "group": "Molecules::Collapsible Menu View",
-  "import": "CollapsibleMenuView",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-collapsible-menu-view/collapsible-menu-view",
   "properties": {
     "isIconOnly": {
@@ -79,5 +78,6 @@
         }
       ]
     }
-  }
+  },
+  "import": "CollapsibleMenuView"
 }

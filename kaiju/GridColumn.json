@@ -4,7 +4,6 @@
   "display": "Grid Column",
   "description": "A grid column",
   "group": "Organisms::Grid",
-  "import": "Grid",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
   "properties": {
     "col": {
@@ -408,6 +407,11 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "className": {
+      "type": "String",
+      "display": "Class name"
     }
-  }
+  },
+  "import": "Grid"
 }
