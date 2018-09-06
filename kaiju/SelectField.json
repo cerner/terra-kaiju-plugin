@@ -36,12 +36,14 @@
       "schema": {
         "type": "Component"
       },
-      "default": {
-        "type": "kaiju::Text",
-        "props": {
-          "text": "Legend"
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Legend"
+          }
         }
-      }
+      ]
     },
     "error": {
       "type": "Array",

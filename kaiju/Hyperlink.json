@@ -62,12 +62,14 @@
       "schema": {
         "type": "Component"
       },
-      "default": {
-        "type": "kaiju::Text",
-        "props": {
-          "text": "Hyperlink"
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Hyperlink"
+          }
         }
-      }
+      ]
     }
   }
 }

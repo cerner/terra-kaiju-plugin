@@ -36,12 +36,14 @@
       "schema": {
         "type": "Component"
       },
-      "default": {
-        "type": "kaiju::Text",
-        "props": {
-          "text": "Label"
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Label"
+          }
         }
-      }
+      ]
     },
     "inputId": {
       "type": "String",
@@ -52,12 +54,6 @@
       "display": "Error",
       "schema": {
         "type": "Component"
-      },
-      "default": {
-        "type": "kaiju::Text",
-        "props": {
-          "text": "Error"
-        }
       }
     },
     "errorIcon": {
@@ -69,12 +65,6 @@
       "display": "Help",
       "schema": {
         "type": "Component"
-      },
-      "default": {
-        "type": "kaiju::Text",
-        "props": {
-          "text": "Help Text"
-        }
       }
     }
   },
