@@ -2,39 +2,10 @@
   "name": "InputField",
   "library": "terra-form-input",
   "display": "Input field",
-  "description": "",
+  "description": "An input wrapped in a field component.",
   "group": "Molecules::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
   "properties": {
-    "inputId": {
-      "type": "String",
-      "display": "Input id"
-    },
-    "label": {
-      "type": "Array",
-      "display": "Label",
-      "schema": {
-        "type": "Component"
-      }
-    },
-    "error": {
-      "type": "Array",
-      "display": "Error",
-      "schema": {
-        "type": "Component"
-      }
-    },
-    "errorIcon": {
-      "type": "Component",
-      "display": "Error icon"
-    },
-    "help": {
-      "type": "Array",
-      "display": "Help",
-      "schema": {
-        "type": "Component"
-      }
-    },
     "hideRequired": {
       "type": "Bool",
       "display": "Hide required"
@@ -58,6 +29,53 @@
     "showOptional": {
       "type": "Bool",
       "display": "Show optional"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Label"
+        }
+      }
+    },
+    "inputId": {
+      "type": "String",
+      "display": "Input id"
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Error"
+        }
+      }
+    },
+    "errorIcon": {
+      "type": "Component",
+      "display": "Error icon"
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Help Text"
+        }
+      }
     }
   },
   "import_from": "terra-form-input/lib/InputField"

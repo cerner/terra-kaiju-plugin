@@ -10,10 +10,6 @@
       "type": "Bool",
       "display": "Reversed"
     },
-    "icon": {
-      "type": "Component",
-      "drop_zone": false
-    },
     "text": {
       "type": "String",
       "default": "Badge"
@@ -21,6 +17,7 @@
     "intent": {
       "type": "String",
       "form_type": "CodifiedList",
+      "default": "default",
       "options": [
         {
           "display": "default",
@@ -62,6 +59,7 @@
     "size": {
       "type": "String",
       "form_type": "CodifiedList",
+      "default": "small",
       "options": [
         {
           "display": "tiny",
@@ -89,6 +87,10 @@
           "type": "String"
         }
       ]
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
     },
     "children": {
       "type": "Array",

@@ -2,7 +2,7 @@
   "name": "TextareaField",
   "library": "terra-form-textarea",
   "display": "Textarea field",
-  "description": "",
+  "description": "A textarea wrapped in a field component.",
   "group": "Molecules::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea",
   "properties": {
@@ -30,15 +30,17 @@
       "type": "Bool",
       "display": "Show optional"
     },
-    "inputId": {
-      "type": "String",
-      "display": "Input id"
-    },
     "label": {
       "type": "Array",
       "display": "Label",
       "schema": {
         "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Legend"
+        }
       }
     },
     "error": {
@@ -58,6 +60,10 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "inputId": {
+      "type": "String",
+      "display": "Input id"
     }
   },
   "import_from": "terra-form-textarea/lib/TextareaField"

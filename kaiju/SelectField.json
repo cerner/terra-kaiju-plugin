@@ -2,7 +2,7 @@
   "name": "SelectField",
   "library": "terra-form-select",
   "display": "Select field",
-  "description": "",
+  "description": "A select input wrapped in a field component.",
   "group": "Molecules::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
@@ -35,6 +35,12 @@
       "display": "Label",
       "schema": {
         "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Legend"
+        }
       }
     },
     "error": {
@@ -51,13 +57,13 @@
         "type": "Component"
       }
     },
-    "placeholder": {
-      "type": "String",
-      "display": "Placeholder"
-    },
     "selectId": {
       "type": "String",
       "display": "Select id"
+    },
+    "placeholder": {
+      "type": "String",
+      "display": "Placeholder"
     },
     "variant": {
       "type": "String",

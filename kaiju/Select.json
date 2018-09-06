@@ -13,23 +13,12 @@
     "disabled": {
       "type": "Bool"
     },
-    "placeholder": {
-      "type": "String"
-    },
-    "defaultValue": {
-      "type": "String"
-    },
     "maxHeight": {
       "type": "Number",
       "display": "Max height"
     },
-    "noResultContent": {
-      "type": "Array",
-      "display": "No result content",
-      "schema": {
-        "type": "Component",
-        "drop_zone": false
-      }
+    "placeholder": {
+      "type": "String"
     },
     "variant": {
       "type": "String",
@@ -62,6 +51,17 @@
           "type": "String"
         }
       ]
+    },
+    "defaultValue": {
+      "type": "String"
+    },
+    "noResultContent": {
+      "type": "Array",
+      "display": "No result content",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
     },
     "children": {
       "type": "Array",

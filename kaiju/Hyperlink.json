@@ -6,17 +6,6 @@
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-hyperlink/hyperlink",
   "properties": {
-    "children": {
-      "type": "Array",
-      "display": "Children",
-      "schema": {
-        "type": "Component"
-      }
-    },
-    "href": {
-      "type": "String",
-      "display": "Href"
-    },
     "isDisabled": {
       "type": "Bool",
       "display": "Disabled"
@@ -24,6 +13,10 @@
     "isUnderlineHidden": {
       "type": "Bool",
       "display": "Underline hidden"
+    },
+    "href": {
+      "type": "String",
+      "display": "Href"
     },
     "variant": {
       "type": "String",
@@ -62,6 +55,19 @@
           "type": "String"
         }
       ]
+    },
+    "children": {
+      "type": "Array",
+      "display": "Children",
+      "schema": {
+        "type": "Component"
+      },
+      "default": {
+        "type": "kaiju::Text",
+        "props": {
+          "text": "Hyperlink"
+        }
+      }
     }
   }
 }
