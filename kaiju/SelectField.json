@@ -40,7 +40,7 @@
         {
           "type": "kaiju::Text",
           "props": {
-            "text": "Legend"
+            "text": "Label"
           }
         }
       ]
