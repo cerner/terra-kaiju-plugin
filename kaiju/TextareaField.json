@@ -1,0 +1,72 @@
+{
+  "name": "TextareaField",
+  "library": "terra-form-textarea",
+  "display": "Textarea field",
+  "description": "A textarea wrapped in a field component.",
+  "group": "Molecules::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea",
+  "properties": {
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Label hidden"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Label"
+          }
+        }
+      ]
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "errorIcon": {
+      "type": "Component",
+      "display": "Error icon"
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "inputId": {
+      "type": "String",
+      "display": "Input id"
+    }
+  },
+  "import_from": "terra-form-textarea/lib/TextareaField"
+}

@@ -1,24 +1,71 @@
 {
-  "name": "Select",
+  "name": "SelectField",
   "library": "terra-form-select",
-  "display": "Select",
-  "description": "Provides a drop down of selectable options.",
-  "group": "Atoms::Forms",
+  "display": "Select field",
+  "description": "A select input wrapped in a field component.",
+  "group": "Molecules::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
     "isInvalid": {
       "type": "Bool",
       "display": "Invalid"
     },
-    "disabled": {
-      "type": "Bool"
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Label hidden"
     },
-    "maxHeight": {
-      "type": "Number",
-      "display": "Max height"
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Label"
+          }
+        }
+      ]
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "selectId": {
+      "type": "String",
+      "display": "Select id"
     },
     "placeholder": {
-      "type": "String"
+      "type": "String",
+      "display": "Placeholder"
     },
     "variant": {
       "type": "String",
@@ -52,17 +99,6 @@
         }
       ]
     },
-    "defaultValue": {
-      "type": "String"
-    },
-    "noResultContent": {
-      "type": "Array",
-      "display": "No result content",
-      "schema": {
-        "type": "Component",
-        "drop_zone": false
-      }
-    },
     "children": {
       "type": "Array",
       "schema": {
@@ -92,5 +128,6 @@
         }
       ]
     }
-  }
+  },
+  "import_from": "terra-form-select/lib/SelectField"
 }

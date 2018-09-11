@@ -1,21 +1,56 @@
 {
   "name": "ActionHeader",
-  "library": "terra-clinical-action-header",
-  "display": "Action Header",
-  "description": "An action header is a header bar with a grey background containing actionable navigation buttons, a left aligned title, and a space for an additional element to be added on the right side.",
-  "group": "Organisms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-action-header/clinical-action-header",
+  "library": "terra-action-header",
+  "display": "Action header",
+  "description": "The terra-action-header component is a header bar containing a title and optional actionable items such as links and buttons.",
+  "group": "Molecules::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-action-header/action-header",
   "properties": {
-    "keepCloseButton": {
-      "type": "Bool",
-      "display": "Keep close button"
-    },
     "title": {
       "type": "String",
-      "default": "Title"
+      "display": "Title"
+    },
+    "level": {
+      "type": "Number",
+      "display": "Level",
+      "default": "1",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "1",
+          "value": "1",
+          "type": "Number"
+        },
+        {
+          "display": "2",
+          "value": "2",
+          "type": "Number"
+        },
+        {
+          "display": "3",
+          "value": "3",
+          "type": "Number"
+        },
+        {
+          "display": "4",
+          "value": "4",
+          "type": "Number"
+        },
+        {
+          "display": "5",
+          "value": "5",
+          "type": "Number"
+        },
+        {
+          "display": "6",
+          "value": "6",
+          "type": "Number"
+        }
+      ]
     },
     "children": {
-      "type": "Component"
+      "type": "Component",
+      "display": "Children"
     }
   }
 }
