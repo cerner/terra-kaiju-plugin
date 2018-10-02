@@ -1,0 +1,75 @@
+{
+  "name": "Hyperlink",
+  "library": "terra-hyperlink",
+  "display": "Hyperlink",
+  "description": "The terra hyperlink component allows linking to other web pages, files, locations within the same page, email addresses, or any other URL.",
+  "group": "Atoms::Other",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-hyperlink/hyperlink",
+  "properties": {
+    "isDisabled": {
+      "type": "Bool",
+      "display": "Disabled"
+    },
+    "isUnderlineHidden": {
+      "type": "Bool",
+      "display": "Underline hidden"
+    },
+    "href": {
+      "type": "String",
+      "display": "Href"
+    },
+    "variant": {
+      "type": "String",
+      "display": "Variant",
+      "default": "default",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Default",
+          "value": "default",
+          "type": "String"
+        },
+        {
+          "display": "External",
+          "value": "external",
+          "type": "String"
+        },
+        {
+          "display": "Image",
+          "value": "image",
+          "type": "String"
+        },
+        {
+          "display": "Video",
+          "value": "video",
+          "type": "String"
+        },
+        {
+          "display": "Audio",
+          "value": "audio",
+          "type": "String"
+        },
+        {
+          "display": "Document",
+          "value": "document",
+          "type": "String"
+        }
+      ]
+    },
+    "children": {
+      "type": "Array",
+      "display": "Children",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Hyperlink"
+          }
+        }
+      ]
+    }
+  }
+}

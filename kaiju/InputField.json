@@ -1,0 +1,72 @@
+{
+  "name": "InputField",
+  "library": "terra-form-input",
+  "display": "Input field",
+  "description": "An input wrapped in a field component.",
+  "group": "Molecules::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
+  "properties": {
+    "hideRequired": {
+      "type": "Bool",
+      "display": "Hide required"
+    },
+    "isInline": {
+      "type": "Bool",
+      "display": "Inline"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "isLabelHidden": {
+      "type": "Bool",
+      "display": "Label hidden"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
+    },
+    "showOptional": {
+      "type": "Bool",
+      "display": "Show optional"
+    },
+    "label": {
+      "type": "Array",
+      "display": "Label",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "kaiju::Text",
+          "props": {
+            "text": "Label"
+          }
+        }
+      ]
+    },
+    "inputId": {
+      "type": "String",
+      "display": "Input id"
+    },
+    "error": {
+      "type": "Array",
+      "display": "Error",
+      "schema": {
+        "type": "Component"
+      }
+    },
+    "errorIcon": {
+      "type": "Component",
+      "display": "Error icon"
+    },
+    "help": {
+      "type": "Array",
+      "display": "Help",
+      "schema": {
+        "type": "Component"
+      }
+    }
+  },
+  "import_from": "terra-form-input/lib/InputField"
+}

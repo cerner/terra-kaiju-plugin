@@ -2,7 +2,7 @@
   "name": "ProgressBar",
   "library": "terra-progress-bar",
   "display": "Progress Bar",
-  "description": "Display the progress of a process.",
+  "description": "The progress bar component provides users a way to display the progress of process or activity in a graphical manner.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-progress-bar/progress-bar",
   "properties": {

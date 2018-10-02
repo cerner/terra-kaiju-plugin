@@ -2,17 +2,13 @@
   "name": "Badge",
   "library": "terra-badge",
   "display": "Badge",
-  "description": "Displays content classification",
+  "description": "The terra-badge component displays content classification.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-badge/badge",
   "properties": {
     "isReversed": {
       "type": "Bool",
       "display": "Reversed"
-    },
-    "icon": {
-      "type": "Component",
-      "drop_zone": false
     },
     "text": {
       "type": "String",
@@ -21,6 +17,7 @@
     "intent": {
       "type": "String",
       "form_type": "CodifiedList",
+      "default": "default",
       "options": [
         {
           "display": "default",
@@ -62,6 +59,7 @@
     "size": {
       "type": "String",
       "form_type": "CodifiedList",
+      "default": "small",
       "options": [
         {
           "display": "tiny",
@@ -89,6 +87,18 @@
           "type": "String"
         }
       ]
+    },
+    "icon": {
+      "type": "Component",
+      "drop_zone": false
+    },
+    "children": {
+      "type": "Array",
+      "display": "Children",
+      "schema": {
+        "type": "Component",
+        "drop_zone": false
+      }
     }
   }
 }

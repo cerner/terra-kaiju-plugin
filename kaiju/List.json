@@ -2,7 +2,7 @@
   "name": "List",
   "library": "terra-list",
   "display": "List",
-  "description": "terra-list",
+  "description": "The Terra List is a structural component to arrange content within list/listitems.",
   "group": "Organisms::List",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
   "properties": {
