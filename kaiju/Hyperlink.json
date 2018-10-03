@@ -14,10 +14,6 @@
       "type": "Bool",
       "display": "Underline hidden"
     },
-    "href": {
-      "type": "String",
-      "display": "Href"
-    },
     "variant": {
       "type": "String",
       "display": "Variant",
