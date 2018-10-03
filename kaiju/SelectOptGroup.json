@@ -19,7 +19,30 @@
       "type": "Array",
       "schema": {
         "type": "Component"
-      }
+      },
+      "default": [
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Apple",
+            "value": "apple"
+          }
+        },
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Pear",
+            "value": "pear"
+          }
+        },
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Orange",
+            "value": "orange"
+          }
+        }
+      ]
     }
   },
   "import": "Select"
