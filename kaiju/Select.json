@@ -3,7 +3,7 @@
   "library": "terra-form-select",
   "display": "Select",
   "description": "Provides a drop down of selectable options.",
-  "group": "Atoms::Forms",
+  "group": "Atoms::Forms::Select",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
   "properties": {
     "isInvalid": {

@@ -112,7 +112,11 @@
       }
     },
     "terra-heading": {},
-    "terra-hyperlink": {},
+    "terra-hyperlink": {
+      "ignoredProperties": [
+        "href"
+      ]
+    },
     "terra-image": {},
     "terra-list": {
       "subcomponents": {
