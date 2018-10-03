@@ -53,6 +53,10 @@
           "type": "String"
         }
       ]
+    },
+    "valueText": {
+      "type": "String",
+      "display": "Value text"
     }
   }
 }

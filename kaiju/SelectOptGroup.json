@@ -1,0 +1,49 @@
+{
+  "name": "OptGroup",
+  "library": "terra-form-select",
+  "display": "Select Option Group",
+  "description": "An OptGroup provides a way to group options together within the listbox.",
+  "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-select/form-select",
+  "properties": {
+    "disabled": {
+      "type": "Bool",
+      "display": "Disabled"
+    },
+    "label": {
+      "type": "String",
+      "display": "Label",
+      "default": "Label"
+    },
+    "children": {
+      "type": "Array",
+      "schema": {
+        "type": "Component"
+      },
+      "default": [
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Apple",
+            "value": "apple"
+          }
+        },
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Pear",
+            "value": "pear"
+          }
+        },
+        {
+          "type": "terra-form-select::Option",
+          "props": {
+            "display": "Orange",
+            "value": "orange"
+          }
+        }
+      ]
+    }
+  },
+  "import": "Select"
+}
