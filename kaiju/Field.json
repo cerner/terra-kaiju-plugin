@@ -44,6 +44,10 @@
     "htmlFor": {
       "type": "String"
     },
+    "maxWidth": {
+      "type": "String",
+      "display": "Max width"
+    },
     "children": {
       "type": "Array",
       "schema": {

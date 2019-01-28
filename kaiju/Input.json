@@ -21,6 +21,14 @@
     },
     "defaultValue": {
       "type": "String"
+    },
+    "pattern": {
+      "type": "String",
+      "display": "Pattern"
+    },
+    "type": {
+      "type": "String",
+      "display": "Type"
     }
   }
 }

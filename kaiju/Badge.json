@@ -99,6 +99,10 @@
         "type": "Component",
         "drop_zone": false
       }
+    },
+    "visuallyHiddenText": {
+      "type": "String",
+      "display": "Visually hidden text"
     }
   }
 }

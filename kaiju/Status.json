@@ -15,6 +15,10 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "visuallyHiddenText": {
+      "type": "String",
+      "display": "Visually hidden text"
     }
   }
 }
