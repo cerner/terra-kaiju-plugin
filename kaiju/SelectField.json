@@ -127,6 +127,10 @@
           }
         }
       ]
+    },
+    "maxWidth": {
+      "type": "String",
+      "display": "Max width"
     }
   },
   "import_from": "terra-form-select/lib/SelectField"

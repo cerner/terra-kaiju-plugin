@@ -66,6 +66,10 @@
     "inputId": {
       "type": "String",
       "display": "Input id"
+    },
+    "maxWidth": {
+      "type": "String",
+      "display": "Max width"
     }
   },
   "import_from": "terra-form-textarea/lib/TextareaField"

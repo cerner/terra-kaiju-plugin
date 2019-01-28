@@ -6,6 +6,10 @@
   "group": "Molecules::Button Group",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button-group/button-group",
   "properties": {
+    "isBlock": {
+      "type": "Bool",
+      "display": "Block"
+    },
     "children": {
       "type": "Array",
       "schema": {

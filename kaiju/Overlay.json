@@ -44,6 +44,44 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "rootSelector": {
+      "type": "String",
+      "display": "Root selector",
+      "default": "[data-terra-base]"
+    },
+    "zIndex": {
+      "type": "String",
+      "display": "Z index",
+      "default": "100",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "100",
+          "value": "100",
+          "type": "String"
+        },
+        {
+          "display": "6000",
+          "value": "6000",
+          "type": "String"
+        },
+        {
+          "display": "7000",
+          "value": "7000",
+          "type": "String"
+        },
+        {
+          "display": "8000",
+          "value": "8000",
+          "type": "String"
+        },
+        {
+          "display": "9000",
+          "value": "9000",
+          "type": "String"
+        }
+      ]
     }
   },
   "import_from": "terra-overlay/lib/Overlay"

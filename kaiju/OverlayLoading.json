@@ -43,6 +43,11 @@
           "type": "String"
         }
       ]
+    },
+    "rootSelector": {
+      "type": "String",
+      "display": "Root selector",
+      "default": "[data-terra-base]"
     }
   },
   "import_from": "terra-overlay/lib/LoadingOverlay"
