@@ -76,9 +76,10 @@ class Generator {
    * @return {Object|null} - A JSON object representing the property.
    */
   static createProperty(dependency, prop, property) {
+    const { description = '' } = property;
     const type = Generator.propertyType(dependency, prop, property);
 
-    if (type) {
+    if (type && description.indexOf('@private') === -1) {
       return {
         type,
         display: Generator.humanize(prop),

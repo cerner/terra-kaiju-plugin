@@ -91,6 +91,10 @@
           }
         }
       ]
+    },
+    "allowClear": {
+      "type": "Bool",
+      "display": "Allow clear"
     }
   }
 }

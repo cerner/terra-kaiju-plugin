@@ -107,9 +107,6 @@
         }
       ]
     },
-    "color": {
-      "type": "String"
-    },
     "isItalic": {
       "type": "Bool",
       "display": "Italic"
@@ -121,6 +118,10 @@
     "children": {
       "type": "String",
       "default": "Heading"
+    },
+    "colorClass": {
+      "type": "String",
+      "display": "Color class"
     }
   }
 }

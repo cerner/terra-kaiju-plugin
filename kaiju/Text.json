@@ -6,9 +6,6 @@
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-text/text",
   "properties": {
-    "color": {
-      "type": "String"
-    },
     "isItalic": {
       "type": "Bool",
       "display": "Italic"
@@ -98,6 +95,10 @@
     "children": {
       "type": "String",
       "default": "Sample Text"
+    },
+    "colorClass": {
+      "type": "String",
+      "display": "Color class"
     }
   }
 }

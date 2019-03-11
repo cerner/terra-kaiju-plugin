@@ -131,6 +131,14 @@
     "maxWidth": {
       "type": "String",
       "display": "Max width"
+    },
+    "allowClear": {
+      "type": "Bool",
+      "display": "Allow clear"
+    },
+    "maxSelectionCount": {
+      "type": "Number",
+      "display": "Max selection count"
     }
   },
   "import_from": "terra-form-select/lib/SelectField"
