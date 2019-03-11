@@ -6,10 +6,6 @@
   "group": "Molecules::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-status/status",
   "properties": {
-    "color": {
-      "type": "String",
-      "default": "red"
-    },
     "children": {
       "type": "Array",
       "schema": {
@@ -19,6 +15,10 @@
     "visuallyHiddenText": {
       "type": "String",
       "display": "Visually hidden text"
+    },
+    "colorClass": {
+      "type": "String",
+      "display": "Color class"
     }
   }
 }
