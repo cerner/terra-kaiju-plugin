@@ -1,6 +1,6 @@
 {
   "name": "terra-kaiju-plugin",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "The Kaiju plugin for Terra UI",
   "main": "index.js",
   "scripts": {
