@@ -90,6 +90,10 @@
     },
     "href": {
       "type": "String"
+    },
+    "title": {
+      "type": "String",
+      "display": "Title"
     }
   }
 }

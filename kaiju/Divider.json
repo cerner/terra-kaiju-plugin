@@ -5,5 +5,10 @@
   "description": "The divider component is used to visually separate content on a layout.",
   "group": "Atoms::Other",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-divider/divider",
-  "properties": {}
+  "properties": {
+    "text": {
+      "type": "String",
+      "display": "Text"
+    }
+  }
 }
