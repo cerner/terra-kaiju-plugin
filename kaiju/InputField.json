@@ -70,6 +70,10 @@
     "maxWidth": {
       "type": "String",
       "display": "Max width"
+    },
+    "type": {
+      "type": "String",
+      "display": "Type"
     }
   },
   "import_from": "terra-form-input/lib/InputField"

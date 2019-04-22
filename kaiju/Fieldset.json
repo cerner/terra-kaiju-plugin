@@ -25,6 +25,10 @@
       "schema": {
         "type": "Component"
       }
+    },
+    "isLegendHidden": {
+      "type": "Bool",
+      "display": "Legend hidden"
     }
   }
 }
