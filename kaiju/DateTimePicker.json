@@ -21,18 +21,20 @@
         "type": "String"
       }
     },
-    "maxDateTime": {
-      "type": "String"
-    },
-    "minDateTime": {
-      "type": "String"
-    },
     "name": {
       "type": "String",
       "default": "Date Time Picker"
     },
     "value": {
       "type": "String"
+    },
+    "maxDate": {
+      "type": "String",
+      "display": "Max date"
+    },
+    "minDate": {
+      "type": "String",
+      "display": "Min date"
     }
   }
 }
