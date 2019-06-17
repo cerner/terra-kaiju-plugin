@@ -59,7 +59,7 @@
         }
       ]
     },
-    "precisionSet": {
+    "precision": {
       "type": "String",
       "display": "Precision",
       "form_type": "CodifiedList",
@@ -91,7 +91,7 @@
         }
       ]
     },
-    "includeDates": {
+    "precisionSet": {
       "type": "Array",
       "schema": {
         "type": "String"
