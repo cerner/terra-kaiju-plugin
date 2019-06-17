@@ -1,0 +1,119 @@
+{
+  "name": "OnsetPicker",
+  "library": "terra-clinical-onset-picker",
+  "display": "Onset picker",
+  "description": "The terra-clinical-onset-picker component provides users a way to enter or select an approximate date for use in onset scenarios.",
+  "group": "Atoms::Forms",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-onset-picker/clinical-onset-picker",
+  "properties": {
+    "ageUnit": {
+      "type": "String",
+      "display": "Age unit",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Weeks",
+          "value": "weeks",
+          "type": "String"
+        },
+        {
+          "display": "Months",
+          "value": "months",
+          "type": "String"
+        },
+        {
+          "display": "Years",
+          "value": "years",
+          "type": "String"
+        }
+      ]
+    },
+    "birthdate": {
+      "type": "String",
+      "display": "Birthdate",
+      "default": "1990-06-27T14:48:00.000Z"
+    },
+    "granularity": {
+      "type": "String",
+      "display": "Granularity",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Age",
+          "value": "age",
+          "type": "String"
+        },
+        {
+          "display": "Year",
+          "value": "year",
+          "type": "String"
+        },
+        {
+          "display": "Month",
+          "value": "month",
+          "type": "String"
+        },
+        {
+          "display": "Date",
+          "value": "date",
+          "type": "String"
+        }
+      ]
+    },
+    "precision": {
+      "type": "String",
+      "display": "Precision",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "On / At",
+          "value": "on/at",
+          "type": "String"
+        },
+        {
+          "display": "About",
+          "value": "about",
+          "type": "String"
+        },
+        {
+          "display": "Before",
+          "value": "before",
+          "type": "String"
+        },
+        {
+          "display": "After",
+          "value": "after",
+          "type": "String"
+        },
+        {
+          "display": "Unknown",
+          "value": "unknown",
+          "type": "String"
+        }
+      ]
+    },
+    "precisionSet": {
+      "type": "Array",
+      "schema": {
+        "type": "String"
+      }
+    },
+    "id": {
+      "type": "String",
+      "display": "Id",
+      "default": "onset-id"
+    },
+    "onsetDate": {
+      "type": "String",
+      "display": "Onset date"
+    },
+    "legend": {
+      "type": "String",
+      "display": "Legend"
+    },
+    "isLegendHidden": {
+      "type": "Bool",
+      "display": "Legend hidden"
+    }
+  }
+}

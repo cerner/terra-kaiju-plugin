@@ -70,6 +70,10 @@
     "maxWidth": {
       "type": "String",
       "display": "Max width"
+    },
+    "disabled": {
+      "type": "Bool",
+      "display": "Disabled"
     }
   },
   "import_from": "terra-form-textarea/lib/TextareaField"

@@ -74,6 +74,10 @@
     "type": {
       "type": "String",
       "display": "Type"
+    },
+    "disabled": {
+      "type": "Bool",
+      "display": "Disabled"
     }
   },
   "import_from": "terra-form-input/lib/InputField"

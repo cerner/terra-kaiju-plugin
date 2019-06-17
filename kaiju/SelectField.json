@@ -139,6 +139,10 @@
     "maxSelectionCount": {
       "type": "Number",
       "display": "Max selection count"
+    },
+    "disabled": {
+      "type": "Bool",
+      "display": "Disabled"
     }
   },
   "import_from": "terra-form-select/lib/SelectField"

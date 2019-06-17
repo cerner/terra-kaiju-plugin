@@ -48,6 +48,7 @@
     "terra-clinical-no-data-view": {
       "deprecated": true
     },
+    "terra-clinical-onset-picker": {},
     "terra-collapsible-menu-view": {
       "subcomponents": {
         "CollapsibleMenuViewDivider": {},
