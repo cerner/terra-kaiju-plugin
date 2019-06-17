@@ -30,7 +30,8 @@
     },
     "birthdate": {
       "type": "String",
-      "display": "Birthdate"
+      "display": "Birthdate",
+      "default": "1990-06-27T14:48:00.000Z"
     },
     "granularity": {
       "type": "String",
@@ -99,7 +100,8 @@
     },
     "id": {
       "type": "String",
-      "display": "Id"
+      "display": "Id",
+      "default": "onset-id"
     },
     "onsetDate": {
       "type": "String",
