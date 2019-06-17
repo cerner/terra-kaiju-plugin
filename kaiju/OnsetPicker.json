@@ -3,7 +3,7 @@
   "library": "terra-clinical-onset-picker",
   "display": "Onset picker",
   "description": "The terra-clinical-onset-picker component provides users a way to enter or select an approximate date for use in onset scenarios.",
-  "group": "",
+  "group": "Atoms::Forms",
   "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-onset-picker/clinical-onset-picker",
   "properties": {
     "ageUnit": {
