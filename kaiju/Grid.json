@@ -19,19 +19,19 @@
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               }
             ]
@@ -44,19 +44,19 @@
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               }
             ]
@@ -69,19 +69,19 @@
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               },
               {
                 "type": "terra-grid::Column",
                 "props": {
-                  "col": "4"
+                  "tiny": "4"
                 }
               }
             ]
