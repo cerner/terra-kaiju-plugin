@@ -95,6 +95,10 @@
     "allowClear": {
       "type": "Bool",
       "display": "Allow clear"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
     }
   }
 }

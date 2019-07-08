@@ -66,8 +66,10 @@
       "type": "Component",
       "drop_zone": false
     },
-    "customStatusColor": {
-      "type": "String"
+    "customColorClass": {
+      "type": "String",
+      "display": "Custom color class",
+      "default": "custom-default-color"
     }
   }
 }
