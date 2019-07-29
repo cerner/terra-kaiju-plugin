@@ -53,6 +53,29 @@
     "icon": {
       "type": "Component",
       "drop_zone": false
+    },
+    "iconAlignment": {
+      "type": "String",
+      "display": "Icon alignment",
+      "default": "center",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Center",
+          "value": "center",
+          "type": "String"
+        },
+        {
+          "display": "Top",
+          "value": "top",
+          "type": "String"
+        },
+        {
+          "display": "Inline",
+          "value": "inline",
+          "type": "String"
+        }
+      ]
     }
   }
 }

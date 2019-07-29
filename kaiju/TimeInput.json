@@ -34,6 +34,10 @@
           "type": "String"
         }
       ]
+    },
+    "showSeconds": {
+      "type": "Bool",
+      "display": "Show seconds"
     }
   }
 }
