@@ -35,6 +35,10 @@
     "minDate": {
       "type": "String",
       "display": "Min date"
+    },
+    "showSeconds": {
+      "type": "Bool",
+      "display": "Show seconds"
     }
   }
 }
