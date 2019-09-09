@@ -29,6 +29,10 @@
     "type": {
       "type": "String",
       "display": "Type"
+    },
+    "ariaLabel": {
+      "type": "String",
+      "display": "Aria label"
     }
   }
 }
