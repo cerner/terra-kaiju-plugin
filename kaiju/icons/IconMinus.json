@@ -5,7 +5,7 @@
   "description": "Minus Icon",
   "import_from": "terra-icon/lib/icon/IconMinus",
   "group": "Atoms::Icons",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon/icon",
   "properties": {
     "isBidi": {
       "type": "Bool"

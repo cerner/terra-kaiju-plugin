@@ -4,7 +4,7 @@
   "display": "Table Cell",
   "description": "A table cell",
   "group": "Organisms::Table",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table/table",
   "properties": {
     "content": {
       "type": "Component"

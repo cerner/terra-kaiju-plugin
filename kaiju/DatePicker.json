@@ -4,7 +4,7 @@
   "display": "Date Picker",
   "description": "The terra-date-picker component provides users a way to enter or select a date from the date picker.",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-picker/date-picker",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-picker/date-picker/date-picker",
   "properties": {
     "disabled": {
       "type": "Bool",

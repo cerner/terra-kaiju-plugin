@@ -4,7 +4,7 @@
   "display": "Table",
   "description": "The terra-table component provides user a way to render data in a tabular format",
   "group": "Organisms::Table",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table/table",
   "properties": {
     "isStriped": {
       "type": "Bool",

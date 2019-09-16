@@ -4,7 +4,7 @@
   "display": "Image",
   "description": "The terra-image component provides styling for visual imagery.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-image/image",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-image/image/image",
   "properties": {
     "src": {
       "type": "String",

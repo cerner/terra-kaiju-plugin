@@ -4,7 +4,7 @@
   "display": "Input field",
   "description": "An input wrapped in a field component.",
   "group": "Molecules::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-input/form-input/form-input",
   "properties": {
     "hideRequired": {
       "type": "Bool",

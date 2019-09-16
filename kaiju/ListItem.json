@@ -4,7 +4,7 @@
   "display": "List Item",
   "description": "A list item for managing selections and chevrons",
   "group": "Organisms::List",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-list/list/list",
   "properties": {
     "isSelected": {
       "type": "Bool",

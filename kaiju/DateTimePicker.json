@@ -4,7 +4,7 @@
   "display": "Date Time Picker",
   "description": "The DateTimePicker component has a date picker for selecting date and a time input for entering time",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-time-picker/date-time-picker",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-date-time-picker/date-time-picker/date-time-picker",
   "properties": {
     "disabled": {
       "type": "Bool"

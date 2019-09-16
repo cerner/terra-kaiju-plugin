@@ -4,7 +4,7 @@
   "display": "Badge",
   "description": "The terra-badge component displays content classification.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-badge/badge",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-badge/badge/badge",
   "properties": {
     "isReversed": {
       "type": "Bool",

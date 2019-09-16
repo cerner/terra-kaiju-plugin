@@ -4,7 +4,7 @@
   "display": "Radio field",
   "description": "A radio input wrapped in a field component.",
   "group": "Molecules::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-radio/form-radio",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-radio/form-radio/form-radio",
   "properties": {
     "isInline": {
       "type": "Bool",

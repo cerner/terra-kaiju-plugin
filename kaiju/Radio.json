@@ -4,7 +4,7 @@
   "display": "Radio",
   "description": "The Terra Form Radio is a responsive input component rendered as a radio button next to label text. When activated, a dot shall appear. Use the `name` attribute to group radio buttons together. Tabbing switches focus between radio button groups; arrow keys switch between radio buttons of the same group. The checked state can be activated with a space.",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-radio/form-radio",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-radio/form-radio/form-radio",
   "properties": {
     "defaultChecked": {
       "type": "Bool"

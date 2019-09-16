@@ -4,7 +4,7 @@
   "display": "Arrange",
   "description": "The arrange component is used for horizontally arranging and vertically aligning a single row of container elements.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-arrange/arrange",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-arrange/arrange/arrange",
   "properties": {
     "fitStart": {
       "type": "Component",

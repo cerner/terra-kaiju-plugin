@@ -4,7 +4,7 @@
   "display": "Header",
   "description": "A Header component that allows elements to be placed on the left and right ends of the header with a left aligned title in the center. ",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-header/clinical-header",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-header/clinical-header/clinical-header",
   "properties": {
     "title": {
       "type": "String",

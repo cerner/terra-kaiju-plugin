@@ -133,6 +133,8 @@ class Generator {
     const { props = {} } = parse(fs.readFileSync(`node_modules/${dependency}/src/${sourceFile}.jsx`));
     const { properties = {}, ...attributes } = Generator.retrieveJSON(fileName || sourceFile);
 
+    const baseName = dependency.replace('terra-', '');
+
     return Object.assign(
       {
         name: Generator.titleize(sourceFile),
@@ -140,7 +142,7 @@ class Generator {
         display: Generator.humanize(Generator.titleize(sourceFile)),
         description: '',
         group: '',
-        documentation: `${BASE_URL}${dependency}/${dependency.replace('terra-', '')}`,
+        documentation: `${BASE_URL}${dependency}/${baseName}/${baseName}`,
         properties: {},
       },
       attributes,

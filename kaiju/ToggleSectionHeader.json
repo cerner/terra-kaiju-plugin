@@ -4,7 +4,7 @@
   "display": "Toggle Section Header",
   "description": "Toggle section header component that transitions content in and out with a click on the header.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-section-header/toggle-section-header",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-section-header/toggle-section-header/toggle-section-header",
   "properties": {
     "isAnimated": {
       "type": "Bool",

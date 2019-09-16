@@ -4,7 +4,7 @@
   "display": "Progress Bar",
   "description": "The progress bar component provides users a way to display the progress of process or activity in a graphical manner.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-progress-bar/progress-bar",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-progress-bar/progress-bar/progress-bar",
   "properties": {
     "max": {
       "type": "Number",

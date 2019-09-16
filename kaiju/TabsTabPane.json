@@ -4,7 +4,7 @@
   "display": "Tabs Pane",
   "description": "Tab content",
   "group": "Molecules::Tabs",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-tabs/tabs",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-tabs/tabs/tabs",
   "properties": {
     "isDisabled": {
       "type": "Bool",

@@ -4,7 +4,7 @@
   "display": "Item Collection",
   "description": "Item Collection is a wrapper component designed to display data as either a table or list of items dependent on the relative container size.",
   "group": "Molecules::Item Collection",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-collection/clinical-item-collection",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-collection/clinical-item-collection/clinical-item-collection",
   "properties": {
     "numberOfDisplays": {
       "type": "Number",

@@ -4,7 +4,7 @@
   "display": "Hyperlink",
   "description": "The terra hyperlink component allows linking to other web pages, files, locations within the same page, email addresses, or any other URL.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-hyperlink/hyperlink",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-hyperlink/hyperlink/hyperlink",
   "properties": {
     "isDisabled": {
       "type": "Bool",

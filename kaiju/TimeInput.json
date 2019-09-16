@@ -4,7 +4,7 @@
   "display": "Time Input",
   "description": "A controlled input component for entering time.",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-time-input/time-input",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-time-input/time-input/time-input",
   "properties": {
     "disabled": {
       "type": "Bool",

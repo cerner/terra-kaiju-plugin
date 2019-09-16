@@ -4,7 +4,7 @@
   "display": "Grid Row",
   "description": "A grid row",
   "group": "Organisms::Grid",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid/grid",
   "properties": {
     "children": {
       "type": "Array",

@@ -4,7 +4,7 @@
   "display": "Button",
   "description": "The terra-button component provides users a way to trigger actions in the UI.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button/button",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button/button/button",
   "properties": {
     "isBlock": {
       "type": "Bool",
