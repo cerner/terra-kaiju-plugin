@@ -4,7 +4,7 @@
   "display": "Field",
   "description": "The Form Field component handles the layout of the label, help text and error text associated with a form element.",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-field/form-field",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-field/form-field/form-field",
   "properties": {
     "isInline": {
       "type": "Bool",

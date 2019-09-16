@@ -4,7 +4,7 @@
   "display": "Toggle Button",
   "description": "Toggle button component that transitions content in and out with the click on a button.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-button/toggle-button",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle-button/toggle-button/toggle-button",
   "properties": {
     "isInitiallyOpen": {
       "type": "Bool",

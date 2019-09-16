@@ -4,7 +4,7 @@
   "display": "Label Value View",
   "description": "The label value view component displays a label and the associated value or list of values underneath the label.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-label-value-view/clinical-label-value-view",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-label-value-view/clinical-label-value-view/clinical-label-value-view",
   "properties": {
     "label": {
       "type": "String",

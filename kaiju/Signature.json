@@ -4,7 +4,7 @@
   "display": "Signature",
   "description": "A signature defined by an array of line segments.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-signature/signature",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-signature/signature/signature",
   "properties": {
     "lineWidth": {
       "type": "Number",

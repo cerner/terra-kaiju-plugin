@@ -4,7 +4,7 @@
   "display": "Table Rows",
   "description": "Table rows",
   "group": "Organisms::Table",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-table/table/table",
   "properties": {
     "children": {
       "type": "Array",

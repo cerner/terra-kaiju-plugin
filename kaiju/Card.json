@@ -4,7 +4,7 @@
   "display": "Card",
   "description": "Card is a basic container with some base styling to help seperate elements with different content",
   "group": "Atoms::Card",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-card/card",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-card/card/card",
   "properties": {
     "variant": {
       "type": "String",

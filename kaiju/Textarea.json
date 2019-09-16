@@ -4,7 +4,7 @@
   "display": "Textarea",
   "description": "Element for building out textareas in a form.",
   "group": "Atoms::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea/form-textarea",
   "properties": {
     "required": {
       "type": "Bool"

@@ -4,7 +4,7 @@
   "display": "Card Body",
   "description": "Padding container to be placed within a Card",
   "group": "Atoms::Card",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-card/card",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-card/card/card",
   "properties": {
     "isContentCentered": {
       "type": "Bool",

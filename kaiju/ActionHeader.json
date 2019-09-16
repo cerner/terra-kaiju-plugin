@@ -4,7 +4,7 @@
   "display": "Action header",
   "description": "The terra-action-header component is a header bar containing a title and optional actionable items such as links and buttons.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-action-header/action-header",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-action-header/action-header/action-header",
   "properties": {
     "title": {
       "type": "String",

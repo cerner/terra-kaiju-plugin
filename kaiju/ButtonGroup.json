@@ -4,7 +4,7 @@
   "display": "Button Group",
   "description": "The Terra Button Group component groups buttons and can maintain a toggle selection state.",
   "group": "Molecules::Button Group",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button-group/button-group",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-button-group/button-group/button-group",
   "properties": {
     "isBlock": {
       "type": "Bool",

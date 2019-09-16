@@ -4,7 +4,7 @@
   "display": "Loading Overlay",
   "description": "A semi-transparent loading overlay to block UI interactions",
   "group": "Molecules::Overlay",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-overlay/overlay",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-overlay/overlay/overlay",
   "properties": {
     "isOpen": {
       "type": "Bool",

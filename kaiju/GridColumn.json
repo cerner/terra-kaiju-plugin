@@ -4,7 +4,7 @@
   "display": "Grid Column",
   "description": "A grid column",
   "group": "Organisms::Grid",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-grid/grid/grid",
   "properties": {
     "tiny": {
       "type": "Number",

@@ -4,7 +4,7 @@
   "display": "Avatar",
   "description": "The terra-avatar component displays an avatar, which can be either an image or text, in a circular frame. If neither an image or text is provided, a variant-based fallback icon is used.",
   "group": "Atoms::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-avatar/avatar",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-avatar/avatar/avatar",
   "properties": {
     "alt": {
       "type": "String"

@@ -4,7 +4,7 @@
   "display": "Item Display",
   "description": "The Item Display component creates an display for text and an optional graphic. The Comment subcomponent creates a display for text with a comment icon.",
   "group": "Molecules::Item View",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-display/clinical-item-display",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-display/clinical-item-display/clinical-item-display",
   "properties": {
     "isDisabled": {
       "type": "Bool",

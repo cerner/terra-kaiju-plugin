@@ -4,7 +4,7 @@
   "display": "Status",
   "description": "The status component provides a customizable color indictor to signify a specific condition.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-status/status",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-status/status/status",
   "properties": {
     "children": {
       "type": "Array",

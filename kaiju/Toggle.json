@@ -4,7 +4,7 @@
   "display": "Toggle",
   "description": "Toggle component that transitions content in and out.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle/toggle",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-toggle/toggle/toggle",
   "properties": {
     "isOpen": {
       "type": "Bool",

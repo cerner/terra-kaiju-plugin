@@ -4,7 +4,7 @@
   "display": "Content Container",
   "description": "The Terra ContentContainer is a structural component for the purpose of arranging content with a header.",
   "group": "Molecules::Other",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-content-container/content-container",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-content-container/content-container/content-container",
   "properties": {
     "fill": {
       "type": "Bool"

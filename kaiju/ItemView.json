@@ -4,7 +4,7 @@
   "display": "Item View",
   "description": "The Item View component allows displays to be organized into rows and column and themed, while providing means to add accessory elements and a comment.",
   "group": "Molecules::Item View",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-view/clinical-item-view",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-clinical-item-view/clinical-item-view/clinical-item-view",
   "properties": {
     "isTruncated": {
       "type": "Bool"

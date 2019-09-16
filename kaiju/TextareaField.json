@@ -4,7 +4,7 @@
   "display": "Textarea field",
   "description": "A textarea wrapped in a field component.",
   "group": "Molecules::Forms",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-form-textarea/form-textarea/form-textarea",
   "properties": {
     "hideRequired": {
       "type": "Bool",
