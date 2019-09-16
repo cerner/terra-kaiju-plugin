@@ -5,7 +5,7 @@
   "description": "Drug Drug Low Light Icon",
   "import_from": "terra-icon/lib/icon/IconDrugDrugLowLight",
   "group": "Atoms::Icons",
-  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon",
+  "documentation": "http://engineering.cerner.com/terra-ui/#/components/terra-icon/icon/icon",
   "properties": {
     "isBidi": {
       "type": "Bool"
