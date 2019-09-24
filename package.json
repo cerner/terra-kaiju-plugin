@@ -4,7 +4,8 @@
   "description": "The Kaiju plugin for Terra UI",
   "scripts": {
     "add": "node scripts/generator/add-dependency.js",
-    "clean": "rimraf node_modules",
+    "clean": "rm -rf node_modules",
+    "clean:install": "npm run clean && npm install",
     "generate": "npm run generate:components && npm run generate:icons",
     "generate:components": "node scripts/generator/generate-components.js",
     "generate:icons": "node scripts/icons/generate-icons.js",
@@ -109,7 +110,6 @@
     "react": "^16.4.0",
     "react-docgen": "^2.21.0",
     "react-dom": "^16.4.0",
-    "shelljs": "^0.8.2",
-    "rimraf": "^2.6.2"
+    "shelljs": "^0.8.2"
   }
 }
