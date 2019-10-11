@@ -78,6 +78,10 @@
     "disabled": {
       "type": "Bool",
       "display": "Disabled"
+    },
+    "placeholder": {
+      "type": "String",
+      "display": "Placeholder"
     }
   },
   "import_from": "terra-form-input/lib/InputField"
