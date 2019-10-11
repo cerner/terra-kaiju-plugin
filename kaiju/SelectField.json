@@ -143,6 +143,10 @@
     "disabled": {
       "type": "Bool",
       "display": "Disabled"
+    },
+    "isTouchAccessible": {
+      "type": "Bool",
+      "display": "Touch accessible"
     }
   },
   "import_from": "terra-form-select/lib/SelectField"

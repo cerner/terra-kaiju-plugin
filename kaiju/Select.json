@@ -99,6 +99,10 @@
     "required": {
       "type": "Bool",
       "display": "Required"
+    },
+    "isTouchAccessible": {
+      "type": "Bool",
+      "display": "Touch accessible"
     }
   }
 }
