@@ -103,6 +103,10 @@
     "isTouchAccessible": {
       "type": "Bool",
       "display": "Touch accessible"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
     }
   }
 }
