@@ -74,6 +74,14 @@
     "disabled": {
       "type": "Bool",
       "display": "Disabled"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
+    },
+    "placeholder": {
+      "type": "String",
+      "display": "Placeholder"
     }
   },
   "import_from": "terra-form-textarea/lib/TextareaField"

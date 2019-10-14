@@ -58,6 +58,14 @@
     "ariaLabel": {
       "type": "String",
       "display": "Aria label"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
+    },
+    "placeholder": {
+      "type": "String",
+      "display": "Placeholder"
     }
   }
 }

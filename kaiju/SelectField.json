@@ -147,6 +147,10 @@
     "isTouchAccessible": {
       "type": "Bool",
       "display": "Touch accessible"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
     }
   },
   "import_from": "terra-form-select/lib/SelectField"

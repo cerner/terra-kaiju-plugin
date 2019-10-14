@@ -37,6 +37,10 @@
     "placeholder": {
       "type": "String",
       "display": "Placeholder"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
     }
   }
 }
