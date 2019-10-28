@@ -1,6 +1,6 @@
 {
   "name": "terra-kaiju-plugin",
-  "version": "0.33.0",
+  "version": "0.34.0",
   "description": "The Kaiju plugin for Terra UI",
   "scripts": {
     "add": "node scripts/generator/add-dependency.js",
