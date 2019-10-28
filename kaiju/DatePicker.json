@@ -38,6 +38,14 @@
     "required": {
       "type": "Bool",
       "display": "Required"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
     }
   }
 }

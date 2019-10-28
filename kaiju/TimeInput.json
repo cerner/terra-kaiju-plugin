@@ -38,6 +38,22 @@
     "showSeconds": {
       "type": "Bool",
       "display": "Show seconds"
+    },
+    "isIncomplete": {
+      "type": "Bool",
+      "display": "Incomplete"
+    },
+    "isInvalid": {
+      "type": "Bool",
+      "display": "Invalid"
+    },
+    "isInvalidMeridiem": {
+      "type": "Bool",
+      "display": "Invalid meridiem"
+    },
+    "required": {
+      "type": "Bool",
+      "display": "Required"
     }
   }
 }
