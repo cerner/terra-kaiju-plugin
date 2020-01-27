@@ -66,6 +66,10 @@
     "placeholder": {
       "type": "String",
       "display": "Placeholder"
+    },
+    "disableResize": {
+      "type": "Bool",
+      "display": "Disable resize"
     }
   }
 }

@@ -48,6 +48,7 @@ import IconComment from 'terra-icon/lib/icon/IconComment';
 import IconCommit from 'terra-icon/lib/icon/IconCommit';
 import IconComplete from 'terra-icon/lib/icon/IconComplete';
 import IconCompose from 'terra-icon/lib/icon/IconCompose';
+import IconConsultInstructionsForUse from 'terra-icon/lib/icon/IconConsultInstructionsForUse';
 import IconCritical from 'terra-icon/lib/icon/IconCritical';
 import IconCriticalInverse from 'terra-icon/lib/icon/IconCriticalInverse';
 import IconCriticalInverseLowLight from 'terra-icon/lib/icon/IconCriticalInverseLowLight';
@@ -327,6 +328,7 @@ const iconMap = {
   IconCommit,
   IconComplete,
   IconCompose,
+  IconConsultInstructionsForUse,
   IconCritical,
   IconCriticalInverse,
   IconCriticalInverseLowLight,

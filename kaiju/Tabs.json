@@ -101,6 +101,29 @@
     "defaultActiveKey": {
       "type": "String",
       "display": "Default active key"
+    },
+    "responsiveTo": {
+      "type": "String",
+      "display": "Responsive to",
+      "default": "parent",
+      "form_type": "CodifiedList",
+      "options": [
+        {
+          "display": "Window",
+          "value": "window",
+          "type": "String"
+        },
+        {
+          "display": "Parent",
+          "value": "parent",
+          "type": "String"
+        },
+        {
+          "display": "None",
+          "value": "none",
+          "type": "String"
+        }
+      ]
     }
   }
 }
