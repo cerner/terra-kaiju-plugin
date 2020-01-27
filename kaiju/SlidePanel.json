@@ -75,6 +75,14 @@
           "type": "String"
         }
       ]
+    },
+    "panelAriaLabel": {
+      "type": "String",
+      "display": "Panel aria label"
+    },
+    "mainAriaLabel": {
+      "type": "String",
+      "display": "Main aria label"
     }
   }
 }
