@@ -1,7 +1,7 @@
 # terra-kaiju-plugin
 
 [![Cerner OSS](https://img.shields.io/badge/Cerner-OSS-blue.svg?style=flat)](http://engineering.cerner.com/2014/01/cerner-and-open-source/)
-[![Build Status](https://travis-ci.org/cerner/terra-kaiju-plugin.svg?branch=master)](https://travis-ci.org/cerner/terra-kaiju-plugin)
+[![Build Status](https://travis-ci.org/cerner/terra-kaiju-plugin.svg?branch=main)](https://travis-ci.org/cerner/terra-kaiju-plugin)
 
 The Terra Kaiju Plugin provides a collection of component configuration files to be consumed within Kaiju.
 
